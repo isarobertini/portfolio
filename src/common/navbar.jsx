@@ -89,7 +89,7 @@ export const NavBar = () => {
                                     <Link to="/text1">ITA, AUT, SWE</Link>
                                 </li>
                                 <li className="submenu-item">
-                                    <Link to="/TextSubtitle2">Subtitle 2</Link>
+                                    <Link to="/text2">Second one</Link>
                                 </li>
                                 <li className="submenu-item">
                                     <Link to="/TextSubtitle3">Subtitle 3</Link>
