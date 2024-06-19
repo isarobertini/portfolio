@@ -1,0 +1,81 @@
+/* NavBar.css */
+.menuIconToggle {
+    top: 35px;
+    left: 30px;
+    height: 22px;
+    width: 22px;
+    transition: all 0.3s;
+}
+
+.hamb-line {
+    position: absolute;
+    height: 2px;
+    width: 150%;
+    background-color: #444;
+    transition: all 0.25s;
+}
+
+.hor {
+    margin-top: 3px;
+}
+
+.dia.part-1 {
+    transition: all 0.25s;
+}
+
+.dia.part-2 {
+    margin-top: 3px;
+    transition: all 0.25s;
+}
+
+#openSideMenu:checked~nav {
+    transform: translateX(0);
+    z-index: 40;
+}
+
+#openSideMenu:checked~.menuIconToggle>.hor {
+    opacity: 0;
+}
+
+#openSideMenu:checked~.menuIconToggle>.dia.part-1 {
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+
+#openSideMenu:checked~.menuIconToggle>.dia.part-2 {
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+
+@media screen and (max-width: 640px) {
+    nav {
+        width: 100%;
+        transform: translateX(100%);
+    }
+}
+
+/* Submenu Transition */
+nav ul li:hover>.submenu,
+nav ul li:focus-within>.submenu {
+    transform: translateX(0);
+    z-index: 40;
+    visibility: visible;
+}
+
+.submenu {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: calc(100% + 1px);
+    /* Adjusted to include scrollbar width */
+    max-height: 400px;
+    /* Adjust as needed */
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.submenu-item {
+    padding: 12px 20px;
+    font-size: 14px;
+}
