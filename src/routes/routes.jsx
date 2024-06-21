@@ -13,6 +13,7 @@ import { WorkTen } from "../pages/sculptures/title10";
 
 import { TextOne } from "../pages/texts/text1";
 import { TextTwo } from "../pages/texts/text2";
+import { TextThree } from "../pages/texts/text3";
 
 const routes = (
     <>
@@ -30,6 +31,7 @@ const routes = (
 
         <Route path="/text1" element={<TextOne />} />
         <Route path="/text2" element={<TextTwo />} />
+        <Route path="/text3" element={<TextThree />} />
     </>
 );
 

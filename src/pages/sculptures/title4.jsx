@@ -1,6 +1,7 @@
 import { HeadingComponent } from "../../reusableComponents/headingComponent"
 import { NavBar } from "../../common/navbar"
 import { ImageGrid } from "../../reusableComponents/imgGrid"
+import { ParagraphComponent } from "../../reusableComponents/paragraphComponent"
 
 import garden1 from "../../assets/garden/garden1.jpg"
 import garden2 from "../../assets/garden/garden2.jpg"
@@ -14,8 +15,13 @@ export const WorkFour = () => {
     return (
         <>
             <NavBar />
-            <HeadingComponent text="2023: Fourth One: Is the backyard now symbolic?" />
-            <ImageGrid images={images} />
+            <HeadingComponent>2023: FOURTH ONE: FIELD STUDY</HeadingComponent>
+            <div class="flex flex-col items-center">
+                <div>
+                    <ParagraphComponent>Place: A garden</ParagraphComponent>
+                    <ParagraphComponent>Material: Part of an old stone house, mussels, plats, a garden. </ParagraphComponent>
+                </div>
+            </div>
         </>
     );
 };

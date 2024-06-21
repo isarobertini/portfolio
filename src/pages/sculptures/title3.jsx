@@ -1,6 +1,7 @@
 import { HeadingComponent } from "../../reusableComponents/headingComponent"
 import { NavBar } from "../../common/navbar"
 import { ImageGrid } from "../../reusableComponents/imgGrid"
+import { ParagraphComponent } from "../../reusableComponents/paragraphComponent"
 
 import beach1 from "../../assets/beach/beach1.jpg"
 import beach2 from "../../assets/beach/beach2.jpg"
@@ -14,8 +15,14 @@ export const WorkThree = () => {
     return (
         <>
             <NavBar />
-            <HeadingComponent text="2023: Third one: Is the beack now symbolic?" />
-            <ImageGrid images={images} />
+            <HeadingComponent>2023: THIRD ONE: 2023: FIELD STUDY</HeadingComponent>
+            <div class="flex flex-col items-center">
+                <div>
+                    <ParagraphComponent>Place: A beach</ParagraphComponent>
+                    <ParagraphComponent>Material: Spaghetti, a branch from an olive tree, a beach</ParagraphComponent>
+                </div>
+            </div>
+
         </>
     );
 };

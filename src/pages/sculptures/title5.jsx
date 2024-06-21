@@ -1,6 +1,7 @@
 import { HeadingComponent } from "../../reusableComponents/headingComponent"
 import { NavBar } from "../../common/navbar"
 import { ImageGrid } from "../../reusableComponents/imgGrid"
+import { SubHeadingComponent } from "../../reusableComponents/subHeadingComponent"
 
 import house1 from "../../assets/house/house1.jpg"
 import house2 from "../../assets/house/house2.jpg"
@@ -20,8 +21,11 @@ export const WorkFive = () => {
     return (
         <>
             <NavBar />
-            <HeadingComponent text="2023: Fifth One: House" />
+            <HeadingComponent>2023: Fifth One: (Chiesa di San Giuseppe) <br />But I don't want to be personal <br /> (especially not when it comes to my heritage)</HeadingComponent>
             <ImageGrid images={images} />
+
+            <SubHeadingComponent>Sculpture, 2023, 250x150cm <br />
+                Spaghetti, plastic glasses, an old flower bucket, photographs of grass</SubHeadingComponent>
         </>
     );
 };
