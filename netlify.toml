@@ -9,13 +9,10 @@
 
 [dev]
   command = "npm run dev"
-  port = 5173  # Default port for Vite
+  port = 5173
   publish = "dist"
 
 [context.preview]
   branch = "preview"
   publish = "dist"
   command = "npm run build"
-
-[context.development.environment]
-  VITE_LOG_LEVEL = "info"
