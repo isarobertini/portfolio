@@ -11,3 +11,8 @@
   command = "npm run dev"
   port = 5173
   publish = "dist"
+
+[context.preview]
+  branch = "preview"
+  publish = "dist"
+  command = "npm run build"
