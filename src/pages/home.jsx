@@ -1,19 +1,25 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { HeadingComponent } from "../reusableComponents/headingComponent";
 import '../reusableComponents/styles.css'; // Import your CSS here
 import { DropDownMenu } from '../common/dropDown';
 
 export const Home = () => {
     const [isClicked, setIsClicked] = useState(false);
+    const dropdownRef = useRef(null);
 
     const handleHeadingClick = () => {
-        setIsClicked(true);
+        if (isClicked) {
+            dropdownRef.current?.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        } else {
+            setIsClicked(true);
+        }
     };
 
     return (
-        <div
-            className={`w-screen h-screen ${isClicked ? 'overflow-auto' : 'overflow-hidden'} transition-all duration-500 ease-in-out`}
-        >
+        <div className={`w-screen h-screen ${isClicked ? 'overflow-auto' : 'overflow-hidden'} transition-all duration-500 ease-in-out`}>
             {/* Heading Section */}
             <section className={`relative flex items-center justify-center w-full h-screen transition-all duration-500 ease-in-out ${isClicked ? 'bg-white' : 'bg-black'}`}>
                 <HeadingComponent
@@ -32,7 +38,7 @@ export const Home = () => {
             )}
 
             {/* Dropdown Section */}
-            <section className="relative w-full min-h-screen bg-black">
+            <section ref={dropdownRef} className="relative w-full min-h-screen bg-black">
                 {isClicked && (
                     <div className="relative">
                         <DropDownMenu />

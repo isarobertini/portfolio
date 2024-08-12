@@ -20,11 +20,17 @@ export const HeadingComponent = ({ children, text, level = 1, className, style, 
             {children}
 
             {/* Conditionally render circles */}
-            {!isClicked && (
+            {!isClicked ? (
                 <>
-                    <span className="circle"></span>
-                    <span className="circle delay-200"></span>
-                    <span className="circle delay-400"></span>
+                    <span className="circle light-mode" style={{ animationName: 'anime-light' }}></span>
+                    <span className="circle delay-200 light-mode" style={{ animationName: 'anime-light' }}></span>
+                    <span className="circle delay-400 light-mode" style={{ animationName: 'anime-light' }}></span>
+                </>
+            ) : (
+                <>
+                    <span className="circle dark-mode" style={{ animationName: 'anime-dark' }}></span>
+                    <span className="circle delay-200 dark-mode" style={{ animationName: 'anime-dark' }}></span>
+                    <span className="circle delay-400 dark-mode" style={{ animationName: 'anime-dark' }}></span>
                 </>
             )}
         </Tag>

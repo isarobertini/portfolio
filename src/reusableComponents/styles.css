@@ -1,6 +1,21 @@
+/* Container for heading and background circles */
+.heading-container {
+    position: relative;
+    display: inline-block;
+    /* Shrink to fit the content */
+    width: 100%;
+    height: 100%;
+}
+
 /* CSS for the heading */
 .heading {
     transition: transform 0.3s ease;
+    position: relative;
+    /* Ensure that the z-index of the heading is respected */
+    z-index: 10;
+    /* Higher z-index than the circles */
+    color: black;
+    /* Ensure text color is visible */
 }
 
 /* Hover effect to scale the heading */
@@ -11,10 +26,6 @@
 
 /* CSS for the dust-like circles */
 .circle {
-    border: 1px solid rgba(0, 0, 0, 0.9);
-    /* Dark border with some transparency */
-    background-color: rgba(248, 248, 248, 0.7);
-    /* Light, semi-transparent fill */
     height: 40px;
     /* Size of the circle */
     width: 40px;
@@ -25,10 +36,24 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    animation: anime 5s ease-in-out infinite;
-    /* Animation properties */
-    z-index: 20;
-    /* Ensure the circle is above other elements */
+    animation: anime-light 5s ease-in-out infinite;
+    /* Default animation */
+    z-index: 0;
+    /* Set to 0 or any value less than heading */
+}
+
+.circle.light-mode {
+    border: 1px solid rgba(248, 248, 248, 0.9);
+    /* Light border with some transparency */
+    background-color: rgba(126, 126, 126, 0.7);
+    /* Light, semi-transparent fill */
+}
+
+.circle.dark-mode {
+    border: 1px solid rgba(140, 140, 140, 0.9);
+    /* Light border */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Dark, semi-transparent fill */
 }
 
 .circle.delay-200 {
@@ -39,34 +64,44 @@
     animation-delay: 0.7s;
 }
 
-@keyframes anime {
+@keyframes anime-light {
     0% {
         transform: translate(-50%, -50%) scale(0.1);
-        /* Start small */
         border-color: rgba(255, 255, 255, 0.7);
         /* White border */
         background-color: rgba(255, 255, 255, 0.3);
         /* Semi-transparent white fill */
-        opacity: 1;
-        /* Fully visible */
+        opacity: 0.6;
+        /* Ensure some transparency so heading is visible */
     }
 
     100% {
         transform: translate(-50%, -50%) scale(7);
-        /* Grow larger */
         border-color: rgba(255, 255, 255, 0);
         /* Transparent border */
         background-color: rgba(255, 255, 255, 0);
         /* Transparent fill */
         opacity: 0;
-        /* Fade out */
     }
 }
 
-/* CSS for the background container */
-.container {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    transition: background-color 0.5s ease;
+@keyframes anime-dark {
+    0% {
+        transform: translate(-50%, -50%) scale(0.1);
+        border-color: rgb(162, 162, 162);
+        /* Yellow border */
+        background-color: rgb(52, 52, 52);
+        /* Semi-transparent yellow fill */
+        opacity: 0.4;
+        /* Ensure some transparency so heading is visible */
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(7);
+        border-color: rgb(255, 255, 255);
+        /* Transparent border */
+        background-color: rgb(255, 255, 255);
+        /* Transparent fill */
+        opacity: 0;
+    }
 }
