@@ -1,0 +1,72 @@
+/* CSS for the heading */
+.heading {
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect to scale the heading */
+.heading:hover {
+    transform: scale(1.4);
+    /* Increase the size by 40% */
+}
+
+/* CSS for the dust-like circles */
+.circle {
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    /* Dark border with some transparency */
+    background-color: rgba(248, 248, 248, 0.7);
+    /* Light, semi-transparent fill */
+    height: 40px;
+    /* Size of the circle */
+    width: 40px;
+    /* Size of the circle */
+    border-radius: 50%;
+    /* Ensure the circle is perfectly round */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: anime 5s ease-in-out infinite;
+    /* Animation properties */
+    z-index: 20;
+    /* Ensure the circle is above other elements */
+}
+
+.circle.delay-200 {
+    animation-delay: 0.5s;
+}
+
+.circle.delay-400 {
+    animation-delay: 0.7s;
+}
+
+@keyframes anime {
+    0% {
+        transform: translate(-50%, -50%) scale(0.1);
+        /* Start small */
+        border-color: rgba(255, 255, 255, 0.7);
+        /* White border */
+        background-color: rgba(255, 255, 255, 0.3);
+        /* Semi-transparent white fill */
+        opacity: 1;
+        /* Fully visible */
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(7);
+        /* Grow larger */
+        border-color: rgba(255, 255, 255, 0);
+        /* Transparent border */
+        background-color: rgba(255, 255, 255, 0);
+        /* Transparent fill */
+        opacity: 0;
+        /* Fade out */
+    }
+}
+
+/* CSS for the background container */
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    transition: background-color 0.5s ease;
+}
