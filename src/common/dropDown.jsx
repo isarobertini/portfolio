@@ -1,12 +1,14 @@
 import { Fade } from 'react-awesome-reveal';
-
 import { useState } from 'react';
 import { ParagraphComponent } from '../reusableComponents/paragraphComponent';
 
+
 export const DropDownMenu = () => {
-    // State to manage the visibility of dropdown menus
+    // State to manage the visibility of dropdown menus and tooltips
     const [isMenu1Open, setMenu1Open] = useState(false);
     const [isMenu2Open, setMenu2Open] = useState(false);
+    const [showArtTooltip, setShowArtTooltip] = useState(false);
+    const [showWebsitesTooltip, setShowWebsitesTooltip] = useState(false);
 
     // Toggle function for each menu
     const toggleMenu1 = () => setMenu1Open(!isMenu1Open);
@@ -16,27 +18,33 @@ export const DropDownMenu = () => {
     const closeMenus = () => {
         setMenu1Open(false);
         setMenu2Open(false);
+        setShowArtTooltip(false);
+        setShowWebsitesTooltip(false);
     };
 
     return (
         <Fade>
-            <div className="font-mono bg-black flex flex-col items-center justify-center min-h-screen" onClick={closeMenus}>
 
+            <div className="font-mono flex flex-col items-center justify-center" onClick={closeMenus}>
                 <div className='border-y border-white m-6'>
                     {/* Paragraph Component on top of the Menus */}
                     <ParagraphComponent className="text-white mt-4" text="get in contact for further information" />
                 </div>
 
-                <div className="flex space-x-6" onClick={(e) => e.stopPropagation()}>
+
+
+                <div className="flex space-x-6 relative" onClick={(e) => e.stopPropagation()}>
                     {/* First Dropdown Menu */}
                     <div className="relative inline-block text-left">
                         <button
                             onClick={toggleMenu1}
+                            onMouseEnter={() => setShowArtTooltip(true)}
+                            onMouseLeave={() => setShowArtTooltip(false)}
                             className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-black border border-gray-300 rounded-sm shadow-sm hover:bg-slate-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:bg-slate-600"
                         >
                             Art
                             <svg
-                                className="-mr-1 ml-2 h-5 w-5"
+                                className={`-mr-1 ml-2 h-5 w-5 transition-transform duration-200 ${isMenu1Open ? 'rotate-180' : ''}`}
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 20 20"
                                 fill="currentColor"
@@ -71,17 +79,25 @@ export const DropDownMenu = () => {
                                 </div>
                             </div>
                         )}
+                        {/* Art Tooltip */}
+                        <div
+                            className={`absolute bottom-40 left-0 mt-2 px-2 py-1 text-sm text-white bg-black transition-opacity duration-1000  ${showArtTooltip ? 'opacity-100' : 'opacity-0'}`}
+                        >
+                            View selected artworks
+                        </div>
                     </div>
 
                     {/* Second Dropdown Menu */}
                     <div className="relative inline-block text-left">
                         <button
                             onClick={toggleMenu2}
+                            onMouseEnter={() => setShowWebsitesTooltip(true)}
+                            onMouseLeave={() => setShowWebsitesTooltip(false)}
                             className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-black border border-gray-300 rounded-sm shadow-sm hover:bg-slate-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-600"
                         >
                             Websites
                             <svg
-                                className="-mr-1 ml-2 h-5 w-5"
+                                className={`-mr-1 ml-2 h-5 w-5 transition-transform duration-200 ${isMenu2Open ? 'rotate-180' : ''}`}
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 20 20"
                                 fill="currentColor"
@@ -116,6 +132,12 @@ export const DropDownMenu = () => {
                                 </div>
                             </div>
                         )}
+                        {/* Websites Tooltip */}
+                        <div
+                            className={`absolute top-40 left-0 mt-2 px-2 py-1 text-sm text-white bg-black transition-opacity duration-1000 ${showWebsitesTooltip ? 'opacity-100' : 'opacity-0'}`}
+                        >
+                            Visit sites built by me
+                        </div>
                     </div>
                 </div>
                 {/* Paragraph Component Below the Menus */}
@@ -126,6 +148,5 @@ export const DropDownMenu = () => {
                 </div>
             </div>
         </Fade>
-
     );
 };
