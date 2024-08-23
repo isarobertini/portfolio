@@ -1,0 +1,428 @@
+/* Main */
+:root {
+    --ln: 0.61rem;
+    /*line-height*/
+    --pd: 0.6rem;
+    /*padding*/
+    --ht: 3rem;
+    /*height*/
+    --sw: 3rem;
+    /*symbol width*/
+    --sl: 2.9rem;
+    /*symbol line-height*/
+}
+
+/* Initial */
+nav[role="select"],
+nav[role="select"] *,
+.lst label::before,
+.lst label::after {
+    box-sizing: border-box;
+}
+
+nav[role="select"] {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2rem;
+    /* not important */
+}
+
+/* exp */
+nav[role="select"] .exp {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    margin: 0;
+}
+
+/* cl */
+nav[role="select"] .cl {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    /* Ensuring the background overlay is dark */
+}
+
+/* el */
+nav[role="select"] .el {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    color: white;
+    /* Ensure the symbol color is white */
+}
+
+nav[role="select"] .el::after {
+    /* for arrow symbol */
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '▾';
+    text-align: center;
+    transition: transform 0.25s;
+    color: white;
+    /* Make the arrow white */
+}
+
+/* lst */
+nav[role="select"] .lst input,
+nav[role="select"] .lst label::after,
+nav[role="select"] .con {
+    display: none;
+}
+
+nav[role="select"] .lst label {
+    position: relative;
+    height: 0;
+    width: 100%;
+    float: left;
+    clear: both;
+    text-align: left;
+    color: white;
+    /* Make the text color white */
+}
+
+nav[role="select"] .lst label::after,
+nav[role="select"] .lst label::before {
+    position: relative;
+    left: 0;
+    opacity: 0;
+    content: attr(data-value);
+    color: white;
+    /* Make the text color white */
+}
+
+nav[role="select"] .lst label::before {
+    display: table;
+}
+
+nav[role="select"] .lst .ph::after {
+    position: absolute;
+    display: block;
+    color: white;
+    /* Make the placeholder color white */
+}
+
+nav[role="select"] .lst .ph::before {
+    display: inline-block;
+    opacity: 1;
+    color: white;
+    /* Make the placeholder color white */
+}
+
+/* Dimensions */
+nav[role="select"] {
+    width: auto;
+    font-size: 1.2rem;
+    padding-top: var(--ht);
+    color: white;
+    /* Make the text color white */
+}
+
+nav[role="select"],
+nav[role="select"] .el,
+nav[role="select"] .lst input:checked+label::after,
+nav[role="select"] .exp:checked~.lst label,
+nav[role="select"] .lst .ph:after {
+    height: var(--ht);
+}
+
+nav[role="select"] .lst {
+    margin-top: 0.25rem;
+    max-height: calc(var(--ht) * 3);
+    /*3=number of visible items*/
+    z-index: 1;
+    display: inline;
+}
+
+nav[role="select"] .lst label::before,
+nav[role="select"] .lst label::after,
+nav[role="select"] .el,
+nav[role="select"] .el::after {
+    width: 100%;
+    height: 100%;
+}
+
+nav[role="select"] .el::after {
+    width: var(--sw);
+    line-height: var(--sl);
+    /*arrow symbol*/
+}
+
+nav[role="select"] .lst label::before,
+nav[role="select"] .lst label::after {
+    padding: var(--ln) calc(var(--pd) * 1.5);
+}
+
+nav[role="select"] .lst label::after,
+nav[role="select"] .lst .ph::before {
+    padding-right: var(--sw);
+}
+
+nav[role="select"] .lst input:checked+label::after,
+nav[role="select"] .lst .ph::before,
+nav[role="select"] .lst .ph:after {
+    top: calc(-1 * var(--ht));
+}
+
+nav[role="select"] .exp:checked~.lst .ph::after {
+    top: calc((var(--ln) * 3) / 2);
+}
+
+nav[role="select"] .lst label::before,
+nav[role="select"] .lst label::after {
+    line-height: calc(var(--ln) * 3);
+}
+
+nav[role="select"] .lst .ph::before {
+    top: calc(-1 * var(--ht));
+}
+
+nav[role="select"] .exp:checked~.lst .ph {
+    height: 0px;
+    margin-top: calc(-1 * var(--ht));
+}
+
+/* Implicit Dimensions */
+nav[role="select"].imp .lst label:has(> input:checked)::after {
+    top: calc(-1 * var(--ht));
+}
+
+nav[role="select"].imp .lst label:has(> input:checked)::after {
+    height: var(--ht);
+}
+
+/* Interactivity */
+nav[role="select"] .lst,
+nav[role="select"] .lst .ph::before,
+nav[role="select"] .exp:checked~.el,
+nav[role="select"] .exp:checked~.lst .ph {
+    pointer-events: none;
+}
+
+nav[role="select"] .lst input:checked~.lst label::after,
+nav[role="select"] .lst input:checked+label::after,
+nav[role="select"] .exp:checked~.lst label::before,
+nav[role="select"] .exp:checked~.lst .ph::after {
+    opacity: 1;
+}
+
+nav[role="select"] .exp:checked~.el::after {
+    transform: scale(-1, -1);
+}
+
+nav[role="select"] .exp:checked~.lst {
+    overflow-x: hidden;
+    pointer-events: auto;
+    float: left;
+}
+
+nav[role="select"] .lst input:checked+label::after,
+nav[role="select"] .exp:checked+.cl {
+    display: block;
+}
+
+nav[role="select"] .exp:checked~.lst .ph::after,
+nav[role="select"] .lst input:checked+label::after {
+    position: absolute;
+}
+
+nav[role="select"] .exp:checked~.lst .ph {
+    padding: 0;
+    position: initial !important;
+}
+
+nav[role="select"] .exp:checked~.lst .ph::after {
+    top: 0;
+}
+
+nav[role="select"] .exp:checked~.lst .ph::before {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+nav[role="select"] .lst input:checked~.ph::before,
+nav[role="select"] .exp:checked~.lst .ph::before {
+    opacity: 0;
+}
+
+/* Implicit Interactivity */
+nav[role="select"].imp .lst label:has(> input:checked)::after,
+nav[role="select"].imp .lst label:has(> input:checked) {
+    opacity: 1;
+}
+
+nav[role="select"].imp .lst label:has(> input:checked)::after {
+    display: block;
+}
+
+nav[role="select"].imp .lst label:has(> input:checked)::after {
+    position: absolute;
+}
+
+nav[role="select"].imp .lst label:has(> input:checked)~.ph::before {
+    opacity: 0;
+}
+
+/* Appearance */
+nav[role='select'] {
+    font-family: monospace;
+    background-color: transparent;
+    box-shadow: inset 0px 0px 0px 2px white;
+    /* Change border color to white */
+    border-radius: 0.3rem;
+    color: white;
+    /* Ensure text color is white */
+}
+
+nav[role="select"] .exp:checked~.lst label:hover,
+nav[role="select"] .exp:checked~.lst label:active {
+    background-color: rgba(251, 250, 250, 0.4);
+    color: white;
+    /* Ensure text color is white */
+}
+
+nav[role="select"] .exp:checked~.lst {
+    border-radius: 0.3rem;
+    background: rgba(223, 223, 223, 0.9);
+    color: white;
+    /* Ensure text color is white */
+}
+
+nav[role="select"] .lst label:not(.ph)::after {
+    font-weight: bold;
+    color: white;
+    /* Make the text color white */
+}
+
+nav[role="select"],
+.el,
+.lst label,
+.exp:checked~.el {
+    cursor: pointer;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    .mobile .exp:checked~.lst {
+        position: fixed;
+        inset: 0px;
+        width: 12rem;
+        height: calc(var(--ht) * 4);
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+    }
+
+    .mobile .exp:checked~.lst .ph {
+        display: none;
+    }
+
+    .mobile .exp:checked~.el {
+        display: none;
+    }
+
+    .mobile.scroll_hack .exp:checked~.el {
+        position: fixed;
+        inset: 0px;
+        width: 12rem;
+        height: calc(var(--ht) * 4);
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+    }
+
+    .mobile.scroll_hack .exp:checked~.el::after {
+        position: absolute;
+        right: -0.3rem;
+        width: 0.3rem;
+        opacity: 1;
+        background: rgba(12, 12, 12, 0.9);
+        transition: none;
+        content: '';
+        border-radius: 0 0.3rem 0.3rem 0;
+        transform: scale(1, 1) !important;
+    }
+
+    .mobile .exp:checked~.cl::after {
+        position: fixed;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        background: rgba(8, 8, 8, 0.9);
+        z-index: -1;
+    }
+
+    .mobile .exp:checked~.lst label {
+        z-index: 1;
+    }
+}
+
+/* Junk START */
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-size: 100%;
+    font-style: normal;
+    font-family: monospace;
+    color: white;
+    /* Ensure body text color is white */
+}
+
+.a_1 {
+    width: 100%;
+    z-index: 5;
+    position: relative;
+}
+
+.mobile {
+    z-index: 2;
+}
+
+h3,
+hr,
+.describe {
+    width: 22rem;
+    position: relative;
+    display: block;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    color: white;
+    /* Ensure heading and description text color is white */
+}
+
+h3 {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+hr {
+    z-index: -1;
+    border-color: white;
+    /* Change hr border color to white */
+}
+
+.describe ul {
+    padding-left: 1.5rem;
+    color: white;
+    /* Ensure list color is white */
+}
+
+/* Junk END */

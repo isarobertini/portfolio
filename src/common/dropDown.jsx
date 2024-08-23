@@ -1,130 +1,55 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
+import './dots.css'; // Ensure you have the CSS styles from the example included
 
 export const DropDownMenu = () => {
-    const [isArtOpen, setIsArtOpen] = useState(false);
-    const [isWebsiteOpen, setIsWebsiteOpen] = useState(false);
-    const [isContactOpen, setIsContactOpen] = useState(false);
-    const dropdownRef = useRef(null);
-
-    const toggleDropdown = (dropdown) => {
-        if (dropdown === 'art') {
-            setIsArtOpen(prev => !prev);
-            setIsWebsiteOpen(false); // Ensure the other dropdown is closed
-            setIsContactOpen(false); // Ensure the other dropdown is closed
-        } else if (dropdown === 'website') {
-            setIsWebsiteOpen(prev => !prev);
-            setIsArtOpen(false); // Ensure the other dropdown is closed
-            setIsContactOpen(false); // Ensure the other dropdown is closed
-        } else if (dropdown === 'contact') {
-            setIsContactOpen(prev => !prev);
-            setIsArtOpen(false); // Ensure the other dropdown is closed
-            setIsWebsiteOpen(false); // Ensure the other dropdown is closed
-        }
-    };
-
-    const handleClickOutside = (event) => {
-        if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-            setIsArtOpen(false);
-            setIsWebsiteOpen(false);
-            setIsContactOpen(false);
-        }
-    };
-
-    useEffect(() => {
-        document.addEventListener('mousedown', handleClickOutside);
-        return () => {
-            document.removeEventListener('mousedown', handleClickOutside);
-        };
-    }, []);
-
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen" ref={dropdownRef}>
-            {/* Art Button and Dropdown */}
-            <div className="relative mb-4">
-                <button
-                    onClick={() => toggleDropdown('art')}
-                    className="px-4 py-2 border-2 border-white text-white bg-black focus:outline-none transition-transform transform hover:scale-105"
-                >
-                    Art
-                </button>
-                {isArtOpen && (
-                    <div
-                        className={`absolute left-1/2 transform -translate-x-1/2 top-full mt-2 w-48 border-2 border-white text-white bg-black z-30 transition-opacity duration-300 ease-out ${isArtOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
-                    >
-                        <ul className="list-none p-0 m-0 text-center">
-                            <li>
-                                <a
-                                    href="https://www.instagram.com"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="block px-4 py-2 border-2 border-white text-white bg-blackhover:bg-black hover:text-white transition-colors duration-300"
-                                >
-                                    Instagram
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                )}
-            </div>
+        <div className="flex flex-col items-center justify-center min-h-screen">
 
-            {/* Website Button and Dropdown */}
-            <div className="relative mb-4">
-                <button
-                    onClick={() => toggleDropdown('website')}
-                    className="px-4 py-2 border-2 border-white text-white bg-black focus:outline-none transition-transform transform hover:scale-105"
-                >
-                    Websites
-                </button>
-                {isWebsiteOpen && (
-                    <div
-                        className={`absolute left-1/2 transform -translate-x-1/2 top-full mt-2 w-48 border-2 border-white text-white bg-black z-20 transition-opacity duration-300 ease-out ${isWebsiteOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
-                    >
-                        <ul className="list-none p-0 m-0 text-center">
-                            <li>
-                                <a
-                                    href="https://tuanissurfschool.com/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="block px-4 py-2 hover:bg-black hover:text-white transition-colors duration-300"
-                                >
-                                    Tuanis Surf School
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://bellybellybread.com/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="block px-4 py-2 hover:bg-black hover:text-white transition-colors duration-300"
-                                >
-                                    Belly Belly Bread
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                )}
-            </div>
+            <h3 className="junk">Dropdown select <br /> <small>(Contact for further information)</small></h3>
 
-            {/* Contact Button and Dropdown */}
-            <div className="relative">
-                <button
-                    onClick={() => toggleDropdown('contact')}
-                    className="px-4 py-2 border-2 border-2 border-white text-white bg-black focus:outline-none transition-transform transform hover:scale-105"
-                >
-                    Contact
-                </button>
-                {isContactOpen && (
-                    <div
-                        className={`absolute left-1/2 transform -translate-x-1/2 top-full mt-2 w-48 bg-white border-2 border-black shadow-lg z-10 transition-opacity duration-300 ease-out ${isContactOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
-                    >
-                        <ul className="list-none p-0 m-0 text-center">
-                            <li className="px-2 py-2 border-2 border-white text-white bg-black hover:bg-black hover:text-white transition-colors duration-300">
-                                robertiniisa@gmail.com
-                            </li>
-                        </ul>
-                    </div>
-                )}
+            <hr />
+            <div className='border-y-2 border-white pt-9'>
+                <div className="a_1">
+                    {/* Explicit Labeling */}
+                    <nav role="select">
+                        <input id="s_con_a" type="radio" name="s_a" className="con" value="null" />
+                        <input id="s_exp_a" type="radio" name="s_a" className="exp" />
+                        <label htmlFor="s_con_a" className="cl"></label>
+                        <span className="lst">
+                            <input id="s_a_a" type="radio" name="s_a" value="maj" checked />
+                            <label htmlFor="s_a_a" data-value="Art"></label>
+                            <input id="s_a_b" type="radio" name="s_a" value="min" />
+                            <label htmlFor="s_a_b" data-value="Instagram"></label>
+                            <label className="ph" data-value="Art"></label>
+                        </span>
+                        <label htmlFor="s_exp_a" className="el"></label>
+                    </nav>
+
+                    {/* Implicit Labeling */}
+                    <nav role="select" className="imp">
+                        <input id="s_con_b" type="radio" name="s_b" className="con" value="null" />
+                        <input id="s_exp_b" type="radio" name="s_b" className="exp" />
+                        <label htmlFor="s_con_b" className="cl"></label>
+                        <span className="lst">
+                            <label data-value="Tuanis Surf School"><input type="radio" name="s_b" value="maj" /></label>
+                            <label data-value="Belly Belly Bread"><input type="radio" name="s_b" value="min" /></label>
+                            <label data-value="Websites"><input type="radio" name="s_b" value="pch" checked /></label>
+                            <label data-value="Label"><input type="radio" name="s_b" value="lbl" /></label>
+                            <label className="ph" data-value="Implicit"></label>
+                        </span>
+                        <label htmlFor="s_exp_b" className="el"></label>
+                    </nav>
+                </div>
             </div>
+            <hr />
+
+            <hr />
+            <span className="describe junk">
+                <ul>
+                    <li>contact: robertiniisa@gmail.com</li>
+
+                </ul>
+            </span>
         </div>
     );
 };
