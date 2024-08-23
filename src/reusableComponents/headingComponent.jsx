@@ -1,4 +1,3 @@
-import React from 'react';
 import './styles.css'; // Ensure the path is correct
 
 export const HeadingComponent = ({ children, text, level = 1, className, style, isClicked, onClick, ...rest }) => {

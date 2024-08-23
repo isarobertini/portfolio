@@ -1,4 +1,3 @@
-import React from 'react';
 
 export const SubHeadingComponent = ({ children, text, level = 1, className, style, ...rest }) => {
     const Tag = `h${level}`; // Dynamically set the heading level (h1, h2, h3, etc.)
