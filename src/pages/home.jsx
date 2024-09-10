@@ -3,6 +3,7 @@ import { HeadingComponent } from "../reusableComponents/headingComponent";
 import '../reusableComponents/styles.css'; // Import your CSS here
 import './border.css';
 import { DropDownMenu } from '../common/dropDown';
+import { ParagraphPopUpComponent } from '../reusableComponents/paragraphPopUpComponent';
 import { ParagraphComponent } from '../reusableComponents/paragraphComponent';
 
 export const Home = () => {
@@ -29,7 +30,7 @@ export const Home = () => {
                 <div className='room-border relative flex items-center justify-center'>
                     <div className='room-border-content'>
                         <HeadingComponent
-                            text={isClicked ? "You" : "Isa Robertini"}
+                            text={isClicked ? "" : "Isa Robertini"}
                             isClicked={isClicked}
                             onClick={handleHeadingClick}
                         />
@@ -57,30 +58,60 @@ export const Home = () => {
                     )}
                 </section>
 
+            </div>
+            <div className='bg-black flex flex-col items-center justify-center w-full h-screen'>
+                {/* Paragraph Component on top of the Menus */}
+                <div className='text-white text-2xl mb-4'>
+                    <ParagraphComponent className="text-white" text="Contact" />
+                </div>
 
+                {/* Paragraph Component Below the Menus */}
+                <div className='border-dashed border-y-2 border-white text-white p-3'>
+                    <a href="mailto:robertiniisa@gmail.com" className="hover:text-slate-600">
+                        robertiniisa@gmail.com
+                    </a>
+                </div>
             </div>
 
-            {/* Work section*/}
+
+
+            {/* Work section */}
+            {/*
             <div className="relative w-full h-32 bg-gradient-to-b from-black to-white">
-                {/* Gradient effect */}
+              
             </div>
             <section
                 className={`relative flex items-center justify-center w-full h-screen transition-all duration-500 ease-in-out ${isClicked ? 'white-bg' : 'bg-black'}`}
             >
-                <div className='room-border-work flex items-center justify-center'>
-                    <div className='room-border-work-content '>
-                        <div className='flex items-center justify-center'>
-                            <ParagraphComponent className="text-black absolute top-10" text="Space" />
-                        </div>
-                        <div className='absolute right-30 bottom-80 border-2 border-black h-7 w-7 rounded-full'></div>
+             
+                <div className='room-border-work flex flex-col justify-center'>
 
-                        <div className='absolute left-40 border-2 border-black h-7 w-7 rounded-full'></div>
+                    <div className=''>
+                        <ParagraphPopUpComponent className="items-center text-black" text="Symbolic">
+                          
+                            <p className="">This is some additional content inside the popup!</p>
+                            <img src="https://via.placeholder.com/150" alt="Example" className="my-4 mx-auto" />
+                        </ParagraphPopUpComponent>
+                    </div>
 
-                        <div className='absolute right-80 bottom-40 border-2 border-black h-7 w-7 rounded-full'></div>
+                    <div className=''>
+                        <ParagraphPopUpComponent className="items-center text-black" text="Critical">
+                       
+                            <p className="">This is some additional content inside the popup!</p>
+                            <img src="https://via.placeholder.com/150" alt="Example" className="my-4 mx-auto" />
+                        </ParagraphPopUpComponent>
+                    </div>
+                    <div className=''>
+                        <ParagraphPopUpComponent className="items-center text-black" text="Political">
+                          
+                            <p className="">This is some additional content inside the popup!</p>
+                            <img src="https://via.placeholder.com/150" alt="Example" className="my-4 mx-auto" />
+                        </ParagraphPopUpComponent>
                     </div>
                 </div>
             </section>
-
+            */}
         </div>
+
     );
 };

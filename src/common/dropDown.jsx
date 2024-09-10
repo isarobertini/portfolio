@@ -26,12 +26,6 @@ export const DropDownMenu = () => {
         <Fade>
 
             <div className="font-mono flex flex-col items-center justify-center" onClick={closeMenus}>
-                <div className='border-y border-white m-6'>
-                    {/* Paragraph Component on top of the Menus */}
-                    <ParagraphComponent className="text-white mt-4" text="get in contact for further information" />
-                </div>
-
-
 
                 <div className="flex space-x-6 relative" onClick={(e) => e.stopPropagation()}>
                     {/* First Dropdown Menu */}
@@ -40,7 +34,7 @@ export const DropDownMenu = () => {
                             onClick={toggleMenu1}
                             onMouseEnter={() => setShowArtTooltip(true)}
                             onMouseLeave={() => setShowArtTooltip(false)}
-                            className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-black border border-gray-300 rounded-sm shadow-sm hover:bg-slate-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:bg-slate-600"
+                            className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-black border-dashed border-y-2  shadow-sm hover:border-sky-500"
                         >
                             Art
                             <svg
@@ -58,23 +52,15 @@ export const DropDownMenu = () => {
                             </svg>
                         </button>
                         {isMenu1Open && (
-                            <div className="absolute left-0 z-10 w-44 mt-2 origin-top-left bg-black border border-gray-300 rounded-sm shadow-lg">
+                            <div className="absolute left-0 z-10 w-44 mt-2 origin-top-left bg-black border-dashed border-y-2 border-sky-500 shadow-sm hover:border-white">
                                 <div className="py-1">
                                     <a
                                         href="https://www.instagram.com/isarobertini/"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="block px-4 py-2 text-sm text-white hover:bg-slate-600"
+                                        className="block px-4 py-2 text-sm text-white"
                                     >
                                         Instagram
-                                    </a>
-                                    <a
-                                        href="https://www.gallerykannski.com/upcomingshows"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="block px-4 py-2 text-sm text-white hover:bg-slate-600"
-                                    >
-                                        Upcoming
                                     </a>
                                 </div>
                             </div>
@@ -93,7 +79,7 @@ export const DropDownMenu = () => {
                             onClick={toggleMenu2}
                             onMouseEnter={() => setShowWebsitesTooltip(true)}
                             onMouseLeave={() => setShowWebsitesTooltip(false)}
-                            className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-black border border-gray-300 rounded-sm shadow-sm hover:bg-slate-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-600"
+                            className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-black border-dashed border-y-2  shadow-sm hover:border-sky-500"
                         >
                             Websites
                             <svg
@@ -111,13 +97,13 @@ export const DropDownMenu = () => {
                             </svg>
                         </button>
                         {isMenu2Open && (
-                            <div className="absolute left-0 z-10 w-44 mt-2 origin-top-left bg-black border border-gray-300 rounded-sm shadow-lg">
+                            <div className="absolute left-0 z-10 w-44 mt-2 origin-top-left bg-black">
                                 <div className="py-1">
                                     <a
                                         href="https://tuanissurfschool.com/"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="block px-4 py-2 text-sm text-white hover:bg-slate-600"
+                                        className="block px-4 py-2 text-sm text-white border-dashed border-t-2 border-sky-500 shadow-sm hover:border-white"
                                     >
                                         Tuanis Surf School
                                     </a>
@@ -125,7 +111,7 @@ export const DropDownMenu = () => {
                                         href="https://bellybellybread.com"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="block px-4 py-2 text-sm text-white hover:bg-slate-600"
+                                        className="block px-4 py-2 text-sm text-white border-dashed border-y-2 border-sky-500 shadow-sm hover:border-white"
                                     >
                                         Belly Belly Bread
                                     </a>
@@ -134,18 +120,13 @@ export const DropDownMenu = () => {
                         )}
                         {/* Websites Tooltip */}
                         <div
-                            className={`absolute top-40 left-0 mt-2 px-2 py-1 text-sm text-white bg-black transition-opacity duration-1000 ${showWebsitesTooltip ? 'opacity-100' : 'opacity-0'}`}
+                            className={`absolute top-60 left-3 mt-2 px-2 py-1 text-sm text-white bg-black transition-opacity duration-1000 ${showWebsitesTooltip ? 'opacity-100' : 'opacity-0'}`}
                         >
                             Visit sites built by me
                         </div>
                     </div>
                 </div>
-                {/* Paragraph Component Below the Menus */}
-                <div className='border-y text-white border-white p-6 m-6'>
-                    <a href="mailto:robertiniisa@gmail.com" className="hover:text-slate-600">
-                        robertiniisa@gmail.com
-                    </a>
-                </div>
+
             </div>
         </Fade>
     );

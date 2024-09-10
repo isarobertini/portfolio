@@ -1,0 +1,51 @@
+.heading {
+    font-family: monospace;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.dashed-text {
+    color: transparent;
+    /* Hide the fill color */
+    -webkit-text-stroke: 1px black;
+    /* Create a stroke around the text */
+    -webkit-text-stroke-dasharray: 4;
+    /* Make the stroke dashed */
+    text-stroke: 1px black;
+    /* Standard text stroke */
+    text-stroke-dasharray: 4;
+    /* Dashed effect for non-webkit browsers */
+    animation: colorShift 10s infinite linear;
+    /* Animate the colors */
+}
+
+/* Color shifting animation */
+@keyframes colorShift {
+    0% {
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        text-stroke: 1px rgb(255, 255, 255);
+    }
+
+    25% {
+        -webkit-text-stroke: 1px #e9f0b5;
+        text-stroke: 1px rgb(240, 181, 231);
+    }
+
+    50% {
+        -webkit-text-stroke: 1px #fdf491;
+        text-stroke: 1px rgb(209, 178, 205);
+    }
+
+    75% {
+        -webkit-text-stroke: 1px rgb(213, 218, 152);
+        text-stroke: 1px rgb(255, 208, 134);
+    }
+
+    100% {
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        text-stroke: 1px rgb(255, 255, 255);
+    }
+}
