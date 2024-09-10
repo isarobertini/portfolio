@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import { Helmet } from 'react-helmet'; // Import Helmet
 import { HeadingComponent } from "../reusableComponents/headingComponent";
 import '../reusableComponents/styles.css'; // Import your CSS here
 import './border.css';
@@ -24,6 +25,13 @@ export const Home = () => {
     return (
         <div className={`w-screen h-screen ${isClicked ? 'overflow-auto' : 'overflow-hidden'} transition-all duration-500 ease-in-out`}>
             {/* Heading Section */}
+
+            {/* Helmet for SEO and meta tags */}
+            <Helmet>
+                <title>Isa Robertini - Artist & Web Developer</title>
+                <meta name="description" content="Isa Robertini is an artist and web developer. Contact for more information." />
+            </Helmet>
+
             <section
                 className={`relative flex items-center justify-center w-full h-screen transition-all duration-500 ease-in-out ${isClicked ? 'white-bg' : 'bg-black'}`}
             >
