@@ -28,7 +28,7 @@ export const Home = () => {
 
             {/* Helmet for SEO and meta tags */}
             <Helmet>
-                <title>Isa Robertini - Artist & Web Developer</title>
+                <title>Isa Robertini</title>
                 <meta name="description" content="Isa Robertini is an artist and web developer. Contact for more information." />
             </Helmet>
 
