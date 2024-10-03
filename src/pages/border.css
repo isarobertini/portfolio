@@ -100,7 +100,7 @@
     /* Center horizontally */
     width: 0;
     /* No width since it's a vertical line */
-    height: 1050px;
+    height: 1700px;
     /* Adjust length of the dashed line as needed */
     border-left: 2px dashed rgb(255, 255, 255);
     /* Dashed line on the left border */
