@@ -10,8 +10,7 @@
     transition: transform 0.3s ease;
     position: relative;
     z-index: 10;
-
-    /* Default color */
+    /* Ensure it appears above other content */
 }
 
 /* Hover effect to scale the heading */
@@ -36,25 +35,31 @@
     }
 }
 
-/* first Room border styles */
+/* Room border styles */
 .room-border {
     position: relative;
-    margin: 4px;
+    margin-top: 4px;
+    top: 110px;
     display: inline-block;
     width: 50rem;
     height: 30rem;
     box-sizing: border-box;
     border-radius: 4px;
+    overflow: hidden;
+    /* Prevents content overflow */
 }
 
+/* Room border content */
 .room-border-content {
     position: relative;
     z-index: 1;
+    /* Keeps content above the border */
 }
 
+/* White background adjustments */
 .white-bg .room-border {
     border: none;
-    /* No border around the entire room */
+    /* No border for white background */
 }
 
 .white-bg .room-border::before {
@@ -70,16 +75,13 @@
     /* Length of the dashed line */
     border-left: 2px dashed black;
     /* Dashed line on the left border */
-    transform: translate(-50%, 0);
-    /* Center the line horizontally */
+    transform: translate(-50%, -50%);
+    /* Center the line vertically */
     z-index: 0;
     /* Ensure the line appears behind the content */
 }
 
-
-/* Black background styles */
-
-
+/* Dropdown border styles */
 .dropdown-border {
     position: relative;
     margin: 6px;
@@ -110,41 +112,34 @@
     /* Ensure the line appears behind the content */
 }
 
-
-
-
-
-/* work Room border styles- WILL BE ADDED LATER */
-.room-border-work {
+/* Semi-transparent background for pop-up container */
+.see-through-bg {
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Black background with 70% opacity */
+    padding: 20px;
+    border-radius: 8px;
     position: relative;
-    margin: 6px;
-    display: inline-block;
-    width: 50rem;
-    /* Adjust width as needed */
-    height: 40rem;
-    /* Adjust height as needed */
-    box-sizing: border-box;
-    border-radius: 4px;
+    z-index: 2;
+    /* Higher than the dashed line's z-index */
 }
 
-/* White background styles */
-.white-bg .room-border-work {
-    border: 2px solid black;
-    /* Black border for white background */
+/* Ensure the dashed line has a lower z-index */
+.room-border::before,
+.dropdown-border::before {
+    z-index: 0;
+    /* Keep the dashed line behind */
 }
 
-.white-bg .room-border-work::after {
-    content: '';
-    position: absolute;
-    top: -20px;
-    left: 50%;
-    width: 100px;
-    height: 40px;
-    background-color: white;
-    /* Match background */
-    border-left: 2px solid black;
-    /* Black border on left */
-    border-right: 2px solid black;
-    /* Black border on right */
-    transform: translateX(-50%);
+/* Optional: Add transitions to dashed lines for smooth appearance */
+.room-border::before,
+.dropdown-border::before {
+    transition: opacity 0.3s ease;
+    /* Smooth transition for visibility */
+}
+
+/* Fade dashed lines when there is content */
+.white-bg .room-border::before,
+.white-bg .dropdown-border::before {
+    opacity: 0.5;
+    /* Adjust opacity to make the dashed lines less visible */
 }

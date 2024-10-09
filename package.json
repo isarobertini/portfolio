@@ -13,10 +13,12 @@
     "@emotion/react": "^11.13.3",
     "@stackbit/cms-git": "^0.0.55",
     "@stackbit/types": "^2.0.2",
+    "lottie-web": "^5.12.2",
     "react": "^18.2.0",
     "react-awesome-reveal": "^4.2.14",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
+    "react-lottie": "^1.2.4",
     "react-router-dom": "^6.23.1"
   },
   "devDependencies": {
