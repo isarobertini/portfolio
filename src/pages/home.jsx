@@ -1,12 +1,13 @@
-import React, { useState, useRef } from 'react';
-import { Helmet } from 'react-helmet'; // Import Helmet
+import { useState, useRef } from 'react';
+import { Helmet } from 'react-helmet';
 
 import { HeadingComponent } from "../reusableComponents/headingComponent";
 import { DropDownMenu } from '../common/dropDown';
 import { ParagraphComponent } from '../reusableComponents/paragraphComponent';
+import { ContentShows } from '../worksComponents/contentShows';
 import { CriticalMomentsComponent } from '../worksComponents/citicalMomentsComponent';
 
-import '../reusableComponents/styles.css'; // Import your CSS here
+import '../reusableComponents/styles.css';
 import './border.css';
 
 export const Home = () => {
@@ -17,7 +18,7 @@ export const Home = () => {
         if (isClicked) {
             dropdownRef.current?.scrollIntoView({
                 behavior: 'smooth',
-                block: 'start'
+                block: 'start',
             });
         } else {
             setIsClicked(true);
@@ -32,18 +33,26 @@ export const Home = () => {
                 <meta name="description" content="Isa Robertini is an artist and web developer. Contact for more information." />
             </Helmet>
 
+            {/* Container */}
             <div className={`w-screen h-screen ${isClicked ? 'overflow-auto' : 'overflow-hidden'} transition-all duration-500 ease-in-out`}>
-                {/* Dashed Background */}
-                <div className={`dashed-background ${isClicked ? 'faded-background' : ''}`}></div>
+
+                {/* Vertical dashed line */}
+                <div className="vertical-white-line"></div> {/* Add the vertical line here */}
+                {/* Vertical dashed line */}
+                <div className="vertical-black-line"></div> {/* Add the vertical line here */}
 
                 {/* Heading Section */}
                 <section
                     className={`relative flex items-center justify-center w-full h-screen transition-all duration-500 ease-in-out ${isClicked ? 'white-bg' : 'bg-black'}`}
                 >
-                    <div className='room-border relative flex items-center justify-center'>
-                        <div className='room-border-content'>
+
+                    {/* Vertical dashed line */}
+                    <div className="vertical-black-line"></div> {/* Add the vertical line here */}
+
+                    <div className="room-border relative flex items-center justify-center">
+                        <div className="room-border-content">
                             <HeadingComponent
-                                text={isClicked ? "" : "Isa Robertini"}
+                                text={isClicked ? '' : 'Isa Robertini'}
                                 isClicked={isClicked}
                                 onClick={handleHeadingClick}
                             />
@@ -59,7 +68,7 @@ export const Home = () => {
                 )}
 
                 {/* Dropdown Section */}
-                <div className='bg-black flex items-center justify-center w-full h-screen '>
+                <div className="bg-black flex items-center justify-center w-full h-screen">
                     <section
                         ref={dropdownRef}
                         className={`flex items-center justify-center w-full ${isClicked ? 'white-bg' : 'black-bg'}`}
@@ -72,17 +81,21 @@ export const Home = () => {
                     </section>
                 </div>
 
-                {/* Section works */}
-                <CriticalMomentsComponent />
+                <div className="bg-black h-auto">
+                    <CriticalMomentsComponent />
+                </div>
+                <div className="bg-black h-auto">
+                    <ContentShows />
+                </div>
 
                 {/* Section Contact */}
-                <div className='bg-black flex flex-col items-center justify-center w-full h-screen'>
-                    <div className='text-white text-2xl mb-4'>
+                <div className="bg-black flex flex-col items-center justify-center w-full h-screen">
+                    <div className="text-white text-2xl mb-4">
                         <ParagraphComponent className="text-white" text="Contact" />
                     </div>
 
                     {/* Paragraph Component Below the Menus */}
-                    <div className='border-dashed border-y-2 border-white text-white p-3'>
+                    <div className="border-dashed border-y-2 border-white text-white p-3">
                         <a href="mailto:robertiniisa@gmail.com" className="hover:text-slate-600">
                             robertiniisa@gmail.com
                         </a>

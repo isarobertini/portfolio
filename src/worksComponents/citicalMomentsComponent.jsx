@@ -47,21 +47,21 @@ export const CriticalMomentsComponent = () => {
 
     return (
         <>
-
-
             {/* Section works */}
 
-            <div className='bg-black flex flex-col items-center justify-center w-full h-screen'>
+            <div className='z-40 flex flex-col items-center justify-center'>
 
-                <div className='px-6 flex flex-col items-center justify-center w-full h-screen'>
+                <div className='px-6 flex flex-col'>
 
                     <SubHeadingComponent className="text-white" text='Critical Moments' />
-                    <ParagraphComponent className="text-white" text="Kannski Gallery" />
+                    <ParagraphComponent className="text-white">
+                        <a href="https://www.gallerykannski.com/" target="_blank" rel="noopener noreferrer">Gallery Kannski</a>
+                    </ParagraphComponent>
                     <ParagraphComponent className="text-white" text="Duo-exhibition with J.Pasila" />
-                    <ParagraphComponent className="text-white" text="curated by Sadie Cook and Diljá Þorvaldsdóttir" />
+                    <ParagraphComponent className="z-40 text-white" text="curated by Sadie Cook and Diljá Þorvaldsdóttir" />
                     <ImageComponent className="my-4 w-80 h-auto" src={floorplan} />
 
-                    <div className='bg-black h-auto text-amber-400 italic h-screen'>
+                    <div className='bg-black h-auto text-amber-400 h-screen'>
 
                         <ParagraphPopUpComponent text="1- Political - overview, detail, installation">
                             {/* Popup content - images */}

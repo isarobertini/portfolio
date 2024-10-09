@@ -47,7 +47,7 @@ export const ParagraphPopUpComponent = ({ children, text, className, style, ...r
         <>
             {/* Trigger paragraph */}
             <p
-                className={`${className} bg-black p-2 cursor-pointer`}
+                className={`${className} p-2 z-50 relative cursor-pointer`}
                 style={style}
                 onClick={handleClick}
                 {...rest}
