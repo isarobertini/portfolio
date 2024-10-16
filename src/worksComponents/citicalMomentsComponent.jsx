@@ -49,7 +49,7 @@ export const CriticalMomentsComponent = () => {
         <>
             {/* Section works */}
 
-            <div className='z-40 flex flex-col items-center justify-center'>
+            <div className='flex flex-col items-center justify-center'>
 
                 <div className='px-6 flex flex-col'>
 

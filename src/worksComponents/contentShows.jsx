@@ -37,8 +37,10 @@ export const ContentShows = () => {
                         <ImageComponent className="p-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 h-auto" src={content2} />
                         <ImageComponent className="p-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 h-auto" src={content3} />
                         <ImageComponent className="p-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 h-auto" src={content4} />
-                    </div>
 
+                        <SubHeadingComponent className="text-white">Participaring artists:</SubHeadingComponent>
+                        <ParagraphComponent className="text-white">Aftab Soltani, Agnes Lindheim, Amie Okenfors, Annie McKellborg, Arvid Kraft, Astrid Schäffer, Adam Ameline, Beatrice Fransson, Ebba Olsson, Edvin Cedergren, Emil Söderberg, Emma Stihl, Erik Karlsson, Erik Mattsson, Eskil Hagman, Felicia Ling, Felicia Ljunggren Stanberg, Greta Pielage, Gustav Danielssonsbacka, Hampus Karlsson, Hedda Bauer, Hedda Svanegård, Hedvig Schroeder, Ivan Johansson, Izola Johansson, John Dexter Zetterquist, John Ström Betilov, Jonathan Stanberg, Kassam Abdel Mallak, Kit Simpson, Lasse Eriksson, Leon Dahlström, Leonie Björhsholm, Levi Ungsgaard, Linn Björhedom, Linnea Hilding, Maja Oldefors, Maja Rut Eriksson, Maja Sandbl, Molly Fagerberg, Noah Nordenstam, Olga Kardell, Olivia Bratton, Sahar Armandi, Sara Bessa, Sextor Lindquist, Simba Sinkkonen, Sofia Lindhe, Sofia Träff, Solen Alii, Stella Q Wilmer, Tea Berghund, Tea Besglund, Tilde Bengtsson Älgeby, Vera Montelius, Vincent Marl.</ParagraphComponent>
+                    </div>
 
                 </div>
                 <div className='px-6'>
