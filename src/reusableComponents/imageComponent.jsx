@@ -18,7 +18,7 @@ export const ImageComponent = ({ src, alt, className, style, ...rest }) => {
             <img
                 src={src}
                 alt={alt}
-                className={`relative z-10 cursor-pointer ${className}`} // Added cursor pointer
+                className={`z-50 relative cursor-pointer ${className}`} // Added cursor pointer
                 style={style}
                 onClick={handleImageClick} // Open modal on click
                 {...rest}
@@ -37,7 +37,7 @@ export const ImageComponent = ({ src, alt, className, style, ...rest }) => {
                         <img
                             src={src}
                             alt={alt}
-                            className="max-w-full max-h-screen" // Ensure the image fits within the screen
+                            className="max-w-full  max-h-screen " // Ensure the image fits within the screen
                         />
                     </div>
                 </div>

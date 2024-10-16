@@ -18,6 +18,8 @@ export const ContentShows = () => {
 
     return (
         <>
+            <meta name="description" content="The Content Shows, curated by Isa Robertini at Folkteatern Göteborg, featuring artists such as Astrid Schütter, Hedda Bauer, Leonie Dahlström, Aftab Soltani, and more." />
+
             {/* Section works */}
 
             <div className='flex flex-col items-center justify-center'>
@@ -39,7 +41,7 @@ export const ContentShows = () => {
                         <ImageComponent className="p-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 h-auto" src={content4} />
 
                         <SubHeadingComponent className="text-white">Participaring artists:</SubHeadingComponent>
-                        <ParagraphComponent className="text-white">Aftab Soltani, Agnes Lindheim, Amie Okenfors, Annie McKellborg, Arvid Kraft, Astrid Schäffer, Adam Ameline, Beatrice Fransson, Ebba Olsson, Edvin Cedergren, Emil Söderberg, Emma Stihl, Erik Karlsson, Erik Mattsson, Eskil Hagman, Felicia Ling, Felicia Ljunggren Stanberg, Greta Pielage, Gustav Danielssonsbacka, Hampus Karlsson, Hedda Bauer, Hedda Svanegård, Hedvig Schroeder, Ivan Johansson, Izola Johansson, John Dexter Zetterquist, John Ström Betilov, Jonathan Stanberg, Kassam Abdel Mallak, Kit Simpson, Lasse Eriksson, Leon Dahlström, Leonie Björhsholm, Levi Ungsgaard, Linn Björhedom, Linnea Hilding, Maja Oldefors, Maja Rut Eriksson, Maja Sandbl, Molly Fagerberg, Noah Nordenstam, Olga Kardell, Olivia Bratton, Sahar Armandi, Sara Bessa, Sextor Lindquist, Simba Sinkkonen, Sofia Lindhe, Sofia Träff, Solen Alii, Stella Q Wilmer, Tea Berghund, Tea Besglund, Tilde Bengtsson Älgeby, Vera Montelius, Vincent Marl.</ParagraphComponent>
+                        <ParagraphComponent className="text-white">Aftab Soltani, Agnes Lindheim, Amie Okenfors, Annie Mo Kellborg, Arvid Kraft, Astrid Schütter, Adam Ameline, Beatrice Fransson, Ebba Olsson, Edvin Cedergren, Emil Söderberg, Emma Stihl, Erik Karlsson, Erik Mattsson, Eskil Hagman, Felicia Ling, Felicia Ljunggren Stanberg, Greta Pielage, Gustav Danielssonbacka, Hampus Karlsson, Hedda Bauer, Hedda Sonnegård, Hedvig Schroeder, Ivan Johansson, Izola Johansson, John Dexter Zetterquist, John Ström Betilov, Jonathan Stanberg, Kassam Abdel Mallak, Kit Simpson, Lasse Eriksson, Leonie Dahlström, Leonie Björhsholm, Levi Ungsgaard, Linn Björheden, Linnea Hilding, Maja Oldefors, Maja Rut Eriksson, Molly Fagerberg, Noah Nordenstam, Olga Kardell, Olivia Brothén, Sahar Armandi, Sara Bessa, Sexter Lindquist, Simba Sinkkonen, Selma Lindhe, Sofia Träff, Solen Alii,Stella Wireen Lindman, Stella Q Wilmer, Tea Berghund, Tea Besglund, Tilde Bengtsson Älgeby, Vera Montelius, Vincent Maiari.</ParagraphComponent>
                     </div>
 
                 </div>
