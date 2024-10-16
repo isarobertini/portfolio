@@ -112,6 +112,15 @@ export const ContentShows = () => {
                             Isa Robertini
                         </ParagraphComponent>
                     </ParagraphPopUpComponent>
+
+                    <div className='flex flex-row pt-8'>
+                        <ParagraphComponent className="bg-radiating-gradient bg-clip-text text-transparent animate-radiate">
+                            <a href="https://www.folkteatern.se/events/the-content-shows" target="_blank" rel="noopener noreferrer">
+                                Link to project
+                            </a>
+                        </ParagraphComponent>
+                    </div>
+
                 </div>
             </div>
 

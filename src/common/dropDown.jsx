@@ -2,19 +2,15 @@ import { Fade } from 'react-awesome-reveal';
 import { useState } from 'react';
 import { ParagraphComponent } from '../reusableComponents/paragraphComponent';
 
-
-export const DropDownMenu = () => {
-    // State to manage the visibility of dropdown menus and tooltips
+export const DropDownMenu = ({ onLatestClick }) => {
     const [isMenu1Open, setMenu1Open] = useState(false);
     const [isMenu2Open, setMenu2Open] = useState(false);
     const [showArtTooltip, setShowArtTooltip] = useState(false);
     const [showWebsitesTooltip, setShowWebsitesTooltip] = useState(false);
 
-    // Toggle function for each menu
     const toggleMenu1 = () => setMenu1Open(!isMenu1Open);
     const toggleMenu2 = () => setMenu2Open(!isMenu2Open);
 
-    // Close menus when clicking outside
     const closeMenus = () => {
         setMenu1Open(false);
         setMenu2Open(false);
@@ -24,9 +20,7 @@ export const DropDownMenu = () => {
 
     return (
         <Fade>
-
             <div className="font-mono flex flex-col items-center justify-center" onClick={closeMenus}>
-
                 <div className="flex space-x-6 relative" onClick={(e) => e.stopPropagation()}>
                     {/* First Dropdown Menu */}
                     <div className="relative inline-block text-left">
@@ -34,7 +28,7 @@ export const DropDownMenu = () => {
                             onClick={toggleMenu1}
                             onMouseEnter={() => setShowArtTooltip(true)}
                             onMouseLeave={() => setShowArtTooltip(false)}
-                            className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-black border-dashed border-y-2  shadow-sm hover:border-sky-500"
+                            className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-black border-dashed border-y-2 shadow-sm hover:border-sky-500"
                         >
                             Art
                             <svg
@@ -52,7 +46,7 @@ export const DropDownMenu = () => {
                             </svg>
                         </button>
                         {isMenu1Open && (
-                            <div className="absolute left-0 z-10 w-44 mt-2 origin-top-left bg-black border-dashed border-y-2 border-sky-500 shadow-sm hover:border-white">
+                            <div className="absolute left-0 z-10 w-44 mt-2 origin-top-left bg-black border-dashed border-y-2 shadow-sm hover:border-white">
                                 <div className="py-1">
                                     <a
                                         href="https://www.instagram.com/isarobertini/"
@@ -61,6 +55,16 @@ export const DropDownMenu = () => {
                                         className="block px-4 py-2 text-sm text-white"
                                     >
                                         Instagram
+                                    </a>
+                                </div>
+                                <div className="py-1">
+                                    {/* Trigger the scroll to Critical Moments when 'Latest' is clicked */}
+                                    <a
+                                        href="#"
+                                        onClick={onLatestClick}
+                                        className="block px-4 py-2 text-sm text-white border-dashed border-t-2"
+                                    >
+                                        Latest
                                     </a>
                                 </div>
                             </div>
@@ -79,7 +83,7 @@ export const DropDownMenu = () => {
                             onClick={toggleMenu2}
                             onMouseEnter={() => setShowWebsitesTooltip(true)}
                             onMouseLeave={() => setShowWebsitesTooltip(false)}
-                            className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-black border-dashed border-y-2  shadow-sm hover:border-sky-500"
+                            className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-black border-dashed border-y-2 shadow-sm hover:border-sky-500"
                         >
                             Websites
                             <svg
@@ -126,7 +130,6 @@ export const DropDownMenu = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </Fade>
     );

@@ -12,17 +12,20 @@ import './border.css';
 
 export const Home = () => {
     const [isClicked, setIsClicked] = useState(false);
-    const dropdownRef = useRef(null);
+
+    // Ref for Critical Moments component
+    const criticalMomentsRef = useRef(null);
 
     const handleHeadingClick = () => {
-        if (isClicked) {
-            dropdownRef.current?.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start',
-            });
-        } else {
-            setIsClicked(true);
-        }
+        setIsClicked(true);
+    };
+
+    // Scroll handler for the dropdown to scroll to the CriticalMomentsComponent
+    const scrollToCriticalMoments = () => {
+        criticalMomentsRef.current?.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+        });
     };
 
     return (
@@ -37,18 +40,13 @@ export const Home = () => {
             <div className={`w-screen h-screen ${isClicked ? 'overflow-auto' : 'overflow-hidden'} transition-all duration-500 ease-in-out`}>
 
                 {/* Vertical dashed line */}
-                <div className="vertical-white-line"></div> {/* Add the vertical line here */}
-                {/* Vertical dashed line */}
-                <div className="vertical-black-line"></div> {/* Add the vertical line here */}
+                <div className="vertical-white-line"></div>
+                <div className="vertical-black-line"></div>
 
                 {/* Heading Section */}
                 <section
                     className={`relative flex items-center justify-center w-full h-screen transition-all duration-500 ease-in-out ${isClicked ? 'white-bg' : 'bg-black'}`}
                 >
-
-                    {/* Vertical dashed line */}
-                    <div className="vertical-black-line"></div> {/* Add the vertical line here */}
-
                     <div className="room-border relative flex items-center justify-center">
                         <div className="room-border-content">
                             <HeadingComponent
@@ -62,33 +60,33 @@ export const Home = () => {
 
                 {/* Gradient Spacer */}
                 {isClicked && (
-                    <div className="relative w-full h-32 bg-gradient-to-b from-white to-black">
-                        {/* Gradient effect */}
-                    </div>
+                    <div className="relative w-full h-32 bg-gradient-to-b from-white to-black"></div>
                 )}
 
                 {/* Dropdown Section */}
                 <div className="bg-black flex items-center justify-center w-full h-screen">
                     <section
-                        ref={dropdownRef}
                         className={`flex items-center justify-center w-full ${isClicked ? 'white-bg' : 'black-bg'}`}
                     >
                         {isClicked && (
                             <div className="dropdown-border flex items-center justify-center">
-                                <DropDownMenu />
+                                {/* Pass the scroll handler to DropDownMenu */}
+                                <DropDownMenu onLatestClick={scrollToCriticalMoments} />
                             </div>
                         )}
                     </section>
                 </div>
 
-                <div className="bg-black h-auto">
+                {/* Critical Moments Section */}
+                <div ref={criticalMomentsRef} className="bg-black h-auto">
                     <CriticalMomentsComponent />
                 </div>
+
                 <div className="bg-black h-auto">
                     <ContentShows />
                 </div>
 
-                {/* Section Contact */}
+                {/* Contact Section */}
                 <div className="bg-black flex flex-col items-center justify-center w-full h-screen">
                     <div className="text-white text-2xl mb-4">
                         <ParagraphComponent className="text-white" text="Contact" />

@@ -54,6 +54,7 @@ export const CriticalMomentsComponent = () => {
                 <div className='px-6 flex flex-col'>
 
                     <SubHeadingComponent className="text-white" text='Critical Moments' />
+
                     <ParagraphComponent className="text-white">
                         <a href="https://www.gallerykannski.com/" target="_blank" rel="noopener noreferrer">Gallery Kannski</a>
                     </ParagraphComponent>
@@ -166,7 +167,14 @@ export const CriticalMomentsComponent = () => {
                                 Isa Robertini
                             </ParagraphComponent>
                         </ParagraphPopUpComponent>
+
+                        <div className='pt-8'>
+                            <ParagraphComponent className="bg-radiating-gradient bg-clip-text text-transparent animate-radiate">
+                                <a href="https://www.gallerykannski.com/previousshows" target="_blank" rel="noopener noreferrer">Link to project</a>
+                            </ParagraphComponent>
+                        </div>
                     </div>
+
                 </div>
             </div>
 
