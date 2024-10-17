@@ -1,3 +1,4 @@
+// src/reusableComponents/ParagraphPopUpComponent.js
 import React, { useState, useEffect } from 'react';
 import Lottie from 'react-lottie';
 
@@ -47,7 +48,7 @@ export const ParagraphPopUpComponent = ({ children, text, className, style, ...r
         <>
             {/* Trigger paragraph */}
             <p
-                className={`${className} p-2 z-40 relative cursor-pointer`}
+                className={`${className} p-2 z-20 relative cursor-pointer`} // Set a lower z-index for the paragraph text
                 style={style}
                 onClick={handleClick}
                 {...rest}
@@ -60,12 +61,12 @@ export const ParagraphPopUpComponent = ({ children, text, className, style, ...r
                 <>
                     {/* Semi-transparent backdrop */}
                     <div
-                        className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-40 popup-backdrop"
+                        className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-10 popup-backdrop" // Set a lower z-index for the backdrop
                         onClick={handleClosePopup}
                     ></div>
 
                     {/* Popup content */}
-                    <div className="m-4 fixed inset-0 flex items-center justify-center z-50">
+                    <div className="m-4 fixed inset-0 flex items-center justify-center z-30">
                         <div className="text-slate-700 bg-white p-4 shadow-lg max-w-md w-full max-h-[90vh] overflow-y-auto">
                             {/* Loading animation */}
                             {isLoading ? (

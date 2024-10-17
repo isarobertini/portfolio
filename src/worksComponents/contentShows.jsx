@@ -114,6 +114,7 @@ export const ContentShows = () => {
                     </ParagraphPopUpComponent>
 
                     <div className='flex flex-row pt-8'>
+
                         <ParagraphComponent className="bg-radiating-gradient bg-clip-text text-transparent animate-radiate">
                             <a href="https://www.folkteatern.se/events/the-content-shows" target="_blank" rel="noopener noreferrer">
                                 Link to project

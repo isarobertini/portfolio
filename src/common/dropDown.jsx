@@ -28,7 +28,7 @@ export const DropDownMenu = ({ onLatestClick }) => {
                             onClick={toggleMenu1}
                             onMouseEnter={() => setShowArtTooltip(true)}
                             onMouseLeave={() => setShowArtTooltip(false)}
-                            className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-black border-dashed border-y-2 shadow-sm hover:border-sky-500"
+                            className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-black border-dashed border-y-2 shadow-sm hover:text-gray-300"
                         >
                             Art
                             <svg
@@ -46,7 +46,7 @@ export const DropDownMenu = ({ onLatestClick }) => {
                             </svg>
                         </button>
                         {isMenu1Open && (
-                            <div className="absolute left-0 z-10 w-44 mt-2 origin-top-left bg-black border-dashed border-y-2 shadow-sm hover:border-white">
+                            <div className="absolute left-0 z-10 w-44 mt-2 origin-top-left bg-black border-dashed border-y-2 shadow-sm hover:border-gray-300">
                                 <div className="py-1">
                                     <a
                                         href="https://www.instagram.com/isarobertini/"
@@ -71,7 +71,7 @@ export const DropDownMenu = ({ onLatestClick }) => {
                         )}
                         {/* Art Tooltip */}
                         <div
-                            className={`absolute bottom-40 left-0 mt-2 px-2 py-1 text-sm text-white bg-black transition-opacity duration-1000  ${showArtTooltip ? 'opacity-100' : 'opacity-0'}`}
+                            className={`absolute bottom-40 left-0 mt-2 px-2 py-1 text-sm text-amber-400 bg-black transition-opacity duration-1000  ${showArtTooltip ? 'opacity-100' : 'opacity-0'}`}
                         >
                             View selected artworks
                         </div>
@@ -83,7 +83,7 @@ export const DropDownMenu = ({ onLatestClick }) => {
                             onClick={toggleMenu2}
                             onMouseEnter={() => setShowWebsitesTooltip(true)}
                             onMouseLeave={() => setShowWebsitesTooltip(false)}
-                            className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-black border-dashed border-y-2 shadow-sm hover:border-sky-500"
+                            className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-black border-dashed border-y-2 shadow-sm hover:border-gray-300"
                         >
                             Websites
                             <svg
@@ -107,7 +107,7 @@ export const DropDownMenu = ({ onLatestClick }) => {
                                         href="https://tuanissurfschool.com/"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="block px-4 py-2 text-sm text-white border-dashed border-t-2 border-sky-500 shadow-sm hover:border-white"
+                                        className="block px-4 py-2 text-sm text-white border-dashed border-t-2 border-gray-300 shadow-sm hover:border-white"
                                     >
                                         Tuanis Surf School
                                     </a>
@@ -115,7 +115,7 @@ export const DropDownMenu = ({ onLatestClick }) => {
                                         href="https://bellybellybread.com"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="block px-4 py-2 text-sm text-white border-dashed border-y-2 border-sky-500 shadow-sm hover:border-white"
+                                        className="block px-4 py-2 text-sm text-white border-dashed border-y-2 border-gray-300 shadow-sm hover:border-white"
                                     >
                                         Belly Belly Bread
                                     </a>
@@ -124,7 +124,7 @@ export const DropDownMenu = ({ onLatestClick }) => {
                         )}
                         {/* Websites Tooltip */}
                         <div
-                            className={`absolute top-60 left-3 mt-2 px-2 py-1 text-sm text-white bg-black transition-opacity duration-1000 ${showWebsitesTooltip ? 'opacity-100' : 'opacity-0'}`}
+                            className={`absolute top-60 left-3 mt-2 px-2 py-1 text-sm text-amber-400 bg-black transition-opacity duration-1000 ${showWebsitesTooltip ? 'opacity-100' : 'opacity-0'}`}
                         >
                             Visit sites built by me
                         </div>
