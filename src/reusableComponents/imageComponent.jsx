@@ -1,15 +1,16 @@
-// src/reusableComponents/ImageComponent.js
 import React, { useState } from 'react';
 
 export const ImageComponent = ({ src, alt, className, style, ...rest }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
-    const handleImageClick = () => {
-        setIsModalOpen(true);
+    const handleImageClick = (event) => {
+        // Prevent dropdown from closing when the image is clicked
+        event.stopPropagation();  // Stop click event from propagating to the parent
+        setIsModalOpen(true); // Open the modal
     };
 
     const handleCloseModal = () => {
-        setIsModalOpen(false);
+        setIsModalOpen(false); // Close the modal
     };
 
     return (
@@ -18,7 +19,7 @@ export const ImageComponent = ({ src, alt, className, style, ...rest }) => {
             <img
                 src={src}
                 alt={alt}
-                className={`z-30 relative cursor-pointer ${className}`} // Lower z-index for the image itself
+                className={`z-30 cursor-pointer ${className}`} // Lower z-index for the image itself
                 style={style}
                 onClick={handleImageClick} // Open modal on click
                 {...rest}
@@ -30,14 +31,14 @@ export const ImageComponent = ({ src, alt, className, style, ...rest }) => {
                     <div className="relative p-4">
                         <button
                             onClick={handleCloseModal}
-                            className="absolute top-4 right-5 text-black text-2xl z-60" // Higher z-index for the close button
+                            className="absolute top-4 right-5 text-blue-700 text-2xl z-60" // Close button
                         >
                             &times; {/* Close button */}
                         </button>
                         <img
                             src={src}
                             alt={alt}
-                            className="max-w-full max-h-screen" // Ensure the image fits within the screen
+                            className="max-w-screen max-h-screen object-contain" // Ensure the image fits within the screen
                         />
                     </div>
                 </div>

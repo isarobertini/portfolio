@@ -8,10 +8,6 @@ import { SubHeadingComponent } from '../reusableComponents/subHeadingComponent';
 import '../reusableComponents/styles.css'; // Import your CSS here
 import '../pages/border.css';
 
-import content1 from "../assets/contentShows/content1.jpg"
-import content2 from "../assets/contentShows/content2.png"
-import content3 from "../assets/contentShows/content3.jpg"
-import content4 from "../assets/contentShows/content4.jpg"
 
 export const ContentShows = () => {
 
@@ -24,32 +20,12 @@ export const ContentShows = () => {
 
             <div className='flex flex-col items-center justify-center'>
 
-                <div className='px-7'>
-                    <SubHeadingComponent className="text-white">The Content Shows</SubHeadingComponent>
-                    <ParagraphComponent className="text-white">
-                        <a href="https://www.folkteatern.se/events/the-content-shows" target="_blank" rel="noopener noreferrer">Folkteatern Göteborg</a>
-                    </ParagraphComponent>
-                    <ParagraphComponent className="text-white">curated by Isa Robertini</ParagraphComponent>
-                    <ParagraphComponent className="text-white">A series of shows documented in text - thinking about sculpture</ParagraphComponent>
-                </div>
 
-                <div className='flex flex flex-col'>
-                    <div className='flex flex-wrap p-6'>
-                        <ImageComponent className="p-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 h-auto" src={content1} />
-                        <ImageComponent className="p-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 h-auto" src={content2} />
-                        <ImageComponent className="p-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 h-auto" src={content3} />
-                        <ImageComponent className="p-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 h-auto" src={content4} />
-
-                        <SubHeadingComponent className="text-white">Participaring artists:</SubHeadingComponent>
-                        <ParagraphComponent className="text-white">Aftab Soltani, Agnes Lindheim, Amie Okenfors, Annie Mo Kellborg, Arvid Kraft, Astrid Schütter, Adam Ameline, Beatrice Fransson, Ebba Olsson, Edvin Cedergren, Emil Söderberg, Emma Stihl, Erik Karlsson, Erik Mattsson, Eskil Hagman, Felicia Ling, Felicia Ljunggren Stanberg, Greta Pielage, Gustav Danielssonbacka, Hampus Karlsson, Hedda Bauer, Hedda Sonnegård, Hedvig Schroeder, Ivan Johansson, Izola Johansson, John Dexter Zetterquist, John Ström Betilov, Jonathan Stanberg, Kassam Abdel Mallak, Kit Simpson, Lasse Eriksson, Leonie Dahlström, Leonie Björhsholm, Levi Ungsgaard, Linn Björheden, Linnea Hilding, Maja Oldefors, Maja Rut Eriksson, Molly Fagerberg, Noah Nordenstam, Olga Kardell, Olivia Brothén, Sahar Armandi, Sara Bessa, Sexter Lindquist, Simba Sinkkonen, Selma Lindhe, Sofia Träff, Solen Alii,Stella Wireen Lindman, Stella Q Wilmer, Tea Berghund, Tea Besglund, Tilde Bengtsson Älgeby, Vera Montelius, Vincent Maiari.</ParagraphComponent>
-                    </div>
-
-                </div>
                 <div className='px-6'>
                     {/* Popup content - text */}
                     <ParagraphPopUpComponent className="text-amber-400" text="1. Text on a pilar">
                         {/* Popup content - images */}
-                        <ParagraphComponent>
+                        <p>
                             In 2023 I contacted an artistic institution in Sweden proposing that I curate an exhibition about curatorial processes in artistic institutions. The institution responded that they were interested, and we set up an online meeting to discuss it further. During that meeting I pointed out that this is not going to be an exhibition about institutional critique since it's not logical to participate in an exhibition, take advantage of the institution’s benefits and call it critique. Instead, I framed it as an experimental project, even though the idea came to me in hopelessness and anger after once again meeting a male artist at the after-party, after once again seeing one of his works. Outside the artist's entrance, he looked at me and told me that he had a genius idea - he was going to create a work about the drama at the Swedish Academy but with Harry Potter characters instead of the actual ones.<br /><br />
                             So, I referred to it as an experimental project when I pitched it to the institution. It's about employment processes in the art world and alternative ways of addressing them. I raised questions like who gets employed and why. We often talk so much about artistic quality but rarely about our repetitive behavior of selecting the famous as an object and assigning artistic quality to it. Explicitly, it takes good judgment (the famous) to create good content (artistic quality).
                             During the meeting, I brought up how we often think that good judgment is based on what we know, or how much we know, rather than the act of exploring what we don’t know, and how to handle that. I referred to Jonna Bornemark's book “Horisonten finns alltid kvar: om det bortglömda omdömet” which translates to something like “The horizon is always there: about the forgotten judgment”. In the very beginning, Bornemark writes about a sea with small islands. When one arrives at the first island, they immediately explore it meticulously, discovering one rock, one tree, and one flower. Then there's the horizon, which can always be seen from any island. Bornemark describes the horizon as a symbolic wall where our knowledge ends and hides new unexplored islands. Even if one were brave enough to visit all the islands around the sea, the first one wouldn't look the same when returning to it. Therefore, science is a mass that is constantly moving and should be defined, revalued, and explored at every moment, not treated as a constant object (the island) with an assigned value (a beautiful beach). In the same way, 'the famous' and its 'artistic quality' should be defined, revalued, and explored continuously.<br /><br />
@@ -58,7 +34,7 @@ export const ContentShows = () => {
 
                             <br /> <br />
 
-                        </ParagraphComponent>
+                        </p>
                         <ParagraphComponent className="font-bold">
                             Text on a pilar<br />
                         </ParagraphComponent>

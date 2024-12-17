@@ -1,4 +1,3 @@
-// src/reusableComponents/ParagraphPopUpComponent.js
 import React, { useState, useEffect } from 'react';
 import Lottie from 'react-lottie';
 
@@ -44,11 +43,20 @@ export const ParagraphPopUpComponent = ({ children, text, className, style, ...r
         },
     };
 
+    // Helper function to render text with line breaks
+    const renderTextWithLineBreaks = (text) => {
+        return text.split('\n').map((line, index) => (
+            <p key={index} className="mb-2">
+                {line}
+            </p>
+        ));
+    };
+
     return (
         <>
             {/* Trigger paragraph */}
             <p
-                className={`${className} p-2 z-20 relative cursor-pointer`} // Set a lower z-index for the paragraph text
+                className={`${className} text-sm cursor-pointer`} // Set a lower z-index for the paragraph text
                 style={style}
                 onClick={handleClick}
                 {...rest}
@@ -75,6 +83,9 @@ export const ParagraphPopUpComponent = ({ children, text, className, style, ...r
                                 </div>
                             ) : (
                                 <>
+                                    {/* Render the processed text with line breaks */}
+                                    {renderTextWithLineBreaks(text)}
+
                                     {/* Render the content passed as children */}
                                     {children}
 
