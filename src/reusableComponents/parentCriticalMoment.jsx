@@ -49,7 +49,7 @@ export const ParentCriticalMoment = () => {
     };
 
     return (
-        <div className="mt-4">
+        <div className="">
             {workData.map((section) => (
                 <SectionComponent
                     key={section.id}

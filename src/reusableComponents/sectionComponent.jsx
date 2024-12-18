@@ -13,7 +13,7 @@ export const SectionComponent = ({
     highlighted,
 }) => {
     return (
-        <div className="mb-6">
+        <div className="mb-2">
             {/* Title and Expand Button */}
             <div className="flex justify-between items-center cursor-pointer" onClick={() => onToggle(id)}>
                 <ParagraphComponent

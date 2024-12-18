@@ -27,9 +27,9 @@ export const ParentContentShow = () => {
     };
 
     return (
-        <div className="p-4">
+        <div className="">
             {contentShowData.map((content) => (
-                <div key={content.id} className="mb-6">
+                <div key={content.id} className="mb-2">
                     {/* Title and Toggle Button */}
                     <div
                         className="cursor-pointer flex justify-between items-center"
