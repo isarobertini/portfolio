@@ -15,10 +15,14 @@ export const SectionComponent = ({
     return (
         <div className="mb-2">
             {/* Title and Expand Button */}
-            <div className="flex justify-between items-center cursor-pointer" onClick={() => onToggle(id)}>
+            <div
+                className="flex justify-between items-center cursor-pointer"
+                onClick={() => onToggle(id)}
+            >
+                {/* Pass highlighted as a prop to ParagraphComponent */}
                 <ParagraphComponent
                     text={`${title}, ${description}`}
-                    className={highlighted ? 'text-blue-700 text-xl tracking-widest' : ''}
+                    highlighted={highlighted} // Use highlighted state directly
                 />
                 <ExpandCollapseButton isExpanded={isExpanded} onClick={() => onToggle(id)} />
             </div>

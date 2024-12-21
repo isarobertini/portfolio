@@ -19,7 +19,7 @@ export const ImageComponent = ({ src, alt, className, style, ...rest }) => {
             <img
                 src={src}
                 alt={alt}
-                className={`z-30 cursor-pointer ${className}`} // Lower z-index for the image itself
+                className={`z-10 cursor-pointer ${className}`} // Lower z-index for the image itself
                 style={style}
                 onClick={handleImageClick} // Open modal on click
                 {...rest}

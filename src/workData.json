@@ -1,7 +1,7 @@
 [
     {
         "id": "1symbolic",
-        "title": "Symbolic, ",
+        "title": "Symbolic",
         "description": "Sculpture, 10cm < x < 60cm, 2024\nMetal object found at a house of a grandmother, milled wheat, water, durum wheat semolina, squid ink.",
         "images": [
             {
@@ -20,7 +20,7 @@
     },
     {
         "id": "2symbolic",
-        "title": "Symbolic, ",
+        "title": "Symbolic",
         "description": "Sculpture, 10cm < x < 60cm, 2024\nMetal object found at a house of a grandmother, a pen found in a gallery, milled wheat, water, durum wheat semolina.",
         "images": [
             {
@@ -35,7 +35,7 @@
     },
     {
         "id": "political",
-        "title": "Political, ",
+        "title": "Political",
         "description": "Sculpture, 10cm < x < 60cm, 2024\nMetal object found at a house of a grandmother, milled wheat, water, durum wheat semolina, squid ink.",
         "images": [
             {
@@ -58,7 +58,7 @@
     },
     {
         "id": "critical",
-        "title": "Critical, ",
+        "title": "Critical",
         "description": "Sculpture, 10cm < x < 60cm, 2024\nMetal object found at a house of a grandmother, milled wheat, water, durum wheat semolina, squid ink.",
         "images": [
             {
@@ -81,7 +81,7 @@
     },
     {
         "id": "criticalpolitical",
-        "title": "Critical, Political, ",
+        "title": "Critical, Political",
         "description": "Sculpture, 10cm < x < 60cm, 2024\nA functional architectural element, milled wheat, water, durum wheat semolina.",
         "images": [
             {
