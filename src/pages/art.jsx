@@ -29,7 +29,7 @@ export const Art = () => {
                 <br /><br />
                 Together, the artists create a simple, hallucinatory exhibition reflecting on the temporality of the spaces we find ourselves in.</p>
 
-            <ParagraphComponent className="cursor-pointer text-blue-700 text-xl tracking-widest">
+            <ParagraphComponent className="pt-4 cursor-pointer text-blue-700 text-base font-bold">
                 <a href="https://www.gallerykannski.com/previousshows" target="_blank" rel="noopener noreferrer">
                     Link to project
                 </a>
@@ -45,12 +45,6 @@ export const Art = () => {
                 The Content Shows was a series of four artistic interventions curated by Isa Robertini, focusing on the tension between artistic freedom and institutional structures. Hosted at Folkteatern in Gothenburg, Sweden, the exhibitions invited artists from various disciplines through an open call with a first-come, first-served sign-up process, deliberately disregarding fame and success.
                 <br /><br />
                 The exhibitions, titled "When Everything of Essence Has Already Been Said", "More Songs Than Philosophy", "Completely Empty of Content", and "There Is Something Called Acting", sought to question the hierarchical system of institutions that typically prioritize well-known artists for the sake of perceived artistic quality. By removing these conventional gatekeeping structures, The Content Shows explored whether true artistic freedom is possible in such a context.</p>
-
-            <ParagraphComponent className="cursor-pointer text-blue-700 text-xl tracking-widest">
-                <a href="https://www.folkteatern.se/events/the-content-shows" target="_blank" rel="noopener noreferrer">
-                    Link to project
-                </a>
-            </ParagraphComponent >
 
             <div className="mt-4">
                 <h3>Artists Featured:</h3>
@@ -71,7 +65,7 @@ export const Art = () => {
                         <li key={index}>{artist}</li>
                     ))}
                 </ul>
-                <ParagraphComponent className="cursor-pointer text-blue-700 text-xl tracking-widest">
+                <ParagraphComponent className="pt-4 cursor-pointer text-blue-700 text-base font-bold">
                     <a href="https://www.folkteatern.se/events/the-content-shows" target="_blank" rel="noopener noreferrer">
                         Link to project
                     </a>

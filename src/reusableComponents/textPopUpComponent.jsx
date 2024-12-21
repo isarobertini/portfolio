@@ -30,11 +30,11 @@ export const TextPopUpComponent = ({ text, className, style, isPopupVisible, set
 
                     {/* Popup content */}
                     <div className="m-4 fixed inset-0 flex items-center justify-center z-30">
-                        <div className="relative text-slate-700 bg-white p-4 shadow-lg max-w-md w-full max-h-[90vh] overflow-y-auto">
+                        <div className="border-double border-8 border-blue-700 relative text-slate-700 bg-white p-4 shadow-lg max-w-md w-full max-h-[90vh] overflow-y-auto">
                             {/* Close button in the top-right corner */}
                             <button
                                 onClick={() => setIsPopupVisible(false)}
-                                className="absolute top-2 right-2 text-gray-800 bg-transparent hover:bg-blue-700 p-4"
+                                className="absolute top-2 right-2 text-gray-800 bg-transparent transition-all duration-300 ease-in-out hover:bg-blue-700 p-2"
                             >
                                 &times;
                             </button>

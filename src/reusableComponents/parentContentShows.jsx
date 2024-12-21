@@ -22,46 +22,45 @@ export const ParentContentShow = () => {
     const toggleSection = (id) => {
         setExpandedSections((prev) => ({
             ...prev,
-            [id]: !prev[id], // Toggle the specific section's expanded state
+            [id]: !prev[id], // Toggle the section's expanded state
         }));
     };
 
     return (
-        <div className="">
+        <div>
             {contentShowData.map((content) => (
                 <div key={content.id} className="mb-2">
-                    {/* Title and Toggle Button */}
+                    {/* Title with Highlighting */}
                     <div
                         className="cursor-pointer flex justify-between items-center"
-                        onClick={() => toggleSection(content.id)} // Clicking anywhere in this div toggles the section
+                        onClick={() => toggleSection(content.id)}
                     >
                         <ParagraphComponent
                             text={`${content.title}, ${content.details}`}
-                            highlighted={!!expandedSections[content.id]} // Pass highlighted state
+                            highlighted={!!expandedSections[content.id]} // Apply highlighting dynamically
                         />
                         <ExpandCollapseButton
                             isExpanded={expandedSections[content.id]}
                             onClick={(e) => {
-                                e.stopPropagation(); // Prevent the paragraph's click handler from triggering
-                                toggleSection(content.id); // Toggle the section when the button is clicked
+                                e.stopPropagation(); // Prevent event propagation
+                                toggleSection(content.id);
                             }}
                         />
                     </div>
 
-                    {/* Expanded Content */}
+                    {/* Expanded Section */}
                     {expandedSections[content.id] && (
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
-                            {/* Render Images */}
+                            {/* Images */}
                             {content.images.map((image, index) => (
                                 <ImageComponent
                                     key={index}
-                                    src={imageMap[image.src]} // Resolve the image source
+                                    src={imageMap[image.src]}
                                     alt={image.alt}
                                     className="mb-4 w-full h-auto"
                                 />
                             ))}
-
-                            {/* Render Description Fields Dynamically */}
+                            {/* Description Fields */}
                             <div className="col-span-2">
                                 {Object.entries(content.description).map(([key, value]) => (
                                     <p key={key}>

@@ -62,7 +62,7 @@ export const ParentCriticalMoment = () => {
                     }))}
                     isExpanded={!!expandedSections[section.id]}
                     onToggle={toggleSection}
-                    highlighted={!!expandedSections[section.id]} // Highlight the title/description if expanded
+                    highlighted={!!expandedSections[section.id]} // Highlight title/description if expanded
                 />
             ))}
         </div>
