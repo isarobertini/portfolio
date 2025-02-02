@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import { Helmet } from 'react-helmet';
 
-import { NavigationMenu } from '../common/navigationMenu';
-
 import '../reusableComponents/styles.css';
 import './border.css';
 
@@ -22,27 +20,54 @@ export const Home = () => {
             {/* Container */}
             <div className="w-auto transition-all duration-500 ease-in-out">
                 {/* Dropdown Section */}
-                <div className="flex flex-col items-center justify-center w-full h-auto">
+                <div className="flex flex-col items-center justify-center w-full h-full">
 
-                    {/* Tab Buttons */}
-                    <NavigationMenu activeTab={activeTab} setActiveTab={setActiveTab} />
+                    {/* Titles List */}
+                    <div className='mx-8'>
+                        <div className='my-4'>
+                            <h2 className="text-l font-bold">Titles:</h2>
+                            <ul className="text-sm list-disc pl-5">
+                                <li>Symbolic</li>
+                                <li>Critical</li>
+                                <li>Cultural</li>
+                                <li>Political</li>
+                                <li>Durum wheat semolina, water, squid ink</li>
+                                <li>Spaghetti al Nero di Seppia, Fregula</li>
+                            </ul>
+                        </div>
 
-                    {/* Lottie Player */}
-                    <div className="mt-6">
-                        <dotlottie-player
-                            src="https://lottie.host/15146925-887d-4ac1-a6f2-49d339109699/FCrlKZhKiz.lottie"
-                            background="transparent"
-                            speed="1"
-                            style={{ width: '300px', height: '300px' }}
-                            loop
-                            autoplay
-                        ></dotlottie-player>
-                    </div>
-                    {/* Contact */}
-                    <div className="text-black p-3 mt-4">
-                        <a href="mailto:robertiniisa@gmail.com" className="font-serif p-2 text-2xl text-blue-700">
-                            robertiniisa@gmail.com
-                        </a>
+                        {/* Dimensions List */}
+                        <div className='my-4'>
+                            <h2 className="text-l font-bold">Dimensions:</h2>
+                            <ul className="text-sm list-disc pl-5">
+                                <li>30x30 cm</li>
+                                <li>15x30 cm</li>
+                                <li>50x30 cm</li>
+                                <li>60x60 cm</li>
+                                <li>05x15 cm</li>
+                            </ul>
+                        </div>
+
+                        {/* Years List */}
+                        <div className='my-4'>
+                            <h2 className="text-l font-bold">Years:</h2>
+                            <ul className="text-sm list-disc pl-5">
+                                <li>2024</li>
+                                <li>2025</li>
+                            </ul>
+                        </div>
+
+                        {/* Materials List */}
+                        <div className='my-4'>
+                            <h2 className="text-l font-bold">Materials:</h2>
+                            <ul className="text-sm list-disc pl-5">
+                                <li>A part of a door lock found at a house of a grandmother, durum wheat semolina, water, squid ink.</li>
+                                <li>A circular metal object with decorative elements, durum wheat semolina, water, squid ink.</li>
+                                <li>Metal object found at a house of a grandmother, durum wheat semolina, water, squid ink.</li>
+                                <li>Durum wheat semolina, water, squid ink.</li>
+                                <li>Spaghetti al Nero di Seppia, Fregula.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

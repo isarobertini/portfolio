@@ -1,0 +1,109 @@
+[
+    {
+        "id": "1symbolic",
+        "title": "Symbolic",
+        "description": "Sculpture",
+        "dimensions": "40x30cm",
+        "material_description": "Metal object found at a house of a grandmother, milled wheat, water, durum wheat semolina, squid ink.",
+        "year": 2024,
+        "exhibition": "Critical Moments, Gallery Kannski",
+        "images": [
+            {
+                "src": "./assets/citicalMoments/symbolicInstallation.webp",
+                "alt": "Symbolic Sculpture Installation"
+            },
+            {
+                "src": "./assets/citicalMoments/symbolic.webp",
+                "alt": "Symbolic Sculpture"
+            },
+            {
+                "src": "./assets/citicalMoments/symbolicDetail.webp",
+                "alt": "Close-up of Symbolic Sculpture"
+            }
+        ]
+    },
+    {
+        "id": "2symbolic",
+        "title": "Symbolic",
+        "description": "Sculpture",
+        "dimensions": "40x30cm",
+        "material_description": "Metal object found at a house of a grandmother, a pen found in a gallery, milled wheat, water, durum wheat semolina.",
+        "year": 2024,
+        "exhibition": "Critical Moments, Gallery Kannski",
+        "images": [
+            {
+                "src": "./assets/citicalMoments/symbolic2.webp",
+                "alt": "Symbolic Sculpture 2"
+            },
+            {
+                "src": "../assets/citicalMoments/symbolic2Installation.png",
+                "alt": "Close-up of Symbolic Sculpture 2"
+            }
+        ]
+    },
+    {
+        "id": "political",
+        "title": "Political",
+        "description": "Sculpture",
+        "dimensions": "60x60cm",
+        "material_description": "Metal object found at a house of a grandmother, milled wheat, water, durum wheat semolina, squid ink.",
+        "year": 2024,
+        "exhibition": "Critical Moments, Gallery Kannski",
+        "images": [
+            {
+                "src": "../assets/citicalMoments/politicalVertical.webp",
+                "alt": "Vertical view of Political Sculpture"
+            },
+            {
+                "src": "../assets/citicalMoments/political.webp",
+                "alt": "Political Sculpture"
+            },
+            {
+                "src": "../assets/citicalMoments/politicalCloseUp.webp",
+                "alt": "Close-up of Political Sculpture"
+            },
+            {
+                "src": "../assets/citicalMoments/politicalInstallation.webp",
+                "alt": "Installation of Political Sculpture"
+            }
+        ]
+    },
+    {
+        "id": "critical",
+        "title": "Critical",
+        "description": "Sculpture",
+        "dimensions": "60x60cm",
+        "material_description": "Metal object found at a house of a grandmother, milled wheat, water, durum wheat semolina, squid ink.",
+        "year": 2024,
+        "exhibition": "Critical Moments, Gallery Kannski",
+        "images": [
+            {
+                "src": "../assets/citicalMoments/critical.webp",
+                "alt": "Critical Sculpture"
+            },
+            {
+                "src": "../assets/citicalMoments/criticalDetail.webp",
+                "alt": "Close-up of Critical Sculpture"
+            }
+        ]
+    },
+    {
+        "id": "criticalpolitical",
+        "title": "Critical, Political",
+        "description": "Sculpture",
+        "dimensions": "05x10",
+        "material_description": "A functional architectural element, milled wheat, water, durum wheat semolina.",
+        "year": 2024,
+        "exhibition": "Critical Moments, Gallery Kannski",
+        "images": [
+            {
+                "src": "../assets/citicalMoments/criticalPolitical.webp",
+                "alt": "Critical Political Sculpture"
+            },
+            {
+                "src": "../assets/citicalMoments/criticalPoliticalInstallation.webp",
+                "alt": "Installation of Critical Political Sculpture"
+            }
+        ]
+    }
+]

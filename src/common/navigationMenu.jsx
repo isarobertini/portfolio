@@ -1,33 +1,41 @@
 import { Link, useLocation } from "react-router-dom";
+import { Fade } from "react-awesome-reveal";
 
 export const NavigationMenu = () => {
     const location = useLocation();
 
     return (
         <>
-            <div className="flex flex-row justify-center items-center w-full mt-4">
+            <Fade>
+                <div className="">
+                    <div className="flex flex-row justify-center items-center w-full m-4">
+                        <Link
+                            to="/"
+                            className="bg-black block mx-4 font-sans p-2 text-2xl text-white"
+                        >
+                            Isa Robertini
+                        </Link>
+                    </div>
 
-                <Link
-                    to="/"
-                    className={`display: block mx-4 font-serif p-2 text-2xl text-blue-700 ${location.pathname === '/' ? 'text-blue-700' : ''}`}
-                >
-                    Isa Robertini
-                </Link>
-            </div>
-            <div>
-                <Link
-                    to="/art"
-                    className={`mx-4 p-2 text-lg ${location.pathname === '/art' ? 'underline font-bold text-blue-700' : ''}`}
-                >
-                    Art
-                </Link>
-                <Link
-                    to="/websites"
-                    className={`mx-4 p-2 text-lg ${location.pathname === '/websites' ? 'underline font-bold text-blue-700' : ''}`}
-                >
-                    Websites
-                </Link>
-            </div>
+                    <div className="flex flex-col items-center space-y-2 overflow-visible">
+                        <Link
+                            to="/art"
+                            className={`border-2 border-solid border-black mx-4 my-1 p-2 text-lg leading-normal ${location.pathname === "/art" ? "font-bold text-white bg-black" : ""
+                                }`}
+                        >
+                            Art
+                        </Link>
+                        <Link
+                            to="/websites"
+                            className={`border-2 border-solid border-black mx-4 my-1 p-2 text-lg leading-normal ${location.pathname === "/websites" ? "font-bold text-white bg-black" : ""
+                                }`}
+                        >
+                            Websites
+                        </Link>
+                    </div>
+                </div >
+            </Fade >
+
         </>
     );
 };

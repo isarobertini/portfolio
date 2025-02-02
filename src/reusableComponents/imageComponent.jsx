@@ -31,7 +31,7 @@ export const ImageComponent = ({ src, alt, className, style, ...rest }) => {
                     <div className="relative p-4">
                         <button
                             onClick={handleCloseModal}
-                            className="absolute top-4 right-5 text-blue-700 text-2xl z-60" // Close button
+                            className="absolute top-4 right-5 text-black text-2xl z-60" // Close button
                         >
                             &times; {/* Close button */}
                         </button>
