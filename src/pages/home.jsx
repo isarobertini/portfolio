@@ -27,6 +27,7 @@ export const Home = () => {
                     <div className="flex items-center justify-center gap-x-6">
                         <h1 className="text-4xl sm:text-6xl lg:text-8xl rotate-180 [writing-mode:vertical-rl]">Isa</h1>
                         <h1 className="text-6xl sm:text-8xl lg:text-9xl">Robertini</h1>
+
                     </div>
 
                     {/* Centered Navigation Menu */}
@@ -34,9 +35,19 @@ export const Home = () => {
 
                     {/* Contact Section */}
                     <div className="flex items-center justify-center gap-x-6">
-                        <h1 className="text-2xl sm:text-4xl lg:text-4xl">robertiniisa@gmail.com</h1>
-                        <h1 className="text-sm sm:text-2xl lg:text-2xl rotate-180 [writing-mode:vertical-rl]">Instagram</h1>
+                        {/* Clickable email */}
+
+                        <a href="mailto:robertiniisa@gmail.com" className="text-2xl sm:text-4xl lg:text-4xl">
+                            robertiniisa@gmail.com
+                        </a>
+                        {/* Clickable Instagram link */}
+                        <a href="https://www.instagram.com/isarobertini/" target="_blank" rel="noopener noreferrer" className="text-sm sm:text-2xl lg:text-2xl rotate-180 [writing-mode:vertical-rl]">
+                            Instagram
+                        </a>
+
+
                     </div>
+
                 </div>
 
                 {/* Full-Width Footer */}
