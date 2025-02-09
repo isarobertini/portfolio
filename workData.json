@@ -4,9 +4,12 @@
         "title": "Symbolic",
         "description": "Sculpture",
         "dimensions": "40x30cm",
-        "material_description": "Metal object found at a house of a grandmother, milled wheat, water, durum wheat semolina, squid ink.",
+        "material_description": "Metal object found at a house of a grandmother, durum wheat semolina, water, squid ink.",
         "year": 2024,
-        "exhibition": "Critical Moments, Gallery Kannski",
+        "exhibition": "Critical Moments",
+        "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
+        "gallery": "Gallery Kannski",
+        "credits": "Photo © Sadie Cook",
         "images": [
             {
                 "src": "./assets/citicalMoments/symbolicInstallation.webp",
@@ -27,9 +30,12 @@
         "title": "Symbolic",
         "description": "Sculpture",
         "dimensions": "40x30cm",
-        "material_description": "Metal object found at a house of a grandmother, a pen found in a gallery, milled wheat, water, durum wheat semolina.",
+        "material_description": "Metal object found at a house of a grandmother, durum wheat semolina, water, squid ink.",
         "year": 2024,
-        "exhibition": "Critical Moments, Gallery Kannski",
+        "exhibition": "Critical Moments",
+        "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
+        "gallery": "Gallery Kannski",
+        "credits": "Photo © Sadie Cook",
         "images": [
             {
                 "src": "./assets/citicalMoments/symbolic2.webp",
@@ -46,9 +52,12 @@
         "title": "Political",
         "description": "Sculpture",
         "dimensions": "60x60cm",
-        "material_description": "Metal object found at a house of a grandmother, milled wheat, water, durum wheat semolina, squid ink.",
+        "material_description": "Metal object found at a house of a grandmother, durum wheat semolina, water, squid ink.",
         "year": 2024,
-        "exhibition": "Critical Moments, Gallery Kannski",
+        "exhibition": "Critical Moments",
+        "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
+        "gallery": "Gallery Kannski",
+        "credits": "Photo © Sadie Cook",
         "images": [
             {
                 "src": "../assets/citicalMoments/politicalVertical.webp",
@@ -73,9 +82,12 @@
         "title": "Critical",
         "description": "Sculpture",
         "dimensions": "60x60cm",
-        "material_description": "Metal object found at a house of a grandmother, milled wheat, water, durum wheat semolina, squid ink.",
+        "material_description": "Metal object found at a house of a grandmother, durum wheat semolina, water, squid ink.",
         "year": 2024,
-        "exhibition": "Critical Moments, Gallery Kannski",
+        "exhibition": "Critical Moments",
+        "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
+        "gallery": "Gallery Kannski",
+        "credits": "Photo © Sadie Cook",
         "images": [
             {
                 "src": "../assets/citicalMoments/critical.webp",
@@ -92,9 +104,12 @@
         "title": "Critical, Political",
         "description": "Sculpture",
         "dimensions": "05x10",
-        "material_description": "A functional architectural element, milled wheat, water, durum wheat semolina.",
+        "material_description": "Durum wheat semolina, water, squid ink.",
         "year": 2024,
-        "exhibition": "Critical Moments, Gallery Kannski",
+        "exhibition": "Critical Moments",
+        "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
+        "gallery": "Gallery Kannski",
+        "credits": "Photo © Sadie Cook",
         "images": [
             {
                 "src": "../assets/citicalMoments/criticalPolitical.webp",

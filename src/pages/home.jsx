@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import { Helmet } from 'react-helmet';
 
+import { NavigationMenu } from '../common/navigationMenu';
+import { Footer } from '../common/footer';
 import '../reusableComponents/styles.css';
-import './border.css';
 
 export const Home = () => {
-    const [activeTab, setActiveTab] = useState(null); // State to track which tab is active
+    const [activeTab, setActiveTab] = useState(null);
 
     return (
         <>
@@ -13,62 +14,34 @@ export const Home = () => {
             <Helmet>
                 <title>Isa Robertini</title>
                 <meta name="description" content="Isa Robertini is an artist and web developer. Based in Stockholm, Sweden, Vienna, Austria and Oliba, Italy. Contact for more information." />
-                {/* Adding the script for dotlottie-player */}
                 <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
             </Helmet>
 
-            {/* Container */}
-            <div className="w-auto transition-all duration-500 ease-in-out">
-                {/* Dropdown Section */}
-                <div className="flex flex-col items-center justify-center w-full h-full">
+            {/* Main Content Wrapper */}
+            <div className="border-4 h-screen border-indigo-500 flex flex-col justify-center items-center min-h-screen w-full">
 
-                    {/* Titles List */}
-                    <div className='mx-8'>
-                        <div className='my-4'>
-                            <h2 className="text-l font-bold">Titles:</h2>
-                            <ul className="text-sm list-disc pl-5">
-                                <li>Symbolic</li>
-                                <li>Critical</li>
-                                <li>Cultural</li>
-                                <li>Political</li>
-                                <li>Durum wheat semolina, water, squid ink</li>
-                                <li>Spaghetti al Nero di Seppia, Fregula</li>
-                            </ul>
-                        </div>
+                {/* Centered Content */}
+                <div className="flex flex-col items-center justify-center text-center gap-y-12 flex-grow w-full">
 
-                        {/* Dimensions List */}
-                        <div className='my-4'>
-                            <h2 className="text-l font-bold">Dimensions:</h2>
-                            <ul className="text-sm list-disc pl-5">
-                                <li>30x30 cm</li>
-                                <li>15x30 cm</li>
-                                <li>50x30 cm</li>
-                                <li>60x60 cm</li>
-                                <li>05x15 cm</li>
-                            </ul>
-                        </div>
-
-                        {/* Years List */}
-                        <div className='my-4'>
-                            <h2 className="text-l font-bold">Years:</h2>
-                            <ul className="text-sm list-disc pl-5">
-                                <li>2024</li>
-                                <li>2025</li>
-                            </ul>
-                        </div>
-
-                        {/* Materials List */}
-                        <div className='my-4'>
-                            <h2 className="text-l font-bold">Materials:</h2>
-                            <ul className="text-sm list-disc pl-5">
-                                <li>A part of a door lock found at a house of a grandmother, durum wheat semolina, water, squid ink.</li>
-                                <li>A circular metal object with decorative elements, durum wheat semolina, water, squid ink.</li>
-                                <li>Metal object found at a house of a grandmother, durum wheat semolina, water, squid ink.</li>
-                                <li>Durum wheat semolina, water, squid ink.</li>
-                                <li>Spaghetti al Nero di Seppia, Fregula.</li>
-                            </ul>
-                        </div>
+                    {/* Name Section */}
+                    <div className="flex items-center justify-center gap-x-6">
+                        <h1 className='text-6xl rotate-180 [writing-mode:vertical-rl]'>Isa</h1>
+                        <h1 className='text-8xl'>Robertini</h1>
                     </div>
+
+                    {/* Centered Navigation Menu */}
+                    <NavigationMenu />
+
+                    {/* Contact Section */}
+                    <div className="flex items-center justify-center gap-x-6">
+                        <h1 className='text-4xl'>robertiniisa@gmail.com</h1>
+                        <h1 className='text-2xl rotate-180 [writing-mode:vertical-rl]'>Instagram</h1>
+                    </div>
+                </div>
+
+                {/* Full-Width Footer */}
+                <div className="w-full">
+                    <Footer />
                 </div>
             </div>
         </>

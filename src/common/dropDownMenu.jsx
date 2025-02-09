@@ -3,7 +3,7 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 import { Fade } from "react-awesome-reveal";
 
 import { ImageComponent } from "../reusableComponents/imageComponent";
-import workData from '../../workData.json';
+import workData from "../../workData.json";
 
 export const DropdownMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -28,48 +28,56 @@ export const DropdownMenu = () => {
     const allWorks = workData;
 
     return (
-        <div className="relative inline-block text-left">
+        <div className="relative inline-block text-center w-full mb-36">
             {/* Dropdown Toggle Button */}
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="flex items-center px-4 py-2 border-2 border-black text-lg font-semibold bg-white hover:bg-gray-100 transition"
+                className="flex items-center justify-center px-4 py-2 border-2 border-black text-lg font-semibold bg-white hover:bg-gray-100 transition mx-auto"
             >
-                Filters works by title {isOpen ? <ChevronUp className="ml-2" /> : <ChevronDown className="ml-2" />}
+                Filter works by title {isOpen ? <ChevronUp className="ml-2" /> : <ChevronDown className="ml-2" />}
             </button>
 
             {/* Dropdown Items */}
+
             {isOpen && (
-                <div className="absolute left-0 mt-2 w-40 bg-white border border-black shadow-lg z-20">
+                <div className="my-36 absolute left-1/2 transform -translate-x-1/2 mt-2 w-40 bg-white border border-black shadow-lg z-20 max-h-60 overflow-y-auto">
+
                     {/* "All Works" option */}
                     <div
-                        className={`block px-4 py-2 text-lg cursor-pointer ${selectedTitle === "All Works"
-                            ? "font-bold text-white bg-black"
-                            : "hover:bg-gray-100"
+                        className={`block px-4 py-2 text-lg cursor-pointer ${selectedTitle === "All Works" ? "font-bold text-white bg-black" : "hover:bg-gray-100"
                             }`}
                         onClick={() => handleTitleClick("All Works")}
                     >
                         All Works
                     </div>
 
+
+
                     {/* Title options */}
                     {Object.keys(groupedWorks).map((title) => (
                         <div
                             key={title}
-                            className={`block px-4 py-2 text-lg cursor-pointer ${selectedTitle === title
-                                ? "font-bold text-white bg-black"
-                                : "hover:bg-gray-100"
+                            className={`block px-4 py-2 text-lg cursor-pointer ${selectedTitle === title ? "font-bold text-white bg-black" : "hover:bg-gray-100"
                                 }`}
                             onClick={() => handleTitleClick(title)}
                         >
                             {title}
                         </div>
                     ))}
+                    {/* "No Work" option */}
+                    <div
+                        className={`block px-4 py-2 text-lg cursor-pointer ${selectedTitle === "No Work" ? "font-bold text-white bg-black" : "hover:bg-gray-100"
+                            }`}
+                        onClick={() => handleTitleClick("No Work")}
+                    >
+                        No Work
+                    </div>
                 </div>
             )}
 
             {/* Display Selected Item Data */}
             <div className="mt-4 lg:p-4 border-none z-10">
-                {selectedTitle && (
+                {selectedTitle && selectedTitle !== "No Work" && (
                     <>
                         {/* Display works based on the selection */}
                         {(selectedTitle === "All Works" ? allWorks : groupedWorks[selectedTitle] || []).map((work, index) => (
