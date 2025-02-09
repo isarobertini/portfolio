@@ -18,15 +18,15 @@ export const Home = () => {
             </Helmet>
 
             {/* Main Content Wrapper */}
-            <div className="border-4 h-screen border-indigo-500 flex flex-col justify-center items-center min-h-screen w-full">
+            <div className="h-screen flex flex-col justify-center items-center min-h-screen w-full">
 
                 {/* Centered Content */}
                 <div className="flex flex-col items-center justify-center text-center gap-y-12 flex-grow w-full">
 
                     {/* Name Section */}
                     <div className="flex items-center justify-center gap-x-6">
-                        <h1 className='text-6xl rotate-180 [writing-mode:vertical-rl]'>Isa</h1>
-                        <h1 className='text-8xl'>Robertini</h1>
+                        <h1 className="text-4xl sm:text-6xl lg:text-8xl rotate-180 [writing-mode:vertical-rl]">Isa</h1>
+                        <h1 className="text-6xl sm:text-8xl lg:text-9xl">Robertini</h1>
                     </div>
 
                     {/* Centered Navigation Menu */}
@@ -34,8 +34,8 @@ export const Home = () => {
 
                     {/* Contact Section */}
                     <div className="flex items-center justify-center gap-x-6">
-                        <h1 className='text-4xl'>robertiniisa@gmail.com</h1>
-                        <h1 className='text-2xl rotate-180 [writing-mode:vertical-rl]'>Instagram</h1>
+                        <h1 className="text-2xl sm:text-4xl lg:text-4xl">robertiniisa@gmail.com</h1>
+                        <h1 className="text-sm sm:text-2xl lg:text-2xl rotate-180 [writing-mode:vertical-rl]">Instagram</h1>
                     </div>
                 </div>
 
@@ -47,3 +47,4 @@ export const Home = () => {
         </>
     );
 };
+

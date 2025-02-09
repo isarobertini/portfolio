@@ -100,17 +100,16 @@ export const AlbumGrid = () => {
                 </div>
             )}
 
-            {/* Modal Popup */}
+            {/* Modal Popup (Positioned Fixed and Detached from Scroll) */}
             {modalOpen && (
                 <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-                    <div className="bg-white p-4 max-w-4xl w-full">
+                    <div className="bg-white p-4 max-w-4xl w-full relative z-60"> {/* Ensure modal content is inside a high z-index context */}
                         <div className="flex justify-between">
                             <button onClick={closeModal} className="text-xl font-semibold text-white bg-black p-1">Close</button>
                         </div>
 
-                        {/* Scrollable image grid */}
-                        {/* Scrollable image grid */}
-                        <div className="overflow-y-auto mt-4 max-h-[80vh]"> {/* Adjust max height to be more flexible */}
+                        {/* Modal Content (Scrollable Image Grid) */}
+                        <div className="overflow-y-auto mt-4 max-h-[80vh]">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 {modalImages.map((image, imgIndex) => (
                                     <ImageComponent
@@ -122,8 +121,6 @@ export const AlbumGrid = () => {
                                 ))}
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             )}
