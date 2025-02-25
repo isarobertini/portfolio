@@ -30,7 +30,7 @@ export const NavigationMenu = () => {
                     {/* Art Link */}
                     <Link
                         to="/info"
-                        className={` p-2 text-lg ${location.pathname === "/art" ? "text-blue-700 underline" : "hover:text-blue-700"
+                        className={` p-2 text-lg ${location.pathname === "/info" ? "text-blue-700 underline" : "hover:text-blue-700"
                             }`}
                     >
                         Info

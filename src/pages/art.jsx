@@ -2,7 +2,6 @@ import { useEffect, useRef } from "react";
 import { Fade } from "react-awesome-reveal";
 import { ChevronUp, ChevronDown } from "lucide-react";
 
-import { DropdownMenu } from '../common/dropDownMenu';
 import { NavigationMenu } from "../common/navigationMenu";
 import { AlbumGrid } from "../reusableComponents/AlbumGrid";
 import { CatalogOfVariations } from "../reusableComponents/CatalogOfVariations";
@@ -52,7 +51,7 @@ export const Art = () => {
                 <div className="my-36 font-serif">
                     <h2 className="text-center flex items-center justify-center space-x-2">
                         <ChevronUp className="ml-2 cursor-pointer" onClick={scrollToTop} />
-                        Catalogue of Titles, Years, Dimensions, and Materials for All Works
+                        Sculptural Variations: A Catalog of Dimensions, Materials, and Time
                     </h2>
 
                     {/* Centered Navigation Menu */}
@@ -62,7 +61,7 @@ export const Art = () => {
 
                     <h2 className="text-center flex items-center font-serif justify-center space-x-2">
                         <ChevronDown className="ml-2 cursor-pointer" onClick={scrollToBottom} />
-                        Works documentation by title
+                        Visual Archive of Sculptures Organized by Title
                     </h2>
                 </div>
 

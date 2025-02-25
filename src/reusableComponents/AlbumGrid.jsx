@@ -3,16 +3,14 @@ import { ImageComponent } from "../reusableComponents/imageComponent";
 import workData from "../../workData.json";
 
 export const AlbumGrid = () => {
-    const [selectedTitle, setSelectedTitle] = useState("All Works"); // Default filter
+    const [selectedTitle, setSelectedTitle] = useState(""); // Default to empty string to indicate no title selected
 
     // Group works by title, keeping duplicates separate
     const groupedWorks = workData.map((item, index) => ({ ...item, uniqueKey: `${item.title}-${index}` }));
 
     // Determine which works to display
     let displayedWorks = [];
-    if (selectedTitle === "All Works") {
-        displayedWorks = groupedWorks;
-    } else {
+    if (selectedTitle) {
         displayedWorks = groupedWorks.filter(work => work.uniqueKey === selectedTitle);
     }
 
@@ -20,8 +18,6 @@ export const AlbumGrid = () => {
         <div className="font-serif w-full my-10">
             {/* Filter Buttons */}
             <div className="flex flex-wrap justify-center gap-0 mb-6">
-
-
                 {groupedWorks.map((work) => (
                     <button
                         key={work.uniqueKey}
@@ -34,7 +30,7 @@ export const AlbumGrid = () => {
             </div>
 
             {/* Work Grid */}
-            {selectedTitle !== "No Work" && (
+            {selectedTitle && (
                 <div className="flex flex-wrap justify-center items-start px-4 text-left">
                     {displayedWorks.map((work, index) => (
                         <div key={index} className="border-none p-2 lg:w-2/3">
@@ -58,7 +54,6 @@ export const AlbumGrid = () => {
                         </div>
                     ))}
                 </div>
-
             )}
         </div>
     );
