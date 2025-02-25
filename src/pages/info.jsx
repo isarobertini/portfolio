@@ -1,0 +1,55 @@
+import { Fade } from "react-awesome-reveal";
+import { ChevronUp, ChevronDown } from "lucide-react";
+
+import { NavigationMenu } from "../common/navigationMenu";
+import { SubHeadingComponent } from "../reusableComponents/subHeadingComponent";
+import { Footer } from "../common/footer";
+
+export const Info = () => {
+    return (
+        <>
+            <div>
+                <div className="flex flex-col items-center justify-center h-screen w-full">
+                    <Fade>
+                        <div className="text-center my-10">
+                            {/* Contact Section */}
+                            <div className="font-serif gap-x-6">
+                                {/* Clickable email */}
+
+                                <a href="mailto:robertiniisa@gmail.com" className="block text-2xl sm:text-4xl lg:text-3xl">
+                                    robertiniisa@gmail.com
+                                </a>
+                                {/* Clickable Instagram link */}
+                                <a href="https://www.instagram.com/isarobertini/" target="_blank" rel="noopener noreferrer" className="text-sm sm:text-2xl lg:text-3xl ">
+                                    Instagram
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </Fade>
+
+                    <h2 className="text-center flex items-center justify-center space-x-2"><ChevronUp className="ml-2" />Contact
+                    </h2>
+
+                    {/* Centered Navigation Menu */}
+                    <NavigationMenu />
+
+                    <h2 className="text-center flex items-center font-serif justify-center space-x-2">
+                        <ChevronDown className="ml-2 cursor-pointer" />
+                        Info
+                    </h2>
+                    {/* Clickable Interview Link */}
+                    <div className="m-6 font-serif">
+                        <a href="https://www.les-nouveaux-riches.com/interview-with-isa-robertini/" target="_blank" rel="noopener noreferrer" className="bg-amber-300 text-sm sm:text-2xl lg:text-2xl">
+                            Interview with Isa Robertini by Daniel Lichterwaldt for Les Nouveaux Riches
+                        </a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </>
+    );
+};

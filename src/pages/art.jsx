@@ -47,18 +47,12 @@ export const Art = () => {
                     <CatalogOfVariations />
                 </div>
 
-                {/* Clickable Interview Link */}
-                <div className="m-6 font-serif">
-                    <a href="https://www.les-nouveaux-riches.com/interview-with-isa-robertini/" target="_blank" rel="noopener noreferrer" className="bg-amber-300 text-sm sm:text-2xl lg:text-2xl">
-                        Interview with Isa Robertini by Daniel Lichterwaldt for Les Nouveaux Riches
-                    </a>
-                </div>
 
                 {/* Centered directions */}
                 <div className="my-36 font-serif">
                     <h2 className="text-center flex items-center justify-center space-x-2">
                         <ChevronUp className="ml-2 cursor-pointer" onClick={scrollToTop} />
-                        Catalogue of Variations
+                        Catalogue of Titles, Years, Dimensions, and Materials for All Works
                     </h2>
 
                     {/* Centered Navigation Menu */}
@@ -68,7 +62,7 @@ export const Art = () => {
 
                     <h2 className="text-center flex items-center font-serif justify-center space-x-2">
                         <ChevronDown className="ml-2 cursor-pointer" onClick={scrollToBottom} />
-                        Catalogue of Images
+                        Works documentation by title
                     </h2>
                 </div>
 

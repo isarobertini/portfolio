@@ -15,7 +15,7 @@ export const NavigationMenu = () => {
                         className={`rotate-180 [writing-mode:vertical-rl] p-2 text-lg ${location.pathname === "/" ? "text-blue-700 underline" : "hover:text-blue-700"
                             }`}
                     >
-                        Home
+                        Isa Robertini
                     </Link>
 
                     {/* Art Link */}
@@ -24,9 +24,17 @@ export const NavigationMenu = () => {
                         className={` p-2 text-lg ${location.pathname === "/art" ? "text-blue-700 underline" : "hover:text-blue-700"
                             }`}
                     >
-                        Art
+                        Art & Exhibitions
                     </Link>
 
+                    {/* Art Link */}
+                    <Link
+                        to="/info"
+                        className={` p-2 text-lg ${location.pathname === "/art" ? "text-blue-700 underline" : "hover:text-blue-700"
+                            }`}
+                    >
+                        Info
+                    </Link>
                     {/* Websites Link */}
                     <Link
                         to="/websites"

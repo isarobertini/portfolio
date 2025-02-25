@@ -9,15 +9,15 @@ export const Websites = () => {
     return (
         <>
             <div>
-                <div className="bg-yellow-200 flex flex-col items-center justify-center h-screen w-full">
+                <div className="flex flex-col items-center justify-center h-screen w-full">
                     <Fade>
                         <div className="text-center">
-                            <SubHeadingComponent className="cursor-pointer bg-black block my-2 font-sans p-2 text-2xl text-white">
+                            <SubHeadingComponent className="cursor-pointer  block my-2 font-serif p-2 text-2xl hover:text-blue-700">
                                 <a href="https://tuanissurfschool.com/" target="_blank" rel="noopener noreferrer">
                                     Tuanis Surf School -- visit
                                 </a>
                             </SubHeadingComponent>
-                            <SubHeadingComponent className="cursor-pointer bg-black block my-2 mx-4 font-sans p-2 text-2xl text-white">
+                            <SubHeadingComponent className="cursor-pointer  block my-2 mx-4 font-serif  p-2 text-2xl hover:text-blue-700">
                                 <a href="https://bellybellybread.com/" target="_blank" rel="noopener noreferrer">
                                     Belly Belly Bread -- visit
                                 </a>
@@ -32,7 +32,7 @@ export const Websites = () => {
                     <NavigationMenu />
 
                 </div>
-                <Footer />
+
             </div>
         </>
     );

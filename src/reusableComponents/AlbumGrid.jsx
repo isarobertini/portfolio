@@ -17,15 +17,10 @@ export const AlbumGrid = () => {
     }
 
     return (
-        <div className="text-center font-serif w-full my-10">
+        <div className="font-serif w-full my-10">
             {/* Filter Buttons */}
-            <div className="flex flex-wrap justify-center gap-2 mb-6">
-                <button
-                    onClick={() => setSelectedTitle("All Works")}
-                    className={`px-4 py-2 text-lg ${selectedTitle === "All Works" ? "underline text-blue-700 italic" : "hover:underline"}`}
-                >
-                    All Works
-                </button>
+            <div className="flex flex-wrap justify-center gap-0 mb-6">
+
 
                 {groupedWorks.map((work) => (
                     <button
