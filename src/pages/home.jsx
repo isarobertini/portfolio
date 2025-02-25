@@ -13,20 +13,20 @@ export const Home = () => {
             {/* Helmet for SEO and meta tags */}
             <Helmet>
                 <title>Isa Robertini</title>
-                <meta name="description" content="Isa Robertini is an artist and web developer. Based in Stockholm, Sweden, Vienna, Austria and Oliba, Italy. Contact for more information." />
+                <meta name="description" content="Isa Robertini is an artist and web developer. Based in Stockholm, Sweden, Vienna, Austria and Olbia, Italy. Contact for more information." />
                 <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
             </Helmet>
 
             {/* Main Content Wrapper */}
-            <div className="h-screen flex flex-col justify-center items-center min-h-screen w-full">
+            <div className="h-screen flex font-serif flex-col justify-center items-center min-h-screen w-full">
 
                 {/* Centered Content */}
                 <div className="flex flex-col items-center justify-center text-center gap-y-12 flex-grow w-full">
 
                     {/* Name Section */}
                     <div className="flex items-center justify-center gap-x-6">
-                        <h1 className="text-4xl sm:text-6xl lg:text-8xl rotate-180 [writing-mode:vertical-rl]">Isa</h1>
-                        <h1 className="text-6xl sm:text-8xl lg:text-9xl">Robertini</h1>
+                        <h1 className="text-4xl sm:text-6xl lg:text-4xl rotate-180 [writing-mode:vertical-rl]">Isa</h1>
+                        <h1 className="text-6xl sm:text-8xl lg:text-5xl">Robertini</h1>
 
                     </div>
 
@@ -34,10 +34,10 @@ export const Home = () => {
                     <NavigationMenu />
 
                     {/* Contact Section */}
-                    <div className="flex items-center justify-center gap-x-6">
+                    <div className="font-serif flex items-center justify-center gap-x-6">
                         {/* Clickable email */}
 
-                        <a href="mailto:robertiniisa@gmail.com" className="text-2xl sm:text-4xl lg:text-4xl">
+                        <a href="mailto:robertiniisa@gmail.com" className="text-2xl sm:text-4xl lg:text-3xl">
                             robertiniisa@gmail.com
                         </a>
                         {/* Clickable Instagram link */}
@@ -52,7 +52,7 @@ export const Home = () => {
 
                 {/* Full-Width Footer */}
                 <div className="w-full">
-                    <Footer />
+
                 </div>
             </div>
         </>

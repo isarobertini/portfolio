@@ -7,12 +7,12 @@ export const NavigationMenu = () => {
     return (
         <Fade>
             {/* Center the navigation row */}
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center font-serif items-center">
                 <div className="flex flex-row items-center space-x-2">
                     {/* Home Link */}
                     <Link
                         to="/"
-                        className={`rotate-180 [writing-mode:vertical-rl] border-2 border-black p-2 text-lg ${location.pathname === "/" ? "font-bold text-white bg-black" : ""
+                        className={`rotate-180 [writing-mode:vertical-rl] p-2 text-lg ${location.pathname === "/" ? "text-blue-700 underline" : "hover:text-blue-700"
                             }`}
                     >
                         Home
@@ -21,7 +21,7 @@ export const NavigationMenu = () => {
                     {/* Art Link */}
                     <Link
                         to="/art"
-                        className={`border-2 border-black p-2 text-lg ${location.pathname === "/art" ? "font-bold text-white bg-black" : ""
+                        className={` p-2 text-lg ${location.pathname === "/art" ? "text-blue-700 underline" : "hover:text-blue-700"
                             }`}
                     >
                         Art
@@ -30,7 +30,7 @@ export const NavigationMenu = () => {
                     {/* Websites Link */}
                     <Link
                         to="/websites"
-                        className={`rotate-20 [writing-mode:vertical-rl] border-2 border-black p-2 text-lg ${location.pathname === "/websites" ? "font-bold text-white bg-black" : ""
+                        className={`rotate-20 [writing-mode:vertical-rl] p-2 text-lg ${location.pathname === "/websites" ? "text-blue-700 underline" : "hover:text-blue-700"
                             }`}
                     >
                         Websites

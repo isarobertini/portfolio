@@ -10,7 +10,7 @@ export const CatalogOfVariations = () => {
     const sortedByMaterial = [...new Set(workData.map(work => work.material_description))].sort();
 
     return (
-        <div className="">
+        <div className="font-serif">
             <h1 className="text-3xl text-center font-bold my-6">Catalog of Variations</h1>
 
             <div className="flex justify-center">
