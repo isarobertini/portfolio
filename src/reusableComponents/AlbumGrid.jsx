@@ -14,6 +14,13 @@ export const AlbumGrid = () => {
         displayedWorks = groupedWorks.filter(work => work.uniqueKey === selectedTitle);
     }
 
+    // Toggle function to handle click on title
+    const toggleTitle = (uniqueKey) => {
+        setSelectedTitle((prevSelectedTitle) =>
+            prevSelectedTitle === uniqueKey ? "" : uniqueKey
+        );
+    };
+
     return (
         <div className="font-serif w-full my-10">
             {/* Filter Buttons */}
@@ -21,8 +28,8 @@ export const AlbumGrid = () => {
                 {groupedWorks.map((work) => (
                     <button
                         key={work.uniqueKey}
-                        onClick={() => setSelectedTitle(work.uniqueKey)}
-                        className={`px-4 py-2 text-lg italic ${selectedTitle === work.uniqueKey ? "underline text-blue-700 italic" : "bg-white hover:underline"}`}
+                        onClick={() => toggleTitle(work.uniqueKey)} // Use toggle function
+                        className={`px-4 py-2 text-sm ${selectedTitle === work.uniqueKey ? "underline text-blue-700" : "bg-white hover:underline"}`}
                     >
                         {work.title}
                     </button>
@@ -43,12 +50,12 @@ export const AlbumGrid = () => {
 
                                 {/* Text content */}
                                 <div className="mt-2 w-full">
-                                    <p className="text-base italic">{work.title}</p>
-                                    <p className="text-sm">{work.year}</p>
-                                    <p className="text-sm break-words">{work.material_description}</p>
-                                    <p className="text-sm italic text-gray-400">{work.exhibition}</p>
-                                    <p className="text-sm text-gray-400">{work.curator} {work.gallery}</p>
-                                    <p className="text-sm text-gray-400">{work.credits}</p>
+                                    <p className="text-sm italic">{work.title}</p>
+                                    <p className="text-xs">{work.year}</p>
+                                    <p className="text-xs break-words">{work.material_description}</p>
+                                    <p className="text-xs italic text-gray-400">{work.exhibition}</p>
+                                    <p className="text-xs text-gray-400">{work.curator} {work.gallery}</p>
+                                    <p className="text-xs text-gray-400">{work.credits}</p>
                                 </div>
                             </div>
                         </div>

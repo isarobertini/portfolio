@@ -43,7 +43,7 @@ export const Art = () => {
             {/* Art Content */}
             <Fade>
                 <div>
-                    <CatalogOfVariations />
+                    <AlbumGrid />
                 </div>
 
 
@@ -51,7 +51,7 @@ export const Art = () => {
                 <div className="my-36 font-serif">
                     <h2 className="text-center flex items-center justify-center space-x-2">
                         <ChevronUp className="ml-2 cursor-pointer" onClick={scrollToTop} />
-                        Sculptural Variations: A Catalog of Dimensions, Materials, and Time
+                        Works Organized by Title
                     </h2>
 
                     {/* Centered Navigation Menu */}
@@ -61,12 +61,13 @@ export const Art = () => {
 
                     <h2 className="text-center flex items-center font-serif justify-center space-x-2">
                         <ChevronDown className="ml-2 cursor-pointer" onClick={scrollToBottom} />
-                        Visual Archive of Sculptures Organized by Title
+                        Others
                     </h2>
                 </div>
 
                 {/* Works */}
-                <AlbumGrid />
+
+                <CatalogOfVariations />
             </Fade>
 
         </>

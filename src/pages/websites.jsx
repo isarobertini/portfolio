@@ -12,14 +12,20 @@ export const Websites = () => {
                 <div className="flex flex-col items-center justify-center h-screen w-full">
                     <Fade>
                         <div className="text-center">
-                            <SubHeadingComponent className="cursor-pointer  block my-2 font-serif p-2 text-2xl hover:text-blue-700">
+                            <SubHeadingComponent className="cursor-pointer  block my-2 font-serif italic p-2 text-sm text-blue-700 hover:underline">
                                 <a href="https://tuanissurfschool.com/" target="_blank" rel="noopener noreferrer">
-                                    Tuanis Surf School -- visit
+                                    Susanna Maila, Portfolio --> visit
                                 </a>
                             </SubHeadingComponent>
-                            <SubHeadingComponent className="cursor-pointer  block my-2 mx-4 font-serif  p-2 text-2xl hover:text-blue-700">
+
+                            <SubHeadingComponent className="cursor-pointer  block my-2 font-serif p-2 font-serif italic p-2 text-sm text-blue-700 hover:underline">
+                                <a href="https://tuanissurfschool.com/" target="_blank" rel="noopener noreferrer">
+                                    Tuanis Surf School --> visit
+                                </a>
+                            </SubHeadingComponent>
+                            <SubHeadingComponent className="cursor-pointer block my-2 mx-4 font-serif italic p-2 text-sm text-blue-700 hover:underline">
                                 <a href="https://bellybellybread.com/" target="_blank" rel="noopener noreferrer">
-                                    Belly Belly Bread -- visit
+                                    Belly Belly Bread --> visit
                                 </a>
                             </SubHeadingComponent>
                         </div>

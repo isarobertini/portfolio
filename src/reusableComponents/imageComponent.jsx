@@ -38,7 +38,7 @@ export const ImageComponent = ({ src, alt, className, style, ...rest }) => {
                         <img
                             src={src}
                             alt={alt}
-                            className="max-w-screen max-h-screen object-contain" // Ensure the image fits within the screen
+                            className=" object-contain" // Ensure the image fits within the screen
                         />
                     </div>
                 </div>

@@ -16,11 +16,11 @@ export const Info = () => {
                             <div className="font-serif gap-x-6">
                                 {/* Clickable email */}
 
-                                <a href="mailto:robertiniisa@gmail.com" className="block text-2xl sm:text-4xl lg:text-3xl">
+                                <a href="mailto:robertiniisa@gmail.com" className="block italic p-2 text-sm text-blue-700 hover:underline">
                                     robertiniisa@gmail.com
                                 </a>
                                 {/* Clickable Instagram link */}
-                                <a href="https://www.instagram.com/isarobertini/" target="_blank" rel="noopener noreferrer" className="text-sm sm:text-2xl lg:text-3xl ">
+                                <a href="https://www.instagram.com/isarobertini/" target="_blank" rel="noopener noreferrer" className="italic p-2 text-sm text-blue-700 hover:underline">
                                     Instagram
                                 </a>
 
@@ -41,7 +41,7 @@ export const Info = () => {
                     </h2>
                     {/* Clickable Interview Link */}
                     <div className="m-6 font-serif">
-                        <a href="https://www.les-nouveaux-riches.com/interview-with-isa-robertini/" target="_blank" rel="noopener noreferrer" className="bg-amber-300 text-sm sm:text-2xl lg:text-2xl">
+                        <a href="https://www.les-nouveaux-riches.com/interview-with-isa-robertini/" target="_blank" rel="noopener noreferrer" className="italic p-2 text-sm text-blue-700 hover:underline">
                             Interview with Isa Robertini by Daniel Lichterwaldt for Les Nouveaux Riches
                         </a>
                     </div>
