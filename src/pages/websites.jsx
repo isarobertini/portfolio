@@ -13,7 +13,7 @@ export const Websites = () => {
                     <Fade>
                         <div className="text-center">
                             <SubHeadingComponent className="cursor-pointer  block my-2 font-serif italic p-2 text-sm text-blue-700 hover:underline">
-                                <a href="https://tuanissurfschool.com/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://susannamaila.com/" target="_blank" rel="noopener noreferrer">
                                     Susanna Maila, Portfolio --> visit
                                 </a>
                             </SubHeadingComponent>
