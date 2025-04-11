@@ -2,8 +2,6 @@ import { useState } from 'react';
 import { Helmet } from 'react-helmet';
 
 import { NavigationMenu } from '../common/navigationMenu';
-import { Footer } from '../common/footer';
-import '../reusableComponents/styles.css';
 
 export const Home = () => {
     const [activeTab, setActiveTab] = useState(null);

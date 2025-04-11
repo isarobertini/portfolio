@@ -50,7 +50,7 @@ export const AlbumGrid = () => {
                                             key={imgIndex}
                                             src={image.src}
                                             alt={image.alt}
-                                            description={image.description} // <- this is the new field
+                                            description={image.description}
                                             className="py-4"
                                         />
                                     </div>
@@ -61,11 +61,11 @@ export const AlbumGrid = () => {
                                     <p className="text-xs py-2">{work.title}</p>
                                     <p className="text-xs">{work.year}</p>
                                     <p className="text-xs break-words">{work.material_description}</p>
-                                    <p className="pt-4 text-xs text-gray-400">{work.exhibition}</p>
-                                    <p className="text-xs text-gray-400">
-                                        {work.curator}, {work.gallery}
+                                    <p className="pt-4 text-xs">{work.exhibition}</p>
+                                    <p className="text-xs">
+                                        {work.curator} {work.gallery}
                                     </p>
-                                    <p className="text-xs text-gray-400">{work.credits}</p>
+                                    <p className="text-xs">{work.credits}</p>
                                 </div>
                             </div>
                         </div>

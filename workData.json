@@ -208,13 +208,13 @@
         "credits": "Photo © Sadie Cook",
         "images": [
             {
-                "src": "../assets/citicalMoments/criticalPolitical.webp",
-                "alt": "Critical Political Sculpture",
+                "src": "../assets/citicalMoments/criticalPoliticalInstallation.webp",
+                "alt": "Installation of Critical Political Sculpture",
                 "description": ""
             },
             {
-                "src": "../assets/citicalMoments/criticalPoliticalInstallation.webp",
-                "alt": "Installation of Critical Political Sculpture",
+                "src": "../assets/citicalMoments/criticalPolitical.webp",
+                "alt": "Critical Political Sculpture",
                 "description": ""
             }
         ]

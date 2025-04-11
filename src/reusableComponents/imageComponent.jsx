@@ -26,7 +26,7 @@ export const ImageComponent = ({ src, alt, description, className, style, ...res
 
             {/* Show description only when modal is NOT open */}
             {!isModalOpen && description && (
-                <p className="mt-2 text-sm text-left text-gray-600 italic">
+                <p className="mt-2 text-xs text-left">
                     {description}
                 </p>
             )}

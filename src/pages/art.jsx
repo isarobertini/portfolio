@@ -4,8 +4,7 @@ import { ChevronUp, ChevronDown } from "lucide-react";
 
 import { NavigationMenu } from "../common/navigationMenu";
 import { AlbumGrid } from "../reusableComponents/AlbumGrid";
-import { CatalogOfVariations } from "../reusableComponents/CatalogOfVariations";
-import { Footer } from "../common/footer";
+import { OtherWorks } from "../reusableComponents/otherWorks";
 
 export const Art = () => {
     // Create a ref for the NavigationMenu
@@ -67,7 +66,7 @@ export const Art = () => {
 
                 {/* Works */}
 
-                <CatalogOfVariations />
+                <OtherWorks />
             </Fade>
 
         </>

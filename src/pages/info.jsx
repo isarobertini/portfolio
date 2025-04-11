@@ -2,8 +2,6 @@ import { Fade } from "react-awesome-reveal";
 import { ChevronUp, ChevronDown } from "lucide-react";
 
 import { NavigationMenu } from "../common/navigationMenu";
-import { SubHeadingComponent } from "../reusableComponents/subHeadingComponent";
-import { Footer } from "../common/footer";
 
 export const Info = () => {
     return (

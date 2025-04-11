@@ -2,8 +2,6 @@ import { useState } from 'react';
 import './App.css';
 import { BrowserRouter, Routes } from 'react-router-dom';
 import routes from './routes/routes';
-import { NavigationMenu } from './common/navigationMenu';
-import { Footer } from './common/footer';
 
 function App() {
   const [count, setCount] = useState(0);
