@@ -29,7 +29,7 @@ export const Info = () => {
                         </div>
                     </Fade>
 
-                    <h2 className="text-center flex items-center justify-center space-x-2"><ChevronUp className="ml-2" />Contact
+                    <h2 className="text-center flex items-center justify-center space-x-2"><ChevronUp className="ml-2" />contact
                     </h2>
 
                     {/* Centered Navigation Menu */}
@@ -37,7 +37,7 @@ export const Info = () => {
 
                     <h2 className="text-center flex items-center font-serif justify-center space-x-2">
                         <ChevronDown className="ml-2 cursor-pointer" />
-                        Info
+                        info
                     </h2>
                     {/* Clickable Interview Link */}
                     <div className="m-6 font-serif">

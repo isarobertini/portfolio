@@ -51,7 +51,7 @@ export const Art = () => {
                 <div className="my-36 font-serif">
                     <h2 className="text-center flex items-center justify-center space-x-2">
                         <ChevronUp className="ml-2 cursor-pointer" onClick={scrollToTop} />
-                        Works Organized by Title
+                        works organized by title
                     </h2>
 
                     {/* Centered Navigation Menu */}
@@ -61,7 +61,7 @@ export const Art = () => {
 
                     <h2 className="text-center flex items-center font-serif justify-center space-x-2">
                         <ChevronDown className="ml-2 cursor-pointer" onClick={scrollToBottom} />
-                        Others
+                        others works
                     </h2>
                 </div>
 

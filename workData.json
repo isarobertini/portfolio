@@ -1,7 +1,7 @@
 [
     {
         "id": "untitled",
-        "title": "Untitled",
+        "title": "1, 2, 3, 4.8, 5.8, 6.9, 7.9",
         "description": "Sculpture",
         "dimensions": "Multiple Dimensions",
         "material_description": "A part of a door lock found at a house of a grandmother, durum wheat semolina, water, squid ink. A circular metal object with decorative elements, durum wheat semolina, water, squid ink. Spaghetti al Nero di Seppia, Fregula. Durum wheat semolina, water, squid ink.",
@@ -12,106 +12,31 @@
         "credits": "Photo © Isa Robertini",
         "images": [
             {
-                "src": "./assets/rundgang25/9titles1.png",
-                "alt": "Symbolic Sculpture Installation"
+                "src": "./assets/rundgang25/titles.jpg",
+                "alt": "Symbolic Sculpture Installation",
+                "description": "Title overview"
             },
             {
-                "src": "./assets/rundgang25/titles.jpg",
-                "alt": "Close-up of Symbolic Sculpture"
+                "src": "./assets/rundgang25/9titles1.png",
+                "alt": "Close-up of Symbolic Sculpture",
+                "description": ""
             },
             {
                 "src": "./assets/rundgang25/9titles2.png",
-                "alt": "Symbolic Sculpture"
-            }
-        ]
-    },
-    {
-        "id": "cultural_untitled",
-        "title": "Cultural",
-        "description": "Sculpture",
-        "dimensions": "30x30cm",
-        "material_description": "A circular metal object with decorative elements, durum wheat semolina, water, squid ink.",
-        "year": 2025,
-        "exhibition": "Rundgang 2025, Academy of Fine Ars Vienna",
-        "curator": "",
-        "gallery": "",
-        "credits": "Photo © Isa Robertini",
-        "images": [
+                "alt": "Symbolic Sculpture",
+                "description": ""
+            },
             {
                 "src": "./assets/rundgang25/cultural_untitled1.png",
-                "alt": "Symbolic Sculpture Installation"
-            }
-        ]
-    },
-    {
-        "id": "political_untitled",
-        "title": "Political",
-        "description": "Sculpture",
-        "dimensions": "30x30cm",
-        "material_description": "A circular metal object with decorative elements, durum wheat semolina, water, squid ink.",
-        "year": 2025,
-        "exhibition": "Rundgang 2025, Academy of Fine Ars Vienna",
-        "curator": "",
-        "gallery": "",
-        "credits": "Photo © Isa Robertini",
-        "images": [
+                "alt": "Symbolic Sculpture",
+                "material_description": "A circular metal object with decorative elements, durum wheat semolina, water, squid ink.",
+                "description": "Detail: Cultural"
+            },
             {
                 "src": "./assets/rundgang25/political_untitled.png",
-                "alt": "Symbolic Sculpture Installation"
-            }
-        ]
-    },
-    {
-        "id": "durum_untitled",
-        "title": "Durum wheat semolina, water, squid ink",
-        "description": "Sculpture",
-        "dimensions": "30x30cm",
-        "material_description": "Spaghetti al Nero di Seppia, Fregula.",
-        "year": 2025,
-        "exhibition": "Rundgang 2025, Academy of Fine Ars Vienna",
-        "curator": "",
-        "gallery": "",
-        "credits": "Photo © Isa Robertini",
-        "images": [
-            {
-                "src": "./assets/rundgang25/durum_untitled.png",
-                "alt": "Symbolic Sculpture Installation"
-            }
-        ]
-    },
-    {
-        "id": "spaghetti_untitled",
-        "title": "Spaghetti al Nero di Seppia, Fregula",
-        "description": "Sculpture",
-        "dimensions": "30x30cm",
-        "material_description": "Durum wheat semolina, water, squid ink.",
-        "year": 2025,
-        "exhibition": "Rundgang 2025, Academy of Fine Ars Vienna",
-        "curator": "",
-        "gallery": "",
-        "credits": "Photo © Isa Robertini",
-        "images": [
-            {
-                "src": "./assets/rundgang25/spaghetti_untitled.png",
-                "alt": "Symbolic Sculpture Installation"
-            }
-        ]
-    },
-    {
-        "id": "critical_untitled",
-        "title": "Critical",
-        "description": "Sculpture",
-        "dimensions": "30x30cm",
-        "material_description": "A part of a door lock found at a house of a grandmother, durum wheat semolina, water, squid ink.",
-        "year": 2025,
-        "exhibition": "Rundgang 2025, Academy of Fine Ars Vienna",
-        "curator": "",
-        "gallery": "",
-        "credits": "Photo © Isa Robertini",
-        "images": [
-            {
-                "src": "./assets/rundgang25/critical_untitled1.png",
-                "alt": "Symbolic Sculpture Installation"
+                "alt": "Symbolic Sculpture Installation",
+                "material_description": "A circular metal object with decorative elements, durum wheat semolina, water, squid ink.",
+                "description": "Detail: Political"
             }
         ]
     },
@@ -128,16 +53,24 @@
         "credits": "Photo © Isa Robertini",
         "images": [
             {
-                "src": "./assets/rundgang25/longTitle3.png",
-                "alt": "Symbolic Sculpture Installation"
-            },
-            {
-                "src": "./assets/rundgang25/longTitle1.png",
-                "alt": "Symbolic Sculpture"
+                "src": "./assets/rundgang25/longTitle4.png",
+                "alt": "Symbolic Sculpture Installation",
+                "description": ""
             },
             {
                 "src": "./assets/rundgang25/longTitle2.png",
-                "alt": "Close-up of Symbolic Sculpture"
+                "alt": "Symbolic Sculpture",
+                "description": ""
+            },
+            {
+                "src": "./assets/rundgang25/longTitle1.png",
+                "alt": "Close-up of Symbolic Sculpture",
+                "description": ""
+            },
+            {
+                "src": "./assets/rundgang25/longTitle3.png",
+                "alt": "Symbolic Sculpture Installation",
+                "description": ""
             }
         ]
     },
@@ -154,16 +87,24 @@
         "credits": "Photo © Sadie Cook",
         "images": [
             {
-                "src": "./assets/citicalMoments/symbolicInstallation.webp",
-                "alt": "Symbolic Sculpture Installation"
+                "src": "./assets/citicalMoments/symbolicInstallation.png",
+                "alt": "Symbolic Sculpture Installation",
+                "description": ""
             },
             {
-                "src": "./assets/citicalMoments/symbolic.webp",
-                "alt": "Symbolic Sculpture"
+                "src": "./assets/citicalMoments/SymbolicCloseInstall.jpg",
+                "alt": "Symbolic Sculpture Installation",
+                "description": ""
             },
             {
                 "src": "./assets/citicalMoments/symbolicDetail.webp",
-                "alt": "Close-up of Symbolic Sculpture"
+                "alt": "Close-up of Symbolic Sculpture",
+                "description": ""
+            },
+            {
+                "src": "./assets/citicalMoments/symbolic.webp",
+                "alt": "Symbolic Sculpture",
+                "description": ""
             }
         ]
     },
@@ -180,12 +121,14 @@
         "credits": "Photo © Sadie Cook",
         "images": [
             {
-                "src": "./assets/citicalMoments/symbolic2.webp",
-                "alt": "Symbolic Sculpture 2"
+                "src": "../assets/citicalMoments/symbolic2Installation.png",
+                "alt": "Close-up of Symbolic Sculpture 2",
+                "description": ""
             },
             {
-                "src": "../assets/citicalMoments/symbolic2Installation.png",
-                "alt": "Close-up of Symbolic Sculpture 2"
+                "src": "./assets/citicalMoments/symbolic2.webp",
+                "alt": "Symbolic Sculpture 2",
+                "description": ""
             }
         ]
     },
@@ -203,19 +146,23 @@
         "images": [
             {
                 "src": "../assets/citicalMoments/politicalVertical.webp",
-                "alt": "Vertical view of Political Sculpture"
+                "alt": "Vertical view of Political Sculpture",
+                "description": ""
             },
             {
-                "src": "../assets/citicalMoments/political.webp",
-                "alt": "Political Sculpture"
+                "src": "../assets/citicalMoments/political.png",
+                "alt": "Political Sculpture",
+                "description": ""
             },
             {
-                "src": "../assets/citicalMoments/politicalCloseUp.webp",
-                "alt": "Close-up of Political Sculpture"
+                "src": "../assets/citicalMoments/politicalCloseUp.png",
+                "alt": "Close-up of Political Sculpture",
+                "description": ""
             },
             {
                 "src": "../assets/citicalMoments/politicalInstallation.webp",
-                "alt": "Installation of Political Sculpture"
+                "alt": "Installation of Political Sculpture",
+                "description": ""
             }
         ]
     },
@@ -232,12 +179,19 @@
         "credits": "Photo © Sadie Cook",
         "images": [
             {
-                "src": "../assets/citicalMoments/critical.webp",
-                "alt": "Critical Sculpture"
+                "src": "../assets/citicalMoments/criticalInstallation.webp",
+                "alt": "Critical Sculpture",
+                "description": ""
             },
             {
-                "src": "../assets/citicalMoments/criticalDetail.webp",
-                "alt": "Close-up of Critical Sculpture"
+                "src": "../assets/citicalMoments/criticalBehind.jpg",
+                "alt": "Close-up of Critical Sculpture",
+                "description": ""
+            },
+            {
+                "src": "../assets/citicalMoments/criticalDetail.png",
+                "alt": "Close-up of Critical Sculpture",
+                "description": ""
             }
         ]
     },
@@ -255,11 +209,13 @@
         "images": [
             {
                 "src": "../assets/citicalMoments/criticalPolitical.webp",
-                "alt": "Critical Political Sculpture"
+                "alt": "Critical Political Sculpture",
+                "description": ""
             },
             {
                 "src": "../assets/citicalMoments/criticalPoliticalInstallation.webp",
-                "alt": "Installation of Critical Political Sculpture"
+                "alt": "Installation of Critical Political Sculpture",
+                "description": ""
             }
         ]
     }

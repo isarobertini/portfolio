@@ -1,48 +1,58 @@
 import React, { useState } from 'react';
 
-export const ImageComponent = ({ src, alt, className, style, ...rest }) => {
+export const ImageComponent = ({ src, alt, description, className, style, ...rest }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const handleImageClick = (event) => {
-        // Prevent dropdown from closing when the image is clicked
-        event.stopPropagation();  // Stop click event from propagating to the parent
-        setIsModalOpen(true); // Open the modal
+        event.stopPropagation();
+        setIsModalOpen(true);
     };
 
     const handleCloseModal = () => {
-        setIsModalOpen(false); // Close the modal
+        setIsModalOpen(false);
     };
 
     return (
-        <>
-            {/* Image element */}
+        <div className="w-full">
+            {/* Image and description */}
             <img
                 src={src}
                 alt={alt}
-                className={`z-10 cursor-pointer ${className}`} // Lower z-index for the image itself
+                className={`z-10 cursor-pointer ${className}`}
                 style={style}
-                onClick={handleImageClick} // Open modal on click
+                onClick={handleImageClick}
                 {...rest}
             />
 
-            {/* Modal for enlarged image */}
+            {/* Show description only when modal is NOT open */}
+            {!isModalOpen && description && (
+                <p className="mt-2 text-sm text-left text-gray-600 italic">
+                    {description}
+                </p>
+            )}
+
+            {/* Modal (image only on dark background) */}
             {isModalOpen && (
-                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50"> {/* Full-screen modal backdrop */}
-                    <div className="relative p-4">
-                        <button
-                            onClick={handleCloseModal}
-                            className="absolute top-4 right-5 text-black text-2xl z-60" // Close button
-                        >
-                            &times; {/* Close button */}
-                        </button>
-                        <img
-                            src={src}
-                            alt={alt}
-                            className=" object-contain" // Ensure the image fits within the screen
-                        />
-                    </div>
+                <div
+                    className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-90 z-50"
+                    onClick={handleCloseModal}
+                >
+                    <button
+                        onClick={handleCloseModal}
+                        className="absolute top-6 right-6 text-white text-4xl font-light z-50"
+                        aria-label="Close image modal"
+                    >
+                        &times;
+                    </button>
+
+                    <img
+                        src={src}
+                        alt={alt}
+                        className="max-w-full max-h-full object-contain"
+                        onClick={(e) => e.stopPropagation()}
+                    />
                 </div>
             )}
-        </>
+        </div>
     );
 };

@@ -31,7 +31,7 @@ export const Websites = () => {
                         </div>
                     </Fade>
 
-                    <h2 className="text-center flex items-center justify-center space-x-2"><ChevronUp className="ml-2" />Websites
+                    <h2 className="text-center flex items-center justify-center space-x-2"><ChevronUp className="ml-2" />websites
                     </h2>
 
                     {/* Centered Navigation Menu */}

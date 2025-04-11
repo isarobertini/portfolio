@@ -12,7 +12,7 @@ export const NavigationMenu = () => {
                     {/* Home Link */}
                     <Link
                         to="/"
-                        className={`rotate-180 [writing-mode:vertical-rl] p-2 text-lg ${location.pathname === "/" ? "text-blue-700 underline" : "hover:text-blue-700"
+                        className={`rotate-180 [writing-mode:vertical-rl] p-2 text-base ${location.pathname === "/" ? "text-blue-700 underline" : "hover:text-blue-700"
                             }`}
                     >
                         Isa Robertini
@@ -21,27 +21,27 @@ export const NavigationMenu = () => {
                     {/* Art Link */}
                     <Link
                         to="/art"
-                        className={` p-2 text-lg ${location.pathname === "/art" ? "text-blue-700 underline" : "hover:text-blue-700"
+                        className={` p-2 text-base ${location.pathname === "/art" ? "text-blue-700 underline" : "hover:text-blue-700"
                             }`}
                     >
-                        Art & Exhibitions
+                        art & exhibitions
                     </Link>
 
                     {/* Art Link */}
                     <Link
                         to="/info"
-                        className={` p-2 text-lg ${location.pathname === "/info" ? "text-blue-700 underline" : "hover:text-blue-700"
+                        className={` p-2 text-base ${location.pathname === "/info" ? "text-blue-700 underline" : "hover:text-blue-700"
                             }`}
                     >
-                        Info
+                        info
                     </Link>
                     {/* Websites Link */}
                     <Link
                         to="/websites"
-                        className={`rotate-20 [writing-mode:vertical-rl] p-2 text-lg ${location.pathname === "/websites" ? "text-blue-700 underline" : "hover:text-blue-700"
+                        className={`rotate-20 [writing-mode:vertical-rl] p-2 text-base ${location.pathname === "/websites" ? "text-blue-700 underline" : "hover:text-blue-700"
                             }`}
                     >
-                        Websites
+                        websites
                     </Link>
                 </div>
             </div>
