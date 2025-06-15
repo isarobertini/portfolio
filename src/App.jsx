@@ -11,7 +11,7 @@ function App() {
 
 
       {/* Main Content Wrapper */}
-      <div className="">
+      <div className="bg-black">
 
         {/* Main content area */}
         <main className="">

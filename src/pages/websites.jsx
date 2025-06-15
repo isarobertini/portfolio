@@ -4,7 +4,6 @@ import { ChevronUp, ChevronDown } from "lucide-react";
 import { NavigationMenu } from "../common/navigationMenu";
 import { SubHeadingComponent } from "../reusableComponents/subHeadingComponent";
 
-
 export const Websites = () => {
     return (
         <>
