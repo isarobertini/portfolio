@@ -12,7 +12,7 @@ export const NavigationMenu = () => {
                     {/* Home Link */}
                     <Link
                         to="/"
-                        className={`rotate-180 [writing-mode:vertical-rl] p-2 text-base ${location.pathname === "/" ? "text-blue-700 underline" : "hover:text-blue-700"
+                        className={` p-2 text-base ${location.pathname === "/" ? "text-blue-700 underline" : "hover:text-blue-700"
                             }`}
                     >
                         Isa Robertini
@@ -26,6 +26,14 @@ export const NavigationMenu = () => {
                     >
                         art & exhibitions
                     </Link>
+                    {/* Websites Link */}
+                    <Link
+                        to="/websites"
+                        className={` p-2 text-base ${location.pathname === "/websites" ? "text-blue-700 underline" : "hover:text-blue-700"
+                            }`}
+                    >
+                        websites
+                    </Link>
 
                     {/* Art Link */}
                     <Link
@@ -33,16 +41,9 @@ export const NavigationMenu = () => {
                         className={` p-2 text-base ${location.pathname === "/info" ? "text-blue-700 underline" : "hover:text-blue-700"
                             }`}
                     >
-                        info
+                        contact & info
                     </Link>
-                    {/* Websites Link */}
-                    <Link
-                        to="/websites"
-                        className={`rotate-20 [writing-mode:vertical-rl] p-2 text-base ${location.pathname === "/websites" ? "text-blue-700 underline" : "hover:text-blue-700"
-                            }`}
-                    >
-                        websites
-                    </Link>
+
                 </div>
             </div>
         </Fade>

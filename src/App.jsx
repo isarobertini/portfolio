@@ -11,12 +11,13 @@ function App() {
 
 
       {/* Main Content Wrapper */}
-      <div className="">
+      <div className="text-center">
 
         {/* Main content area */}
         <main className="">
           <Routes>{routes}</Routes>
         </main>
+
       </div>
     </BrowserRouter>
   );

@@ -23,7 +23,7 @@ export const AlbumGrid = () => {
     return (
         <div className="font-serif w-full my-10">
             {/* Filter Buttons */}
-            <div className="flex flex-wrap justify-center gap-0 mb-6">
+            <div className="flex flex-wrap gap-0 mb-6">
                 {groupedWorks.map((work) => (
                     <button
                         key={work.uniqueKey}
