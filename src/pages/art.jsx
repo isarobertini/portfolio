@@ -49,16 +49,21 @@ export const Art = () => {
                     {/* Centered Navigation Menu */}
                     <div ref={navMenuRef}>
                         <NavigationMenu />
+
                     </div>
 
+
+                    {/* Works */}
+
+
+                    <AlbumGrid />
+
+                    <OtherWorks />
+
+
                 </div>
-
-                {/* Works */}
-
-                <AlbumGrid />
-
-                <OtherWorks />
             </Fade>
+
 
         </>
     );

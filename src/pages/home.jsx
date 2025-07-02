@@ -18,17 +18,31 @@ export const Home = () => {
 
             {/* Main Content Wrapper */}
             <div className="h-screen flex font-serif flex-col justify-center items-center min-h-screen w-full">
-
                 {/* Centered Content */}
-                <div className="flex flex-col items-center justify-center text-center gap-y-12 flex-grow w-full">
-
-
-
-                    {/* Centered Navigation Menu */}
-                    <NavigationMenu />
-
-
+                <div className="flex flex-col items-center justify-center text-center flex-grow w-full text-blue-700">
+                    <p className="hover:underline">Isa Robertini</p>
+                    <a
+                        href="mailto:robertiniisa@gmail.com"
+                        className="hover:underline"
+                    >
+                        robertiniisa@gmail.com
+                    </a>
+                    <a
+                        href="tel:+46709170174"
+                        className="hover:underline"
+                    >
+                        +46 70 917 0174
+                    </a>
+                    <a
+                        href="https://www.instagram.com/isarobertini"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                    >
+                        Instagram
+                    </a>
                 </div>
+
             </div>
         </>
     );
