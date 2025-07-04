@@ -13,17 +13,17 @@
         "images": [
             {
                 "src": "/assets/diploma/rhombus1.png",
-                "alt": "Sculpture Installation",
+                "alt": "Isa Robertini - art Installation",
                 "description": ""
             },
             {
                 "src": "/assets/diploma/rhombus2.webp",
-                "alt": "Close-up of Sculpture",
+                "alt": "Isa Robertini - Close-up of art",
                 "description": ""
             },
             {
                 "src": "/assets/diploma/diplomaOverview.webp",
-                "alt": "Sculpture",
+                "alt": "Isa Robertini - artwork",
                 "description": "Overview ●♦■"
             },
             {
@@ -33,7 +33,7 @@
             },
             {
                 "src": "/assets/diploma/exhibitionText.webp",
-                "alt": "Sculpture",
+                "alt": "Isa Robertini - artwork",
                 "description": "Exhibition text ●♦■"
             }
         ]
@@ -52,66 +52,22 @@
         "images": [
             {
                 "src": "/assets/diploma/blackSquare1.webp",
-                "alt": "Sculpture Installation",
+                "alt": "Isa Robertini - art Installation",
                 "description": ""
             },
             {
                 "src": "/assets/diploma/blackSquare2.webp",
-                "alt": "Close-up of Sculpture",
+                "alt": "Isa Robertini - artwork",
                 "description": ""
             },
             {
                 "src": "/assets/diploma/diplomaOverview.webp",
-                "alt": "Sculpture",
+                "alt": "Isa Robertini - artwork",
                 "description": "Overview ●♦■"
             },
             {
                 "src": "/assets/diploma/floorplan.webp",
-                "alt": "Sculpture",
-                "description": "Floorplan ●♦■"
-            },
-            {
-                "src": "/assets/diploma/exhibitionText.webp",
-                "alt": "Sculpture",
-                "description": "Exhibition text ●♦■"
-            }
-        ]
-    },
-    {
-        "id": "smallCircle",
-        "title": "●♦■",
-        "description": "Sculpture",
-        "dimensions": "30x10cm",
-        "material_description": "Pasta, metal",
-        "year": 2025,
-        "exhibition": "●♦■",
-        "curator": "Diploma, Academy of Fine Arts Vienna",
-        "gallery": "Sculpture Studios, EG.10, Academy of Fine Arts Vienna, Vienna, Austria, 2025",
-        "credits": "Photo ©Isa Robertini",
-        "images": [
-            {
-                "src": "/assets/diploma/smallCircle1.webp",
-                "alt": "Sculpture Installation",
-                "description": ""
-            },
-            {
-                "src": "/assets/diploma/smallCircle2.webp",
-                "alt": "Close-up of Sculpture",
-                "description": ""
-            },
-            {
-                "src": "/assets/diploma/smallCircleInstall.webp",
-                "alt": "Sculpture Installation",
-                "description": ""
-            },
-            {
-                "src": "/assets/diploma/diplomaOverview.webp",
-                "alt": "Sculpture",
-                "description": "Overview ●♦■"
-            },
-            {
-                "src": "/assets/diploma/floorplan.webp",
-                "alt": "Sculpture",
+                "alt": "Isa Robertini - artwork",
                 "description": "Floorplan ●♦■"
             },
             {
