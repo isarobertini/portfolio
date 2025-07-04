@@ -1,30 +1,372 @@
 [
     {
-        "id": "1symbolic",
-        "title": "Symbolic",
+        "id": "rhombus",
+        "title": "●♦■",
         "description": "Sculpture",
-        "dimensions": "40x30cm",
+        "dimensions": "30x40cm",
         "material_description": "Pasta, metal",
-        "year": 2024,
-        "exhibition": "Critical Moments",
-        "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
-        "gallery": "Gallery Kannski, Reykjavík, Iceland 2024",
-        "credits": "Photo © Sadie Cook",
+        "year": 2025,
+        "exhibition": "●♦■",
+        "curator": "Diploma, Academy of Fine Arts Vienna",
+        "gallery": "Sculpture Studios, EG.10, Academy of Fine Arts Vienna, Vienna, Austria, 2025",
+        "credits": "Photo ©Isa Robertini",
         "images": [
             {
-                "src": "/assets/citicalMoments/symbolicInstallation.png",
-                "alt": "Symbolic Sculpture Installation",
+                "src": "/assets/diploma/rhombus1.png",
+                "alt": "Sculpture Installation",
                 "description": ""
             },
             {
-                "src": "/assets/citicalMoments/symbolicDetail.webp",
-                "alt": "Close-up of Symbolic Sculpture",
+                "src": "/assets/diploma/rhombus2.webp",
+                "alt": "Close-up of Sculpture",
                 "description": ""
             },
             {
-                "src": "/assets/citicalMoments/symbolic.webp",
-                "alt": "Symbolic Sculpture",
+                "src": "/assets/diploma/diplomaOverview.webp",
+                "alt": "Sculpture",
+                "description": "Overview ●♦■"
+            },
+            {
+                "src": "/assets/diploma/floorplan.webp",
+                "alt": "Sculpture",
+                "description": "Floorplan ●♦■"
+            },
+            {
+                "src": "/assets/diploma/exhibitionText.webp",
+                "alt": "Sculpture",
+                "description": "Exhibition text ●♦■"
+            }
+        ]
+    },
+    {
+        "id": "blackSquare",
+        "title": "●♦■",
+        "description": "Sculpture",
+        "dimensions": "80x80cm",
+        "material_description": "Pasta, metal",
+        "year": 2025,
+        "exhibition": "●♦■",
+        "curator": "Diploma, Academy of Fine Arts Vienna",
+        "gallery": "Sculpture Studios, EG.10, Academy of Fine Arts Vienna, Vienna, Austria, 2025",
+        "credits": "Photo ©Isa Robertini",
+        "images": [
+            {
+                "src": "/assets/diploma/blackSquare1.webp",
+                "alt": "Sculpture Installation",
                 "description": ""
+            },
+            {
+                "src": "/assets/diploma/blackSquare2.webp",
+                "alt": "Close-up of Sculpture",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/diplomaOverview.webp",
+                "alt": "Sculpture",
+                "description": "Overview ●♦■"
+            },
+            {
+                "src": "/assets/diploma/floorplan.webp",
+                "alt": "Sculpture",
+                "description": "Floorplan ●♦■"
+            },
+            {
+                "src": "/assets/diploma/exhibitionText.webp",
+                "alt": "Sculpture",
+                "description": "Exhibition text ●♦■"
+            }
+        ]
+    },
+    {
+        "id": "smallCircle",
+        "title": "●♦■",
+        "description": "Sculpture",
+        "dimensions": "30x10cm",
+        "material_description": "Pasta, metal",
+        "year": 2025,
+        "exhibition": "●♦■",
+        "curator": "Diploma, Academy of Fine Arts Vienna",
+        "gallery": "Sculpture Studios, EG.10, Academy of Fine Arts Vienna, Vienna, Austria, 2025",
+        "credits": "Photo ©Isa Robertini",
+        "images": [
+            {
+                "src": "/assets/diploma/smallCircle1.webp",
+                "alt": "Sculpture Installation",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/smallCircle2.webp",
+                "alt": "Close-up of Sculpture",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/smallCircleInstall.webp",
+                "alt": "Sculpture Installation",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/diplomaOverview.webp",
+                "alt": "Sculpture",
+                "description": "Overview ●♦■"
+            },
+            {
+                "src": "/assets/diploma/floorplan.webp",
+                "alt": "Sculpture",
+                "description": "Floorplan ●♦■"
+            },
+            {
+                "src": "/assets/diploma/exhibitionText.webp",
+                "alt": "Sculpture",
+                "description": "Exhibition text ●♦■"
+            }
+        ]
+    },
+    {
+        "id": "goldenCircle",
+        "title": "●♦■",
+        "description": "Sculpture",
+        "dimensions": "30x30cm",
+        "material_description": "Pasta, metal",
+        "year": 2025,
+        "exhibition": "●♦■",
+        "curator": "Diploma, Academy of Fine Arts Vienna",
+        "gallery": "Sculpture Studios, EG.10, Academy of Fine Arts Vienna, Vienna, Austria, 2025",
+        "credits": "Photo ©Isa Robertini",
+        "images": [
+            {
+                "src": "/assets/diploma/goldenCircle1.webp",
+                "alt": "Sculpture Installation",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/goldenCircle2.webp",
+                "alt": "Close-up of Sculpture",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/circlesInstall.webp",
+                "alt": "Sculpture Installation",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/diplomaOverview.webp",
+                "alt": "Sculpture",
+                "description": "Overview ●♦■"
+            },
+            {
+                "src": "/assets/diploma/floorplan.webp",
+                "alt": "Sculpture",
+                "description": "Floorplan ●♦■"
+            },
+            {
+                "src": "/assets/diploma/exhibitionText.webp",
+                "alt": "Sculpture",
+                "description": "Exhibition text ●♦■"
+            }
+        ]
+    },
+    {
+        "id": "smallCircle",
+        "title": "●♦■",
+        "description": "Sculpture",
+        "dimensions": "30x10cm",
+        "material_description": "Pasta, metal",
+        "year": 2025,
+        "exhibition": "●♦■",
+        "curator": "Diploma, Academy of Fine Arts Vienna",
+        "gallery": "Sculpture Studios, EG.10, Academy of Fine Arts Vienna, Vienna, Austria, 2025",
+        "credits": "Photo ©Isa Robertini",
+        "images": [
+            {
+                "src": "/assets/diploma/smallCircle1.webp",
+                "alt": "Sculpture Installation",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/smallCircle2.webp",
+                "alt": "Close-up of Sculpture",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/smallCircleInstall.webp",
+                "alt": "Sculpture Installation",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/diplomaOverview.webp",
+                "alt": "Sculpture",
+                "description": "Overview ●♦■"
+            },
+            {
+                "src": "/assets/diploma/floorplan.webp",
+                "alt": "Sculpture",
+                "description": "Floorplan ●♦■"
+            },
+            {
+                "src": "/assets/diploma/exhibitionText.webp",
+                "alt": "Sculpture",
+                "description": "Exhibition text ●♦■"
+            }
+        ]
+    },
+    {
+        "id": "doorHandle",
+        "title": "●♦■",
+        "description": "Sculpture",
+        "dimensions": "30x30cm",
+        "material_description": "Pasta, metal",
+        "year": 2025,
+        "exhibition": "●♦■",
+        "curator": "Diploma, Academy of Fine Arts Vienna",
+        "gallery": "Sculpture Studios, EG.10, Academy of Fine Arts Vienna, Vienna, Austria, 2025",
+        "credits": "Photo ©Isa Robertini",
+        "images": [
+            {
+                "src": "/assets/diploma/doorHandle1.webp",
+                "alt": "Sculpture Installation",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/doorHandle2.webp",
+                "alt": "Close-up of Sculpture",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/doorHandle3.webp",
+                "alt": "Sculpture",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/diplomaOverview.webp",
+                "alt": "Sculpture",
+                "description": "Overview ●♦■"
+            },
+            {
+                "src": "/assets/diploma/floorplan.webp",
+                "alt": "Sculpture",
+                "description": "Floorplan ●♦■"
+            },
+            {
+                "src": "/assets/diploma/exhibitionText.webp",
+                "alt": "Sculpture",
+                "description": "Exhibition text ●♦■"
+            }
+        ]
+    },
+    {
+        "id": "squareGolden",
+        "title": "●♦■",
+        "description": "Sculpture",
+        "dimensions": "200x70cm",
+        "material_description": "Pasta, metal",
+        "year": 2025,
+        "exhibition": "●♦■",
+        "curator": "Diploma, Academy of Fine Arts Vienna",
+        "gallery": "Sculpture Studios, EG.10, Academy of Fine Arts Vienna, Vienna, Austria, 2025",
+        "credits": "Photo ©Isa Robertini",
+        "images": [
+            {
+                "src": "/assets/diploma/squareGolden.webp",
+                "alt": "Sculpture Installation",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/squareGoldenClose.png",
+                "alt": "Close-up of Sculpture",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/diplomaOverview.webp",
+                "alt": "Sculpture",
+                "description": "Overview ●♦■"
+            },
+            {
+                "src": "/assets/diploma/floorplan.webp",
+                "alt": "Sculpture",
+                "description": "Floorplan ●♦■"
+            },
+            {
+                "src": "/assets/diploma/exhibitionText.webp",
+                "alt": "Sculpture",
+                "description": "Exhibition text ●♦■"
+            }
+        ]
+    },
+    {
+        "id": "blackCircle",
+        "title": "●♦■",
+        "description": "Sculpture",
+        "dimensions": "30x30cm",
+        "material_description": "Pasta, metal",
+        "year": 2025,
+        "exhibition": "●♦■",
+        "curator": "Diploma, Academy of Fine Arts Vienna",
+        "gallery": "Sculpture Studios, EG.10, Academy of Fine Arts Vienna, Vienna, Austria, 2025",
+        "credits": "Photo ©Isa Robertini",
+        "images": [
+            {
+                "src": "/assets/diploma/circleBlackClose.webp",
+                "alt": "Close-up of Sculpture",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/circlesInstall.webp",
+                "alt": "Sculpture Installation",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/diplomaOverview.webp",
+                "alt": "Sculpture",
+                "description": "Overview ●♦■"
+            },
+            {
+                "src": "/assets/diploma/floorplan.webp",
+                "alt": "Sculpture",
+                "description": "Floorplan ●♦■"
+            },
+            {
+                "src": "/assets/diploma/exhibitionText.webp",
+                "alt": "Sculpture",
+                "description": "Exhibition text ●♦■"
+            }
+        ]
+    },
+    {
+        "id": "diplomaSquareSpreadOut",
+        "title": "●♦■",
+        "description": "Sculpture",
+        "dimensions": "80x80cm",
+        "material_description": "Pasta, metal",
+        "year": 2025,
+        "exhibition": "●♦■",
+        "curator": "Diploma, Academy of Fine Arts Vienna",
+        "gallery": "Sculpture Studios, EG.10, Academy of Fine Arts Vienna, Vienna, Austria, 2025",
+        "credits": "Photo ©Isa Robertini",
+        "images": [
+            {
+                "src": "/assets/diploma/diplomaSquareSpreadOut1.webp",
+                "alt": "Sculpture Installation",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/diplomaSquareSpreadOut2.webp",
+                "alt": "Close-up of Sculpture",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/diplomaOverview.webp",
+                "alt": "Sculpture",
+                "description": "Overview ●♦■"
+            },
+            {
+                "src": "/assets/diploma/floorplan.webp",
+                "alt": "Sculpture",
+                "description": "Floorplan ●♦■"
+            },
+            {
+                "src": "/assets/diploma/exhibitionText.webp",
+                "alt": "Sculpture",
+                "description": "Exhibition text ●♦■"
             }
         ]
     },
