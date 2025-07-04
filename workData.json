@@ -29,6 +29,35 @@
         ]
     },
     {
+        "id": "1symbolic",
+        "title": "Symbolic",
+        "description": "Sculpture",
+        "dimensions": "40x30cm",
+        "material_description": "Pasta, metal",
+        "year": 2024,
+        "exhibition": "Critical Moments",
+        "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
+        "gallery": "Gallery Kannski, Reykjavík, Iceland 2024",
+        "credits": "Photo © Sadie Cook",
+        "images": [
+            {
+                "src": "/assets/citicalMoments/symbolicInstallation.png",
+                "alt": "Symbolic Sculpture Installation",
+                "description": ""
+            },
+            {
+                "src": "/assets/citicalMoments/symbolicDetail.webp",
+                "alt": "Close-up of Symbolic Sculpture",
+                "description": ""
+            },
+            {
+                "src": "/assets/citicalMoments/symbolic.webp",
+                "alt": "Symbolic Sculpture",
+                "description": ""
+            }
+        ]
+    },
+    {
         "id": "2symbolic",
         "title": "Symbolic",
         "description": "Sculpture",
