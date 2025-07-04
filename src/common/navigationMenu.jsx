@@ -6,44 +6,49 @@ export const NavigationMenu = () => {
 
     return (
         <Fade>
-            {/* Center the navigation row */}
-            <div className="flex justify-center font-serif items-center">
-                <div className="flex flex-row items-center space-x-2">
-                    {/* Home Link */}
-                    <Link
-                        to="/"
-                        className={` p-2 text-base ${location.pathname === "/" ? "text-blue-700 underline" : "hover:text-blue-700"
-                            }`}
-                    >
-                        Isa Robertini
-                    </Link>
+            <div className="my-14 font-serif md:text-xl">
+                {/* Outer flex container centers whole nav */}
+                <div className="flex justify-center">
+                    {/* Inner flex container: name left, links right */}
+                    <div className="flex items-center w-full max-w-4xl">
+                        {/* Name on the left */}
+                        <Link className="font-bold" to="/">
+                            Isa Robertini
+                        </Link>
 
-                    {/* Art Link */}
-                    <Link
-                        to="/art"
-                        className={` p-2 text-base ${location.pathname === "/art" ? "text-blue-700 underline" : "hover:text-blue-700"
-                            }`}
-                    >
-                        art & exhibitions
-                    </Link>
-                    {/* Websites Link */}
-                    <Link
-                        to="/websites"
-                        className={` p-2 text-base ${location.pathname === "/websites" ? "text-blue-700 underline" : "hover:text-blue-700"
-                            }`}
-                    >
-                        websites
-                    </Link>
+                        {/* Menu links with ml-auto push */}
+                        <div className="flex space-x-4 ml-auto">
+                            <Link
+                                to="/"
+                                className={`tracking-tighter p-2 ${location.pathname === "/"
+                                        ? "underline"
+                                        : "hover:underline"
+                                    }`}
+                            >
+                                Works
+                            </Link>
 
-                    {/* Art Link */}
-                    <Link
-                        to="/info"
-                        className={` p-2 text-base ${location.pathname === "/info" ? "text-blue-700 underline" : "hover:text-blue-700"
-                            }`}
-                    >
-                        contact & info
-                    </Link>
+                            <Link
+                                to="/websites"
+                                className={`tracking-tighter p-2 ${location.pathname === "/websites"
+                                        ? "underline"
+                                        : "hover:underline"
+                                    }`}
+                            >
+                                Websites
+                            </Link>
 
+                            <Link
+                                to="/info"
+                                className={`tracking-tighter p-2 ${location.pathname === "/info"
+                                        ? "underline"
+                                        : "hover:underline"
+                                    }`}
+                            >
+                                Info
+                            </Link>
+                        </div>
+                    </div>
                 </div>
             </div>
         </Fade>

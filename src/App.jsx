@@ -1,28 +1,21 @@
 import { useState } from 'react';
 import './App.css';
-import { BrowserRouter, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes } from "react-router-dom";
 import routes from './routes/routes';
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <BrowserRouter>
-
-
+    <Router>
       {/* Main Content Wrapper */}
-      <div className="text-center">
-
-        {/* Main content area */}
-        <main className="">
-          <Routes>{routes}</Routes>
-        </main>
-
+      <div className="mx-6">
+        <Routes>
+          {routes}
+        </Routes>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
 export default App;
-
-

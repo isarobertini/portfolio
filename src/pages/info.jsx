@@ -7,18 +7,30 @@ export const Info = () => {
     return (
         <>
             <div>
-                <div className="flex flex-col items-center justify-center h-screen w-full">
+                <div className="">
                     <Fade>
-                        <div className="text-center my-10">
-                            {/* Contact Section */}
-                            <div className="font-serif gap-x-6">
-                                {/* Clickable email */}
+                        <NavigationMenu />
 
-                                <a href="mailto:robertiniisa@gmail.com" className="block italic p-2 text-sm text-blue-700 hover:underline">
+                        {/* Centered Navigation Menu */}
+
+                        <div className="max-w-4xl mx-auto font-serif grid grid-cols-2 gap-6">
+
+
+                            {/* Clickable Interview Link */}
+                            <div className="">
+                                <a href="https://www.les-nouveaux-riches.com/interview-with-isa-robertini/" target="_blank" rel="noopener noreferrer" className=" hover:underline">
+                                    Interview with for Les Nouveaux Riches, 2025
+                                </a>
+                            </div>
+
+                            {/* Contact Section */}
+                            <div className="">
+                                {/* Clickable email */}
+                                <a href="mailto:robertiniisa@gmail.com" className="block hover:underline">
                                     robertiniisa@gmail.com
                                 </a>
                                 {/* Clickable Instagram link */}
-                                <a href="https://www.instagram.com/isarobertini/" target="_blank" rel="noopener noreferrer" className="italic p-2 text-sm text-blue-700 hover:underline">
+                                <a href="https://www.instagram.com/isarobertini/" target="_blank" rel="noopener noreferrer" className=" hover:underline">
                                     Instagram
                                 </a>
 
@@ -26,23 +38,6 @@ export const Info = () => {
                             </div>
                         </div>
                     </Fade>
-
-                    <h2 className="text-center flex items-center justify-center space-x-2"><ChevronUp className="ml-2" />contact
-                    </h2>
-
-                    {/* Centered Navigation Menu */}
-                    <NavigationMenu />
-
-                    <h2 className="text-center flex items-center font-serif justify-center space-x-2">
-                        <ChevronDown className="ml-2 cursor-pointer" />
-                        info
-                    </h2>
-                    {/* Clickable Interview Link */}
-                    <div className="m-6 font-serif">
-                        <a href="https://www.les-nouveaux-riches.com/interview-with-isa-robertini/" target="_blank" rel="noopener noreferrer" className="italic p-2 text-sm text-blue-700 hover:underline">
-                            Interview with Isa Robertini by Daniel Lichterwaldt for Les Nouveaux Riches
-                        </a>
-                    </div>
 
                 </div>
 

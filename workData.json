@@ -1,108 +1,28 @@
 [
     {
-        "id": "untitled",
-        "title": "1, 2, 3, 4.8, 5.8, 6.9, 7.9",
-        "description": "Sculpture",
-        "dimensions": "Multiple Dimensions",
-        "material_description": "A part of a door lock found at a house of a grandmother, durum wheat semolina, water, squid ink. A circular metal object with decorative elements, durum wheat semolina, water, squid ink. Spaghetti al Nero di Seppia, Fregula. Durum wheat semolina, water, squid ink.",
-        "year": 2025,
-        "exhibition": "Rundgang 2025, Academy of Fine Ars Vienna",
-        "curator": "",
-        "gallery": "",
-        "credits": "Photo © Isa Robertini",
-        "images": [
-            {
-                "src": "./assets/rundgang25/titles.jpg",
-                "alt": "Symbolic Sculpture Installation",
-                "description": "Title overview"
-            },
-            {
-                "src": "./assets/rundgang25/9titles1.png",
-                "alt": "Close-up of Symbolic Sculpture",
-                "description": ""
-            },
-            {
-                "src": "./assets/rundgang25/9titles2.png",
-                "alt": "Symbolic Sculpture",
-                "description": ""
-            },
-            {
-                "src": "./assets/rundgang25/cultural_untitled1.png",
-                "alt": "Symbolic Sculpture",
-                "material_description": "A circular metal object with decorative elements, durum wheat semolina, water, squid ink.",
-                "description": "Detail: Cultural"
-            },
-            {
-                "src": "./assets/rundgang25/political_untitled.png",
-                "alt": "Symbolic Sculpture Installation",
-                "material_description": "A circular metal object with decorative elements, durum wheat semolina, water, squid ink.",
-                "description": "Detail: Political"
-            }
-        ]
-    },
-    {
-        "id": "longTitle1",
-        "title": "CriticalCulturalPoliticalDurum wheat semolina, water, squid inkDurum wheat semolina, water, squid inkSpaghetti al Nero di Seppia, FregulaSpaghetti al Nero di  Seppia, FregulaSymbolicSymbolic",
-        "description": "Sculpture",
-        "dimensions": "15x30cm",
-        "material_description": "A circular metal object with decorative elements, durum wheat semolina, water, squid ink.",
-        "year": 2025,
-        "exhibition": "Rundgang 2025, Academy of Fine Ars Vienna",
-        "curator": "",
-        "gallery": "",
-        "credits": "Photo © Isa Robertini",
-        "images": [
-            {
-                "src": "./assets/rundgang25/longTitle4.png",
-                "alt": "Symbolic Sculpture Installation",
-                "description": ""
-            },
-            {
-                "src": "./assets/rundgang25/longTitle2.png",
-                "alt": "Symbolic Sculpture",
-                "description": ""
-            },
-            {
-                "src": "./assets/rundgang25/longTitle1.png",
-                "alt": "Close-up of Symbolic Sculpture",
-                "description": ""
-            },
-            {
-                "src": "./assets/rundgang25/longTitle3.png",
-                "alt": "Symbolic Sculpture Installation",
-                "description": ""
-            }
-        ]
-    },
-    {
         "id": "1symbolic",
         "title": "Symbolic",
         "description": "Sculpture",
         "dimensions": "40x30cm",
-        "material_description": "Metal object found at a house of a grandmother, durum wheat semolina, water, squid ink.",
+        "material_description": "Pasta, metal",
         "year": 2024,
         "exhibition": "Critical Moments",
         "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
-        "gallery": "Gallery Kannski",
+        "gallery": "Gallery Kannski, Reykjavík, Iceland 2024",
         "credits": "Photo © Sadie Cook",
         "images": [
             {
-                "src": "./assets/citicalMoments/symbolicInstallation.png",
+                "src": "/assets/citicalMoments/symbolicInstallation.png",
                 "alt": "Symbolic Sculpture Installation",
                 "description": ""
             },
             {
-                "src": "./assets/citicalMoments/SymbolicCloseInstall.jpg",
-                "alt": "Symbolic Sculpture Installation",
-                "description": ""
-            },
-            {
-                "src": "./assets/citicalMoments/symbolicDetail.webp",
+                "src": "/assets/citicalMoments/symbolicDetail.webp",
                 "alt": "Close-up of Symbolic Sculpture",
                 "description": ""
             },
             {
-                "src": "./assets/citicalMoments/symbolic.webp",
+                "src": "/assets/citicalMoments/symbolic.webp",
                 "alt": "Symbolic Sculpture",
                 "description": ""
             }
@@ -113,21 +33,15 @@
         "title": "Symbolic",
         "description": "Sculpture",
         "dimensions": "40x30cm",
-        "material_description": "Metal object found at a house of a grandmother, durum wheat semolina, water, squid ink.",
+        "material_description": "Pasta, metal.",
         "year": 2024,
-        "exhibition": "Critical Moments",
         "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
-        "gallery": "Gallery Kannski",
+        "gallery": "Gallery Kannski, Reykjavík, Iceland 2024",
         "credits": "Photo © Sadie Cook",
         "images": [
             {
-                "src": "../assets/citicalMoments/symbolic2Installation.png",
+                "src": "/assets/citicalMoments/symbolic2.png",
                 "alt": "Close-up of Symbolic Sculpture 2",
-                "description": ""
-            },
-            {
-                "src": "./assets/citicalMoments/symbolic2.webp",
-                "alt": "Symbolic Sculpture 2",
                 "description": ""
             }
         ]
@@ -137,31 +51,20 @@
         "title": "Political",
         "description": "Sculpture",
         "dimensions": "60x60cm",
-        "material_description": "Metal object found at a house of a grandmother, durum wheat semolina, water, squid ink.",
+        "material_description": "Pasta, metal.",
         "year": 2024,
-        "exhibition": "Critical Moments",
         "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
-        "gallery": "Gallery Kannski",
+        "gallery": "Gallery Kannski, Reykjavík, Iceland 2024",
         "credits": "Photo © Sadie Cook",
         "images": [
             {
-                "src": "../assets/citicalMoments/politicalVertical.webp",
+                "src": "/assets/citicalMoments/politicalVertical.webp",
                 "alt": "Vertical view of Political Sculpture",
                 "description": ""
             },
             {
-                "src": "../assets/citicalMoments/political.png",
+                "src": "/assets/citicalMoments/political.png",
                 "alt": "Political Sculpture",
-                "description": ""
-            },
-            {
-                "src": "../assets/citicalMoments/politicalCloseUp.png",
-                "alt": "Close-up of Political Sculpture",
-                "description": ""
-            },
-            {
-                "src": "../assets/citicalMoments/politicalInstallation.webp",
-                "alt": "Installation of Political Sculpture",
                 "description": ""
             }
         ]
@@ -171,25 +74,25 @@
         "title": "Critical",
         "description": "Sculpture",
         "dimensions": "60x60cm",
-        "material_description": "Metal object found at a house of a grandmother, durum wheat semolina, water, squid ink.",
+        "material_description": "Pasta, metal.",
         "year": 2024,
         "exhibition": "Critical Moments",
         "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
-        "gallery": "Gallery Kannski",
+        "gallery": "Gallery Kannski, Reykjavík, Iceland 2024",
         "credits": "Photo © Sadie Cook",
         "images": [
             {
-                "src": "../assets/citicalMoments/criticalInstallation.webp",
+                "src": "/assets/citicalMoments/criticalDetail.png",
                 "alt": "Critical Sculpture",
                 "description": ""
             },
             {
-                "src": "../assets/citicalMoments/criticalBehind.jpg",
+                "src": "/assets/citicalMoments/criticalClose.png",
                 "alt": "Close-up of Critical Sculpture",
                 "description": ""
             },
             {
-                "src": "../assets/citicalMoments/criticalDetail.png",
+                "src": "/assets/citicalMoments/criticalInstallation.webp",
                 "alt": "Close-up of Critical Sculpture",
                 "description": ""
             }
@@ -200,21 +103,21 @@
         "title": "Critical, Political",
         "description": "Sculpture",
         "dimensions": "05x10",
-        "material_description": "Durum wheat semolina, water, squid ink.",
+        "material_description": "Pasta, metal.",
         "year": 2024,
         "exhibition": "Critical Moments",
         "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
-        "gallery": "Gallery Kannski",
+        "gallery": "Gallery Kannski, Reykjavík, Iceland 2024",
         "credits": "Photo © Sadie Cook",
         "images": [
             {
-                "src": "../assets/citicalMoments/criticalPoliticalInstallation.webp",
-                "alt": "Installation of Critical Political Sculpture",
+                "src": "/assets/citicalMoments/criticalPolitical.png",
+                "alt": "Critical Political Sculpture",
                 "description": ""
             },
             {
-                "src": "../assets/citicalMoments/criticalPolitical.webp",
-                "alt": "Critical Political Sculpture",
+                "src": "/assets/citicalMoments/criticalPoliticalInstallation.webp",
+                "alt": "Installation of Critical Political Sculpture",
                 "description": ""
             }
         ]
