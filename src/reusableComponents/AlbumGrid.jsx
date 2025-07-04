@@ -19,7 +19,7 @@ export const AlbumGrid = () => {
                                 to={`/work/${work.uniqueKey}`}
                                 className="block"
                             >
-                                <ImageComponent
+                                <img
                                     src={work.images[0].src}
                                     alt={work.images[0].alt || work.title}
                                     className="w-full object-cover"
