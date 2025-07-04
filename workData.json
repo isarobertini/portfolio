@@ -335,23 +335,23 @@
         "year": 2024,
         "exhibition": "Critical Moments",
         "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
-        "gallery": "Gallery Kannski, Reykjavík, Iceland 2024",
+        "gallery": "Duo-exhibition with J.Pasila, Gallery Kannski, Reykjavík, Iceland 2024",
         "credits": "Photo © Sadie Cook",
         "images": [
             {
                 "src": "/assets/citicalMoments/symbolicInstallation.png",
                 "alt": "Symbolic Sculpture Installation",
-                "description": ""
+                "description": "Installation overview. Wall, from left: 'Symbolic' by Isa Roberini. 'Time in Place' by J.Pasila. Floor: 'Critical' by Isa Robertini"
             },
             {
                 "src": "/assets/citicalMoments/symbolicDetail.webp",
                 "alt": "Close-up of Symbolic Sculpture",
-                "description": ""
+                "description": "Symbolic"
             },
             {
                 "src": "/assets/citicalMoments/symbolic.webp",
                 "alt": "Symbolic Sculpture",
-                "description": ""
+                "description": "Symbolic"
             }
         ]
     },
@@ -363,7 +363,7 @@
         "material_description": "Pasta, metal.",
         "year": 2024,
         "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
-        "gallery": "Gallery Kannski, Reykjavík, Iceland 2024",
+        "gallery": "Duo-exhibition with J.Pasila, Gallery Kannski, Reykjavík, Iceland 2024",
         "credits": "Photo © Sadie Cook",
         "images": [
             {
@@ -381,7 +381,7 @@
         "material_description": "Pasta, metal.",
         "year": 2024,
         "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
-        "gallery": "Gallery Kannski, Reykjavík, Iceland 2024",
+        "gallery": "Duo-exhibition with J.Pasila, Gallery Kannski, Reykjavík, Iceland 2024",
         "credits": "Photo © Sadie Cook",
         "images": [
             {
@@ -405,7 +405,7 @@
         "year": 2024,
         "exhibition": "Critical Moments",
         "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
-        "gallery": "Gallery Kannski, Reykjavík, Iceland 2024",
+        "gallery": "Duo-exhibition with J.Pasila, Gallery Kannski, Reykjavík, Iceland 2024",
         "credits": "Photo © Sadie Cook",
         "images": [
             {
@@ -421,7 +421,7 @@
             {
                 "src": "/assets/citicalMoments/criticalInstallation.webp",
                 "alt": "Close-up of Critical Sculpture",
-                "description": ""
+                "description": "Installation overview. Wall, from left: 'Symbolic' by Isa Roberini. 'Time in Place' by J.Pasila. Floor: 'Critical' by Isa Robertini"
             }
         ]
     },
@@ -434,7 +434,7 @@
         "year": 2024,
         "exhibition": "Critical Moments",
         "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
-        "gallery": "Gallery Kannski, Reykjavík, Iceland 2024",
+        "gallery": "Duo-exhibition with J.Pasila, Gallery Kannski, Reykjavík, Iceland 2024",
         "credits": "Photo © Sadie Cook",
         "images": [
             {
@@ -445,7 +445,7 @@
             {
                 "src": "/assets/citicalMoments/criticalPoliticalInstallation.webp",
                 "alt": "Installation of Critical Political Sculpture",
-                "description": ""
+                "description": "Installation overview. Wall, from left:  'Time in Place' by J.Pasila, 'Symbolic' by Isa Roberini. Floor: 'Critical, Political' and 'Critical' by Isa Robertini"
             }
         ]
     }
