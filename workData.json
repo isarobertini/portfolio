@@ -1,451 +1,258 @@
 [
     {
-        "id": "rhombus",
+        "id": "diploma",
         "title": "●♦■",
-        "description": "Sculpture",
-        "dimensions": "30x40cm",
-        "material_description": "Pasta, metal",
         "year": 2025,
         "exhibition": "●♦■",
-        "curator": "Diploma, Academy of Fine Arts Vienna",
-        "gallery": "Sculpture Studios, EG.10, Academy of Fine Arts Vienna, Vienna, Austria, 2025",
+        "text_description": "Exhibition Text Translated from Letters into Symbols Based on Visual Similarity",
+        "description": "■■■ ■■■■■ ●■ ■♦ ●■♦■●■♦ ●●■●■●■● ●■ ■♦■■■■♦■■●♦■ ●♦■●●■●: ● ◆\n■ — ♦ ●■♦●■■, ♦ ♦■●■●■●, ♦■● ♦ ●●■♦♦■.\n■■■●■ ♦♦■ ♦●■■♦■ ●♦■●●■●, ■●■ ♦■♦■♦●■■■●♦■ ●■♦♦♦●■■♦●.\n■♦●■ ♦♦♦■♦♦● ●■●■ ■■ ■■■ ■■■■■\n♦■● ♦■■■♦■■●■● ■■■ ●●■♦♦■●, ♦■●■●■●■●, ♦■● ●■♦●■■● ■●■■● ■■\n■■■ ■■●●♦♦■♦■ ●♦ ■■■ ●●■■♦■■♦■●. ■■ ■■■ ■■■■■, ■■■♦ ♦♦■ ●♦●■♦■●\n♦■♦■♦●■■■●♦■■♦ ●♦ ■■■■♦ ■♦■■●: ● (●■♦●■■), ♦ (♦■●■●■●), ● (●●■♦♦■).\n■■■ ■■●●♦♦■♦■ ●●■●■●■● ●■ ■♦■■■■♦■■●♦■ ●♦■●●■●: ● ◆ ■ —\n●■♦●■■●, ♦■●■●■●■●, ♦■● ●●■♦♦■●. ■■■■■■ ■■■ ■■■■■, ■♦●■ ●♦■●●■\n♦♦♦■♦♦● ■●♦■ ■■♦■ ●■●■. ■■■♦ ♦■■■♦■■●■ ■■■ ♦●♦■● ■■ ■■■ ●♦♦●■\n♦■● ♦♦■ ●♦●♦■■■■● ♦●●●♦●■■●■♦. ♦● ♦■■■ ♦♦■■■■● ♦■ ■■■■●■■■●■\n■■■■, ■■■●■ ●■●■■■♦■●♦■ ♦■■■♦■■●■● ■♦♦■ ●■■■ ●♦■♦■■●\n■■■■■■■♦■■♦ ●♦ ■■, ●♦●■● ●■ ■■♦■■■● ♦■● ●●■■■■■.\n■■■■●■■■●■ ■■■■ ■♦♦■●■♦■■● ■♦●■ ■■■■■♦● ■● ●♦■●●■● ●♦●■● ●■\n●■♦♦■ ●■■■■♦♦■■♦ ■● ♦ ■♦♦■●■♦■■●■ ●■ ■■■● ■■■■ ■■■● ●■♦●■■●,\n♦■●■●■●■●, ♦■● ●●■♦♦■●. ■■■ ■♦♦■●■♦■■●■ ■● ♦■♦■●♦■■● ●♦ ♦\n■♦♦■●■♦■■●■ ■●●■ ●●●■● ●♦ ■■. ■■ ■●■● ●●■●■■■●■♦■ ♦■■■●\n●♦●■● ●■ ♦■●■♦■ ●■■■■♦♦■■■■● ●■■♦■■■ ♦■♦■♦●■■■●♦■\n●■♦♦♦●■■♦● ♦■● ●■♦♦■●. ■●♦ ■■♦■♦■■, ■■ ■■■ ■■■■■♦ '■' ■● ■■♦■■,\n■■■ ♦♦●●♦♦■ ●■■♦■■● ♦ ●●■♦♦■; ■■ '●' ■● ■■♦■■, ■■ ●■■♦■■● ♦ ●■♦●■■.\n■■■■●■■■●■ ■■■■ ■♦♦■●■♦■■● ■♦●■ ■■■■■♦● ■● ●♦■●●■● ●♦●■● ●■\n●■♦♦■ ●■■■■♦♦■■♦ ■● ■■■ ●■■♦ ♦●♦■ ■■ ■■■ ■■■■●■■■●■ ● ◆ ■ ■■♦■\n■♦● ♦ ■■■■■ ●●■♦●●■● ●■ ♦■♦■♦●■■■●♦■ ●■♦♦♦●■■♦●. ■■■● ♦■♦●■■●\n■● ■■■ ●■■♦ ■■■■ ■■ ♦■■■ ●■ ♦♦■●■■■■● ■■ ♦■♦■♦●■■■●♦■\n●■♦♦♦●■■♦●, ♦■■■♦♦♦♦●● ■■■ ■■■■ ♦■■■ ●■■♦ ●■ ■■■■●■■■● ♦●\n●♦■●●■● ♦♦■■■■● ●■ ♦■ ♦4 ●■■■■.\n■■■ ●●■■♦■■♦■● ●●■●■●■ ●■ ■♦■■■■♦■■●♦■ ●♦■●●■●: ● ◆ ■ —\n●■♦●■■●, ♦■●■●■●■●, ♦■● ●●■♦♦■●. ■■■■■■ ■■■ ■■■■■, ■♦●■ ●♦■●●■\n♦♦♦■♦♦● ■●♦■ ■■♦■ ●■●■. ■■■♦ ♦■■■♦■■●■ ■■■ ■■●●♦♦■♦■ ♦■● ♦♦■\n●♦●♦■■■■● ♦●●●♦●■■●■♦. ■■■ ●■●■■■♦■●♦■ ●■♦♦■● ♦♦■ ♦■●■●■■\n●■■♦■■■ ■♦■■♦■♦■ ■■■■■■■●, ●■●●■●■■♦■■♦ ●■●●■■ ●♦ ■■, ●♦●■●\n●■ ■■♦■■■● ♦■● ●●■■■■■.",
+        "curator": "Diploma Fine Arts, Class of prof.Iman Issa, Academy of Fine Arts Vienna",
+        "gallery": "EG.10, Sculpture Studios, Academy of Fine Arts Vienna, Austria.",
         "credits": "Photo ©Isa Robertini",
         "images": [
             {
-                "src": "/assets/diploma/rhombus1.png",
+                "src": "/assets/diploma/diplomaOverview.webp",
                 "alt": "Isa Robertini - art Installation",
+                "dimensions": "",
+                "year": 2025,
+                "material_description": "Installation overview",
                 "description": ""
             },
             {
-                "src": "/assets/diploma/rhombus2.webp",
+                "src": "/assets/diploma/circlesInstall.webp",
                 "alt": "Isa Robertini - Close-up of art",
-                "description": ""
-            },
-            {
-                "src": "/assets/diploma/diplomaOverview.webp",
-                "alt": "Isa Robertini - artwork",
-                "description": "Overview ●♦■"
-            },
-            {
-                "src": "/assets/diploma/floorplan.webp",
-                "alt": "Sculpture",
-                "description": "Floorplan ●♦■"
-            },
-            {
-                "src": "/assets/diploma/exhibitionText.webp",
-                "alt": "Isa Robertini - artwork",
-                "description": "Exhibition text ●♦■"
-            }
-        ]
-    },
-    {
-        "id": "blackSquare",
-        "title": "●♦■",
-        "description": "Sculpture",
-        "dimensions": "80x80cm",
-        "material_description": "Pasta, metal",
-        "year": 2025,
-        "exhibition": "●♦■",
-        "curator": "Diploma, Academy of Fine Arts Vienna",
-        "gallery": "Sculpture Studios, EG.10, Academy of Fine Arts Vienna, Vienna, Austria, 2025",
-        "credits": "Photo ©Isa Robertini",
-        "images": [
-            {
-                "src": "/assets/diploma/blackSquare1.webp",
-                "alt": "Isa Robertini - art Installation",
-                "description": ""
-            },
-            {
-                "src": "/assets/diploma/blackSquare2.webp",
-                "alt": "Isa Robertini - artwork",
-                "description": ""
-            },
-            {
-                "src": "/assets/diploma/diplomaOverview.webp",
-                "alt": "Isa Robertini - artwork",
-                "description": "Overview ●♦■"
-            },
-            {
-                "src": "/assets/diploma/floorplan.webp",
-                "alt": "Isa Robertini - artwork",
-                "description": "Floorplan ●♦■"
-            },
-            {
-                "src": "/assets/diploma/exhibitionText.webp",
-                "alt": "Sculpture",
-                "description": "Exhibition text ●♦■"
-            }
-        ]
-    },
-    {
-        "id": "goldenCircle",
-        "title": "●♦■",
-        "description": "Sculpture",
-        "dimensions": "30x30cm",
-        "material_description": "Pasta, metal",
-        "year": 2025,
-        "exhibition": "●♦■",
-        "curator": "Diploma, Academy of Fine Arts Vienna",
-        "gallery": "Sculpture Studios, EG.10, Academy of Fine Arts Vienna, Vienna, Austria, 2025",
-        "credits": "Photo ©Isa Robertini",
-        "images": [
-            {
-                "src": "/assets/diploma/goldenCircle1.webp",
-                "alt": "Sculpture Installation",
+                "dimensions": "",
+                "year": 2025,
+                "material_description": "Installation overview",
                 "description": ""
             },
             {
                 "src": "/assets/diploma/goldenCircle2.webp",
                 "alt": "Close-up of Sculpture",
+                "dimensions": "27x20cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
                 "description": ""
             },
             {
-                "src": "/assets/diploma/circlesInstall.webp",
+                "src": "/assets/diploma/goldenCircle1.webp",
                 "alt": "Sculpture Installation",
+                "dimensions": "27x20cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
                 "description": ""
             },
             {
-                "src": "/assets/diploma/diplomaOverview.webp",
-                "alt": "Sculpture",
-                "description": "Overview ●♦■"
-            },
-            {
-                "src": "/assets/diploma/floorplan.webp",
-                "alt": "Sculpture",
-                "description": "Floorplan ●♦■"
-            },
-            {
-                "src": "/assets/diploma/exhibitionText.webp",
-                "alt": "Sculpture",
-                "description": "Exhibition text ●♦■"
-            }
-        ]
-    },
-    {
-        "id": "smallCircle",
-        "title": "●♦■",
-        "description": "Sculpture",
-        "dimensions": "30x10cm",
-        "material_description": "Pasta, metal",
-        "year": 2025,
-        "exhibition": "●♦■",
-        "curator": "Diploma, Academy of Fine Arts Vienna",
-        "gallery": "Sculpture Studios, EG.10, Academy of Fine Arts Vienna, Vienna, Austria, 2025",
-        "credits": "Photo ©Isa Robertini",
-        "images": [
-            {
-                "src": "/assets/diploma/smallCircle1.webp",
-                "alt": "Sculpture Installation",
-                "description": ""
-            },
-            {
-                "src": "/assets/diploma/smallCircle2.webp",
+                "src": "/assets/diploma/circleBlackClose.webp",
                 "alt": "Close-up of Sculpture",
+                "dimensions": "27x20cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
                 "description": ""
             },
             {
-                "src": "/assets/diploma/smallCircleInstall.webp",
+                "src": "/assets/diploma/blackSquare1.webp",
                 "alt": "Sculpture Installation",
+                "dimensions": "80x80cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
                 "description": ""
             },
             {
-                "src": "/assets/diploma/diplomaOverview.webp",
-                "alt": "Sculpture",
-                "description": "Overview ●♦■"
-            },
-            {
-                "src": "/assets/diploma/floorplan.webp",
-                "alt": "Sculpture",
-                "description": "Floorplan ●♦■"
-            },
-            {
-                "src": "/assets/diploma/exhibitionText.webp",
-                "alt": "Sculpture",
-                "description": "Exhibition text ●♦■"
-            }
-        ]
-    },
-    {
-        "id": "doorHandle",
-        "title": "●♦■",
-        "description": "Sculpture",
-        "dimensions": "30x30cm",
-        "material_description": "Pasta, metal",
-        "year": 2025,
-        "exhibition": "●♦■",
-        "curator": "Diploma, Academy of Fine Arts Vienna",
-        "gallery": "Sculpture Studios, EG.10, Academy of Fine Arts Vienna, Vienna, Austria, 2025",
-        "credits": "Photo ©Isa Robertini",
-        "images": [
-            {
-                "src": "/assets/diploma/doorHandle1.webp",
-                "alt": "Sculpture Installation",
+                "src": "/assets/diploma/blackSquare2.webp",
+                "alt": "Isa Robertini - artwork",
+                "dimensions": "80x80cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
                 "description": ""
             },
-            {
-                "src": "/assets/diploma/doorHandle2.webp",
-                "alt": "Close-up of Sculpture",
-                "description": ""
-            },
-            {
-                "src": "/assets/diploma/doorHandle3.webp",
-                "alt": "Sculpture",
-                "description": ""
-            },
-            {
-                "src": "/assets/diploma/diplomaOverview.webp",
-                "alt": "Sculpture",
-                "description": "Overview ●♦■"
-            },
-            {
-                "src": "/assets/diploma/floorplan.webp",
-                "alt": "Sculpture",
-                "description": "Floorplan ●♦■"
-            },
-            {
-                "src": "/assets/diploma/exhibitionText.webp",
-                "alt": "Sculpture",
-                "description": "Exhibition text ●♦■"
-            }
-        ]
-    },
-    {
-        "id": "squareGolden",
-        "title": "●♦■",
-        "description": "Sculpture",
-        "dimensions": "200x70cm",
-        "material_description": "Pasta, metal",
-        "year": 2025,
-        "exhibition": "●♦■",
-        "curator": "Diploma, Academy of Fine Arts Vienna",
-        "gallery": "Sculpture Studios, EG.10, Academy of Fine Arts Vienna, Vienna, Austria, 2025",
-        "credits": "Photo ©Isa Robertini",
-        "images": [
             {
                 "src": "/assets/diploma/squareGolden.webp",
                 "alt": "Sculpture Installation",
+                "dimensions": "",
+                "year": 2025,
+                "material_description": "Pasta, metal",
                 "description": ""
             },
             {
                 "src": "/assets/diploma/squareGoldenClose.png",
                 "alt": "Close-up of Sculpture",
+                "dimensions": "200x70cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
                 "description": ""
             },
             {
-                "src": "/assets/diploma/diplomaOverview.webp",
-                "alt": "Sculpture",
-                "description": "Overview ●♦■"
+                "src": "/assets/criticalMoments/symbolic.webp",
+                "alt": "Symbolic Sculpture",
+                "dimensions": "40x30cm",
+                "year": 2024,
+                "material_description": "Pasta, metal",
+                "description": "'Symbolic' sculpture."
             },
             {
-                "src": "/assets/diploma/floorplan.webp",
-                "alt": "Sculpture",
-                "description": "Floorplan ●♦■"
+                "src": "/assets/criticalMoments/symbolicDetail.webp",
+                "alt": "Close-up of Symbolic Sculpture",
+                "dimensions": "40x30cm",
+                "year": 2024,
+                "material_description": "Pasta, metal",
+                "description": "Detail of 'Symbolic' sculpture."
             },
             {
-                "src": "/assets/diploma/exhibitionText.webp",
-                "alt": "Sculpture",
-                "description": "Exhibition text ●♦■"
-            }
-        ]
-    },
-    {
-        "id": "blackCircle",
-        "title": "●♦■",
-        "description": "Sculpture",
-        "dimensions": "30x30cm",
-        "material_description": "Pasta, metal",
-        "year": 2025,
-        "exhibition": "●♦■",
-        "curator": "Diploma, Academy of Fine Arts Vienna",
-        "gallery": "Sculpture Studios, EG.10, Academy of Fine Arts Vienna, Vienna, Austria, 2025",
-        "credits": "Photo ©Isa Robertini",
-        "images": [
-            {
-                "src": "/assets/diploma/circleBlackClose.webp",
-                "alt": "Close-up of Sculpture",
+                "src": "/assets/diploma/smallCircleInstall.webp",
+                "alt": "Isa Robertini - art Installation",
+                "dimensions": "",
+                "year": 2025,
+                "material_description": "Pasta, metal",
                 "description": ""
             },
             {
-                "src": "/assets/diploma/circlesInstall.webp",
+                "src": "/assets/diploma/smallCircle1.webp",
                 "alt": "Sculpture Installation",
+                "dimensions": "10x30cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
                 "description": ""
             },
             {
-                "src": "/assets/diploma/diplomaOverview.webp",
-                "alt": "Sculpture",
-                "description": "Overview ●♦■"
+                "src": "/assets/diploma/smallCircle2.webp",
+                "alt": "Close-up of Sculpture",
+                "dimensions": "10x30cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
+                "description": ""
             },
             {
-                "src": "/assets/diploma/floorplan.webp",
-                "alt": "Sculpture",
-                "description": "Floorplan ●♦■"
+                "src": "/assets/diploma/doorHandle1.webp",
+                "alt": "Sculpture Installation",
+                "dimensions": "40x30cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
+                "description": ""
             },
             {
-                "src": "/assets/diploma/exhibitionText.webp",
-                "alt": "Sculpture",
-                "description": "Exhibition text ●♦■"
-            }
-        ]
-    },
-    {
-        "id": "diplomaSquareSpreadOut",
-        "title": "●♦■",
-        "description": "Sculpture",
-        "dimensions": "80x80cm",
-        "material_description": "Pasta, metal",
-        "year": 2025,
-        "exhibition": "●♦■",
-        "curator": "Diploma, Academy of Fine Arts Vienna",
-        "gallery": "Sculpture Studios, EG.10, Academy of Fine Arts Vienna, Vienna, Austria, 2025",
-        "credits": "Photo ©Isa Robertini",
-        "images": [
+                "src": "/assets/diploma/doorHandle2.webp",
+                "alt": "Close-up of Sculpture",
+                "dimensions": "40x30cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
+                "description": ""
+            },
             {
                 "src": "/assets/diploma/diplomaSquareSpreadOut1.webp",
                 "alt": "Sculpture Installation",
+                "dimensions": "80x80cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
                 "description": ""
             },
             {
                 "src": "/assets/diploma/diplomaSquareSpreadOut2.webp",
                 "alt": "Close-up of Sculpture",
+                "dimensions": "80x80cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
                 "description": ""
-            },
-            {
-                "src": "/assets/diploma/diplomaOverview.webp",
-                "alt": "Sculpture",
-                "description": "Overview ●♦■"
             },
             {
                 "src": "/assets/diploma/floorplan.webp",
                 "alt": "Sculpture",
-                "description": "Floorplan ●♦■"
-            },
-            {
-                "src": "/assets/diploma/exhibitionText.webp",
-                "alt": "Sculpture",
-                "description": "Exhibition text ●♦■"
+                "dimensions": "",
+                "year": 2025,
+                "material_description": "Floorplan",
+                "description": ""
             }
         ]
     },
     {
-        "id": "1symbolic",
-        "title": "Symbolic",
-        "description": "Sculpture",
-        "dimensions": "40x30cm",
-        "material_description": "Pasta, metal",
+        "id": "criticalMoments",
+        "description": "Critical moments is an exhibition addressing the time old question of\n what artists might make if they were trapped in a room for a hundred years.\n Both Isa Robertini and J. Pasila make meticulous objects out of unnoticed things; \nrusty tools, dry pasta, the walls of the exhibition space itself. A meditative, \nobsessive process of care links Robertini’s delicate pasta sculptures with Pasila’s \ncareful photographs of the doorways, scratches, and marks on Kannski’s walls.\n Together, the artists create a simple, hallucinatory exhibition reflecting on the\n temporality of the spaces we find ourselves. ",
         "year": 2024,
         "exhibition": "Critical Moments",
         "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
-        "gallery": "Duo-exhibition with J.Pasila, Gallery Kannski, Reykjavík, Iceland 2024",
+        "gallery": "Duo-exhibition with J.Pasila, Gallery Kannski, Reykjavík, Iceland",
         "credits": "Photo © Sadie Cook",
         "images": [
             {
-                "src": "/assets/citicalMoments/symbolicInstallation.png",
+                "src": "/assets/criticalMoments/criticalInstallation.webp",
+                "alt": "Critical Political Installation",
+                "title": "Installation overview",
+                "dimensions": "",
+                "year": 2024,
+                "material_description": "Pasta, metal",
+                "description": "Wall, from left: 'Time in Place' by J.Pasila; 'Symbolic' by Isa Robertini. \n Floor: 'Critical', 'Political', and 'Critical Political' by Isa Robertini."
+            },
+            {
+                "src": "/assets/criticalMoments/criticalPoliticalInstallation.webp",
+                "alt": "Critical Political Installation",
+                "title": "Installation overview",
+                "dimensions": "",
+                "year": 2024,
+                "material_description": "Pasta, metal",
+                "description": "Installation overview — Wall, from left: 'Time in Place' by J.Pasila; 'Symbolic' by Isa Robertini.\n Floor: 'Critical', 'Political', and 'Critical Political' by Isa Robertini."
+            },
+            {
+                "src": "/assets/criticalMoments/symbolic2.png",
+                "alt": "Critical Political Installation",
+                "title": "Symbolic",
+                "dimensions": "40x30cm",
+                "year": 2024,
+                "material_description": "Pasta, metal",
+                "description": ""
+            },
+            {
+                "src": "/assets/criticalMoments/criticalDetail.png",
                 "alt": "Symbolic Sculpture Installation",
-                "description": "Installation overview. Wall, from left: 'Symbolic' by Isa Roberini. 'Time in Place' by J.Pasila. Floor: 'Critical' by Isa Robertini"
+                "title": "Critical",
+                "dimensions": "50x50cm",
+                "year": 2024,
+                "material_description": "Pasta, metal",
+                "description": ""
             },
             {
-                "src": "/assets/citicalMoments/symbolicDetail.webp",
+                "src": "/assets/criticalMoments/symbolicDetail.webp",
                 "alt": "Close-up of Symbolic Sculpture",
-                "description": "Symbolic"
+                "title": "Symbolic",
+                "dimensions": "40x30cm",
+                "year": 2024,
+                "material_description": "Pasta, metal",
+                "description": ""
             },
             {
-                "src": "/assets/citicalMoments/symbolic.webp",
+                "src": "/assets/criticalMoments/symbolic.webp",
                 "alt": "Symbolic Sculpture",
-                "description": "Symbolic"
-            }
-        ]
-    },
-    {
-        "id": "2symbolic",
-        "title": "Symbolic",
-        "description": "Sculpture",
-        "dimensions": "40x30cm",
-        "material_description": "Pasta, metal.",
-        "year": 2024,
-        "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
-        "gallery": "Duo-exhibition with J.Pasila, Gallery Kannski, Reykjavík, Iceland 2024",
-        "credits": "Photo © Sadie Cook",
-        "images": [
-            {
-                "src": "/assets/citicalMoments/symbolic2.png",
-                "alt": "Close-up of Symbolic Sculpture 2",
-                "description": ""
-            }
-        ]
-    },
-    {
-        "id": "political",
-        "title": "Political",
-        "description": "Sculpture",
-        "dimensions": "60x60cm",
-        "material_description": "Pasta, metal.",
-        "year": 2024,
-        "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
-        "gallery": "Duo-exhibition with J.Pasila, Gallery Kannski, Reykjavík, Iceland 2024",
-        "credits": "Photo © Sadie Cook",
-        "images": [
-            {
-                "src": "/assets/citicalMoments/politicalVertical.webp",
-                "alt": "Vertical view of Political Sculpture",
+                "title": "Symbolic",
+                "dimensions": "40x30cm",
+                "year": 2024,
+                "material_description": "Pasta, metal",
                 "description": ""
             },
             {
-                "src": "/assets/citicalMoments/political.png",
+                "src": "/assets/criticalMoments/politicalVertical.webp",
                 "alt": "Political Sculpture",
-                "description": ""
-            }
-        ]
-    },
-    {
-        "id": "critical",
-        "title": "Critical",
-        "description": "Sculpture",
-        "dimensions": "60x60cm",
-        "material_description": "Pasta, metal.",
-        "year": 2024,
-        "exhibition": "Critical Moments",
-        "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
-        "gallery": "Duo-exhibition with J.Pasila, Gallery Kannski, Reykjavík, Iceland 2024",
-        "credits": "Photo © Sadie Cook",
-        "images": [
-            {
-                "src": "/assets/citicalMoments/criticalDetail.png",
-                "alt": "Critical Sculpture",
+                "title": "Political",
+                "dimensions": "50x50cm",
+                "year": 2024,
+                "material_description": "Pasta, metal",
                 "description": ""
             },
             {
-                "src": "/assets/citicalMoments/criticalClose.png",
-                "alt": "Close-up of Critical Sculpture",
+                "src": "/assets/criticalMoments/political.png",
+                "alt": "Political Sculpture",
+                "title": "Political",
+                "dimensions": "50x50cm",
+                "year": 2024,
+                "material_description": "Pasta, metal",
                 "description": ""
             },
             {
-                "src": "/assets/citicalMoments/criticalInstallation.webp",
-                "alt": "Close-up of Critical Sculpture",
-                "description": "Installation overview. Wall, from left: 'Symbolic' by Isa Roberini. 'Time in Place' by J.Pasila. Floor: 'Critical' by Isa Robertini"
-            }
-        ]
-    },
-    {
-        "id": "criticalpolitical",
-        "title": "Critical, Political",
-        "description": "Sculpture",
-        "dimensions": "05x10",
-        "material_description": "Pasta, metal.",
-        "year": 2024,
-        "exhibition": "Critical Moments",
-        "curator": "Curated by Sadie Cook and Diljá Þorvaldsdóttir",
-        "gallery": "Duo-exhibition with J.Pasila, Gallery Kannski, Reykjavík, Iceland 2024",
-        "credits": "Photo © Sadie Cook",
-        "images": [
-            {
-                "src": "/assets/citicalMoments/criticalPolitical.png",
-                "alt": "Critical Political Sculpture",
+                "src": "/assets/criticalMoments/criticalPolitical.png",
+                "alt": "Political Sculpture",
+                "title": "Political, Critical",
+                "dimensions": "05x10cm",
+                "year": 2024,
+                "material_description": "Pasta, metal",
                 "description": ""
-            },
-            {
-                "src": "/assets/citicalMoments/criticalPoliticalInstallation.webp",
-                "alt": "Installation of Critical Political Sculpture",
-                "description": "Installation overview. Wall, from left:  'Time in Place' by J.Pasila, 'Symbolic' by Isa Roberini. Floor: 'Critical, Political' and 'Critical' by Isa Robertini"
             }
         ]
     }

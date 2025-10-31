@@ -1,9 +1,7 @@
 import { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { AlbumGrid } from '../reusableComponents/AlbumGrid';
-
 import { NavigationMenu } from '../common/navigationMenu';
-import { Album } from 'lucide-react';
 
 export const Home = () => {
     const [activeTab, setActiveTab] = useState(null);
@@ -21,7 +19,8 @@ export const Home = () => {
             {/* Main Content Wrapper */}
             <div className="">
 
-                <div>
+                <div className=''>
+
                     <NavigationMenu />
                 </div>
                 <AlbumGrid />

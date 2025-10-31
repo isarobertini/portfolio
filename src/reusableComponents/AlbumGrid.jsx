@@ -1,32 +1,44 @@
 import { Link } from "react-router-dom";
-import { ImageComponent } from "../reusableComponents/imageComponent";
 import workData from "../../workData.json";
 
 export const AlbumGrid = () => {
-    const groupedWorks = workData.map((item, index) => ({
+    const groupedWorks = workData.map((item) => ({
         ...item,
-        uniqueKey: `${item.title}-${index}`,
+        uniqueKey: item.id,
     }));
 
     return (
-        <div className="font-serif">
+        <div className="font-serif my-6 lg:my-12 px-4">
             <div className="flex justify-center">
-                <div className="w-full max-w-4xl">
-                    <div className="grid grid-cols-5 gap-2 md:grid-cols-6 gap-6">
-                        {groupedWorks.map((work) => (
-                            <Link
-                                key={work.uniqueKey}
-                                to={`/work/${work.uniqueKey}`}
-                                className="block"
-                            >
-                                <img
-                                    src={work.images[0].src}
-                                    alt={work.images[0].alt || work.title}
-                                    className="w-full object-cover"
-                                />
-                            </Link>
-                        ))}
-                    </div>
+                {/* Outer container with proper spacing */}
+                <div className="space-y-8 lg:space-y-16 w-full lg:w-auto">
+                    {groupedWorks.map((work) => (
+                        <div key={work.uniqueKey} className="flex justify-center">
+                            {/* Keep inline-block wrapper to match desktop layout */}
+                            <div className="inline-block">
+                                {/* Image */}
+                                {work.images && work.images.length > 0 ? (
+                                    <Link to={`/${work.id}`} className="block">
+                                        <img
+                                            src={work.images[0].src}
+                                            alt={work.images[0].alt || work.title}
+                                            className="w-full max-h-[100vh] lg:h-[80vh] object-contain"
+                                        />
+                                    </Link>
+                                ) : (
+                                    <p className="text-gray-500 italic text-left">
+                                        No image found for {work.title}
+                                    </p>
+                                )}
+
+                                {/* Text under image */}
+                                <div className="mt-2 lg:mt-3 text-left space-y-1">
+                                    <h2 className="italic">{work.exhibition}</h2>
+                                    <p className="text-xs">{work.gallery}, {work.year}</p>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
