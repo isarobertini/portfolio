@@ -22,7 +22,7 @@ export const AlbumGrid = () => {
                                         <img
                                             src={work.images[0].src}
                                             alt={work.images[0].alt || work.title}
-                                            className="w-full max-h-[100vh] lg:h-[80vh] object-contain"
+                                            className="max-h-[100vh] lg:max-w-[120vh] object-contain"
                                         />
                                     </Link>
                                 ) : (

@@ -1,64 +1,99 @@
 import workData from "../../workData.json";
 import { NavigationMenu } from "../common/navigationMenu";
+import { ImageComponent } from "../reusableComponents/imageComponent";
+import { ParagraphComponent } from "../reusableComponents/paragraphComponent";
 
 export const CriticalMoments = () => {
     const work = workData.find((item) => item.id === "criticalMoments");
 
-    if (!work) return <p>Critical Moments project not found.</p>;
+    if (!work) {
+        return (
+            <ParagraphComponent>
+                Critical Moments project not found.
+            </ParagraphComponent>
+        );
+    }
 
     return (
         <div className="font-serif">
             <NavigationMenu />
 
-            <div className="my-8 flex justify-center">
+            <div className="px-4 my-8 flex justify-center">
                 <div className="space-y-16">
                     <div className="flex justify-center">
-                        {/* Centered wrapper */}
-                        <div className="inline-block text-xs">
-                            {/* All images */}
+                        <div className="inline-block">
+
+                            {/* Images */}
                             {work.images && work.images.length > 0 ? (
                                 work.images.map((img, i) => (
-                                    <div key={i} className="mb-10">
-                                        <img
+                                    <div key={i} className="text-xs mb-10">
+                                        <ImageComponent
                                             src={img.src}
                                             alt={img.alt || work.title}
                                             className="w-full max-h-[100vh] lg:h-[80vh] object-contain"
                                         />
-                                        <p className="py-1">
+
+                                        <ParagraphComponent>
                                             {img.title}
-                                        </p>
-                                        <p className="whitespace-pre-line">{img.description}</p>
-                                        <p>{work.year}</p>
-                                        <p>{img.material_description}</p>
-                                        <p>{img.dimensions}</p>
+                                        </ParagraphComponent>
+
+                                        <ParagraphComponent className="whitespace-pre-line">
+                                            {img.description}
+                                        </ParagraphComponent>
+
+                                        <ParagraphComponent>
+                                            {work.year}
+                                        </ParagraphComponent>
+
+                                        <ParagraphComponent>
+                                            {img.material_description}
+                                        </ParagraphComponent>
+
+                                        <ParagraphComponent>
+                                            {img.dimensions}
+                                        </ParagraphComponent>
                                     </div>
                                 ))
                             ) : (
-                                <p className="text-gray-500 italic text-left">
+                                <ParagraphComponent className="italic text-gray-500">
                                     No images found for {work.title}
-                                </p>
+                                </ParagraphComponent>
                             )}
 
-                            {/* Text directly under all images */}
-                            <div className="mt-12 pb-8 text-left space-y-1 ">
-                                <h2 className="text-2xl">{work.exhibition}</h2>
+                            {/* Exhibition info */}
+                            <div className="mt-12 pb-8 space-y-1">
+                                <ParagraphComponent level={2} className="text-2xl">
+                                    {work.exhibition}
+                                </ParagraphComponent>
 
-                                <p className="text-xs">
+                                <ParagraphComponent>
                                     {work.gallery}
-                                </p>
-                                <p className="text-xs">
+                                </ParagraphComponent>
+
+                                <ParagraphComponent>
                                     {work.curator}
-                                </p>
+                                </ParagraphComponent>
                             </div>
 
-                            <div className="text-xs">
-                                <p className="pb-3 italic">About the exhibition:</p>
-                                <div>{work.text_description}
-                                </div>
-                                <div> <p className="whitespace-pre-line">
-                                    {work.description}
-                                </p></div>
+                            {/* Description */}
+                            <div className="space-y-2">
+                                <ParagraphComponent className="italic">
+                                    About the exhibition:
+                                </ParagraphComponent>
+
+                                {work.text_description && (
+                                    <ParagraphComponent>
+                                        {work.text_description}
+                                    </ParagraphComponent>
+                                )}
+
+                                {work.description && (
+                                    <ParagraphComponent className="whitespace-pre-line">
+                                        {work.description}
+                                    </ParagraphComponent>
+                                )}
                             </div>
+
                         </div>
                     </div>
                 </div>

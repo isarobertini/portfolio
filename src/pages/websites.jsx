@@ -12,7 +12,7 @@ export const Websites = () => {
                 <div className="flex justify-center">
 
                     <div>
-                        <div className="font-serif text-3xl flex flex-col space-y-2">
+                        <div className="font-serif flex flex-col space-y-2">
                             {/* Project Link 1 */}
                             <a
                                 href="https://susannamaila.com/"
@@ -74,7 +74,7 @@ export const Websites = () => {
 
                         </div>
 
-                        <div className="pt-10 font-serif text-3xl flex flex-col space-y-2">
+                        <div className="pt-10 font-serif flex flex-col space-y-2">
                             <h1>Other projects</h1>
 
                             <a

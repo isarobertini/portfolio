@@ -1,0 +1,167 @@
+[
+    {
+        "id": "siteSpecifics",
+        "title": "Site Specifics",
+        "year": 2025,
+        "exhibition": "Metamorphosis | Festival Architettura / Nocefresca Open Studio",
+        "text_description": "",
+        "description": "",
+        "curator": "Diploma Fine Arts, Class of prof.Iman Issa, Academy of Fine Arts Vienna",
+        "gallery": "EG.10, Sculpture Studios, Academy of Fine Arts Vienna, Austria.",
+        "credits": "Photo ©Isa Robertini",
+        "images": [
+            {
+                "src": "/assets/siteSpecifics/_DSF0109.jpeg",
+                "alt": "Isa Robertini - art Installation",
+                "dimensions": "",
+                "year": 2025,
+                "material_description": "Installation overview",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/circlesInstall.webp",
+                "alt": "Isa Robertini - Close-up of art",
+                "dimensions": "",
+                "year": 2025,
+                "material_description": "Installation overview",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/goldenCircle2.webp",
+                "alt": "Close-up of Sculpture",
+                "dimensions": "27x20cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/goldenCircle1.webp",
+                "alt": "Sculpture Installation",
+                "dimensions": "27x20cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/circleBlackClose.webp",
+                "alt": "Close-up of Sculpture",
+                "dimensions": "27x20cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/blackSquare1.webp",
+                "alt": "Sculpture Installation",
+                "dimensions": "80x80cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/blackSquare2.webp",
+                "alt": "Isa Robertini - artwork",
+                "dimensions": "80x80cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/squareGolden.webp",
+                "alt": "Sculpture Installation",
+                "dimensions": "",
+                "year": 2025,
+                "material_description": "Pasta, metal",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/squareGoldenClose.png",
+                "alt": "Close-up of Sculpture",
+                "dimensions": "200x70cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
+                "description": ""
+            },
+            {
+                "src": "/assets/criticalMoments/symbolic.webp",
+                "alt": "Symbolic Sculpture",
+                "dimensions": "40x30cm",
+                "year": 2024,
+                "material_description": "Pasta, metal",
+                "description": "'Symbolic' sculpture."
+            },
+            {
+                "src": "/assets/criticalMoments/symbolicDetail.webp",
+                "alt": "Close-up of Symbolic Sculpture",
+                "dimensions": "40x30cm",
+                "year": 2024,
+                "material_description": "Pasta, metal",
+                "description": "Detail of 'Symbolic' sculpture."
+            },
+            {
+                "src": "/assets/diploma/smallCircleInstall.webp",
+                "alt": "Isa Robertini - art Installation",
+                "dimensions": "",
+                "year": 2025,
+                "material_description": "Pasta, metal",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/smallCircle1.webp",
+                "alt": "Sculpture Installation",
+                "dimensions": "10x30cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/smallCircle2.webp",
+                "alt": "Close-up of Sculpture",
+                "dimensions": "10x30cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/doorHandle1.webp",
+                "alt": "Sculpture Installation",
+                "dimensions": "40x30cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/doorHandle2.webp",
+                "alt": "Close-up of Sculpture",
+                "dimensions": "40x30cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/diplomaSquareSpreadOut1.webp",
+                "alt": "Sculpture Installation",
+                "dimensions": "80x80cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/diplomaSquareSpreadOut2.webp",
+                "alt": "Close-up of Sculpture",
+                "dimensions": "80x80cm",
+                "year": 2025,
+                "material_description": "Pasta, metal",
+                "description": ""
+            },
+            {
+                "src": "/assets/diploma/floorplan.webp",
+                "alt": "Sculpture",
+                "dimensions": "",
+                "year": 2025,
+                "material_description": "Floorplan",
+                "description": ""
+            }
+        ]
+    }
+]
