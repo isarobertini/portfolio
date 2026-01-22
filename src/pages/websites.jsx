@@ -32,11 +32,6 @@ const projects = [
         github: "https://github.com/isarobertini/final-boiler-plate-monorepo",
     },
     {
-        name: "Happy Thoughts - Frontend",
-        url: "https://happy-happy-thought.netlify.app/",
-        github: "https://github.com/isarobertini/project-happy-thoughts-vite",
-    },
-    {
         name: "Happy Thoughts - Backend",
         url: "https://api-happy-thought.onrender.com/",
         github: "https://github.com/isarobertini/project-happy-thoughts-api",
