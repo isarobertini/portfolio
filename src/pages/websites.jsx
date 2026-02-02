@@ -13,7 +13,7 @@ const projects = [
     },
     {
         name: "Bitstream - Luise Dieckmann",
-        url: "https://blog-luisa.netlify.app/",
+        url: "https://bitstream-blog-for-loisa.netlify.app/",
         github: "https://github.com/isarobertini/blog_luisa",
     },
     {
