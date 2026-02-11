@@ -13,7 +13,7 @@ const routes = (
         <Route path="/work/:workId" element={<WorkDetail />} />
         <Route path="/info" element={<Info />} />
         <Route path="/websites" element={<Websites />} />
-        <Route path="/siteSpecifics" element={<SiteSpecifics />} />
+        {/* <Route path="/siteSpecifics" element={<SiteSpecifics />} /> */}
         <Route path="/diploma" element={<Diploma />} />
         <Route path="/criticalMoments" element={<CriticalMoments />} />
     </>
