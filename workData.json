@@ -1,5 +1,133 @@
 [
     {
+        "id": "siteSpecifics",
+        "description": " ",
+        "year": 2025,
+        "exhibition": "Sardegna Cinema Paradiso | Festival Architettura 2025 | Nocefresca Open Studio",
+        "curator": "Francesca Sassu",
+        "gallery": "Casa Oaxaca – Via S. Agostino, 62, Milis, Italy",
+        "credits": "Photo © Guilia",
+        "images": [
+            {
+                "src": "/assets/siteSpecifics/_DSF0109.jpeg",
+                "alt": "Site Specifics Installation",
+                "title": "Installation overview, Site Specifics",
+                "dimensions": "",
+                "year": 2024,
+                "material_description": "",
+                "description": ""
+            },
+            {
+                "src": "/assets/siteSpecifics/_DSF0103.jpeg",
+                "alt": "Site Specifics Installation",
+                "title": "Installation overview, Site Specifics",
+                "dimensions": "",
+                "year": 2024,
+                "material_description": "",
+                "description": ""
+            },
+            {
+                "src": "/assets/siteSpecifics/sideInstallation.jpg",
+                "alt": "Site Specifics Installation",
+                "title": "Installation overview, Site Specifics",
+                "dimensions": "",
+                "year": 2024,
+                "material_description": "",
+                "description": ""
+            },
+            {
+                "src": "/assets/siteSpecifics/_DSF0078.jpeg",
+                "alt": "Site Specific Installation",
+                "title": "Site Specific",
+                "dimensions": "60x60cm",
+                "year": 2024,
+                "material_description": "Metal, fabric, plastic, light bulb",
+                "description": ""
+            },
+            {
+                "src": "/assets/siteSpecifics/_DSF0097.jpeg",
+                "alt": "Critical Political Installation",
+                "title": "Detail, Site Specific",
+                "dimensions": "60x60cm",
+                "year": 2024,
+                "material_description": "Metal, fabric, plastic, light bulb",
+                "description": ""
+            },
+            {
+                "src": "/assets/siteSpecifics/_DSF0081.jpeg",
+                "alt": "Site Specific Installation",
+                "title": "Site Specific",
+                "dimensions": "60x60cm",
+                "year": 2025,
+                "material_description": "Metal, fabric, plastic, bricks, light bulb",
+                "description": ""
+            },
+            {
+                "src": "/assets/siteSpecifics/_DSF0083.jpeg",
+                "alt": "Site Specific Installation",
+                "title": "Detail, Site Specific",
+                "dimensions": "60x60cm",
+                "year": 2024,
+                "material_description": "Metal, fabric, plastic, bricks, light bulb",
+                "description": ""
+            },
+            {
+                "src": "/assets/siteSpecifics/_DSF0105.jpeg",
+                "alt": "Site Specific Installation",
+                "title": "Site Specific",
+                "dimensions": "",
+                "year": 2024,
+                "material_description": "Metal, palm leaves, aloe vera, plastic, light bulb",
+                "description": ""
+            },
+            {
+                "src": "/assets/siteSpecifics/_DSF0086.jpeg",
+                "alt": "Site Specific Installation",
+                "title": "Detail, Site Specific",
+                "dimensions": "120x120cm",
+                "year": 2024,
+                "material_description": "Metal, palm leaves, aloe vera, plastic, light bulb",
+                "description": ""
+            },
+            {
+                "src": "/assets/siteSpecifics/_DSF0091.jpeg",
+                "alt": "Site Specifics Installation",
+                "title": "Site Specific",
+                "dimensions": "60x60cm",
+                "year": 2024,
+                "material_description": "Metal, grass, concrete, light bulb",
+                "description": ""
+            },
+            {
+                "src": "/assets/siteSpecifics/_DSF0087.jpeg",
+                "alt": "Site Specific Installation",
+                "title": "Site Specific",
+                "dimensions": "60x60cm",
+                "year": 2024,
+                "material_description": "Metal, grass, concrete, light bulb",
+                "description": ""
+            },
+            {
+                "src": "/assets/siteSpecifics/virginia.jpg",
+                "alt": "Site Specific Installation",
+                "title": "Installation overview, Site Specifics",
+                "dimensions": "",
+                "year": 2024,
+                "material_description": "Grass, concrete, light bulb, paper",
+                "description": ""
+            },
+            {
+                "src": "/assets/siteSpecifics/floorplan.jpg",
+                "alt": "Site Specific Installation",
+                "title": "Floorplan, Site Specifics",
+                "dimensions": "30x30cm",
+                "year": 2025,
+                "material_description": "Concrete, paper",
+                "description": ""
+            }
+        ]
+    },
+    {
         "id": "diploma",
         "title": "●♦■",
         "year": 2025,
